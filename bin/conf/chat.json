@@ -1,0 +1,10 @@
+{
+	"LogLevel": "debug",
+	"LogPath": "",
+
+	"ServerName": "chat1",
+	"ListenAddr": "192.168.12.112:32001",
+	"ConnAddrs": {"gateway": "192.168.12.112:30001"},
+	"PendingWriteNum": 100,
+	"Language": "zh-cn"
+}
