@@ -2,11 +2,11 @@
 	"LogLevel": "debug",
 	"LogPath": "",
 
-	"TCPAddr": "192.168.12.112:21001",
-	"WSAddr": "192.168.12.112:21002",
+	"TCPAddr": "192.168.12.112:21002",
 	"MaxConnNum": 20000,
 
-	"ServerName": "game1",
+	"Region": "zh-cn",
+	"ServerName": "game2",
 	"ConnAddrs": {"gateway": "192.168.12.112:30001", "account": "192.168.12.112:31001"},
 	"PendingWriteNum": 100,
 	"Language": "zh-cn"

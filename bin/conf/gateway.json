@@ -2,6 +2,8 @@
 	"LogLevel": "debug",
 	"LogPath": "",
 
+	"ConsolePort": 30000,
+
 	"ServerName": "gateway",
 	"ListenAddr": "192.168.12.112:30001",
 	"PendingWriteNum": 100,

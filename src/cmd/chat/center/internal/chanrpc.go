@@ -1,18 +1,20 @@
 package internal
 
-import "github.com/eric2918/leaf/gate"
+import (
+	"frame/conf"
+
+	"github.com/eric2918/leaf/cluster"
+)
+
+func handleRpc(id interface{}, f interface{}) {
+	cluster.SetRoute(id, ChanRPC)
+	skeleton.RegisterChanRPC(id, f)
+}
 
 func init() {
-	skeleton.RegisterChanRPC("NewAgent", rpcNewAgent)
-	skeleton.RegisterChanRPC("CloseAgent", rpcCloseAgent)
+	handleRpc("GetChatInfo", GetChatInfo)
 }
 
-func rpcNewAgent(args []interface{}) {
-	a := args[0].(gate.Agent)
-	_ = a
-}
-
-func rpcCloseAgent(args []interface{}) {
-	a := args[0].(gate.Agent)
-	_ = a
+func GetChatInfo(args []interface{}) ([]interface{}, error) {
+	return []interface{}{0, conf.Server.ListenAddr, conf.Server.Region}, nil
 }
