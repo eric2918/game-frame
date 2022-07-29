@@ -1,5 +1,11 @@
-
 servers = gateway account game chat
+
+.PHONY: proto
+proto:
+	rm -rf pb/*.pb.go
+	protoc --proto_path=proto --go_out=plugins=grpc:pb proto/*.proto
+	protoc-go-inject-tag -input="pb/*.pb.go"
+
 .PHONY: clear
 clear:
 	for server in $(servers); do \

@@ -19,8 +19,8 @@ func init() {
 	skeleton.RegisterChanRPC("NewServerAgent", NewServerAgent)
 	skeleton.RegisterChanRPC("CloseServerAgent", CloseServerAgent)
 
-	handleRpc("GetBestFrontInfo", GetBestGameInfo)
-	handleRpc("UpdateFrontInfo", UpdateGameInfo)
+	handleRpc("GetBestGameInfo", GetBestGameInfo)
+	handleRpc("UpdateGameInfo", UpdateGameInfo)
 	handleRpc("UpdateChatInfo", UpdateChatInfo)
 	handleRpc("AccountOffline", AccountOffline)
 }
@@ -110,7 +110,7 @@ func GetBestGameInfo(args []interface{}) ([]interface{}, error) {
 		return []interface{}{}, errors.New("no game server to alloc")
 	} else {
 		accountGameMap[accountId] = gameInfo
-		log.Debug("%v account ask front info", accountId)
+		log.Debug("%v account ask game info", accountId)
 		return []interface{}{gameInfo.serverName, gameInfo.clientAddr}, nil
 	}
 }

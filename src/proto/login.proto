@@ -1,0 +1,70 @@
+syntax = "proto3";
+package login;
+option go_package = "../pb";
+
+/**
+* @messageId 30101
+* @desc 用户登录
+*/
+message C2AS_Login {
+  string Username = 1; // 用户名
+  string Password = 2; // 密码
+  string Region   = 3; // 区域
+}
+
+/**
+* @messageId 30102
+* @desc 用户登录
+*/
+message AS2C_Login {
+  int64   Code = 1;
+  message data{
+    string  AccountId = 1;
+    string  GameAddr = 2;
+    string  Token = 3;
+  }
+  data Data = 2;
+}
+
+
+/**
+* @messageId 40101
+* @desc 验证登录
+*/
+message C2GS_CheckLogin {
+  string Token = 1;
+}
+
+/**
+* @messageId 40102
+* @desc 验证登录
+*/
+message GS2C_CheckLogin {
+  int64 Code  = 1;
+  message data{
+    string AccountId = 1;
+    string Nickname  = 2;
+  }
+  data Data = 2;
+}
+
+/**
+* @messageId 40201
+* @desc 创建玩家
+*/
+message C2GS_CreatePlayer {
+  string Nickname = 1;
+}
+
+/**
+* @messageId 40202
+* @desc 创建玩家
+*/
+message GS2C_CreatePlayer {
+  int64  Code = 1;
+  message data{
+    string  PlayerId = 1;
+  }
+  data Data = 2;
+}
+

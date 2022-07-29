@@ -1,0 +1,60 @@
+syntax = "proto3";
+package player;
+option go_package = "../pb";
+
+
+// 玩家信息
+message Player {
+  string    PlayerId          = 1;  // 玩家ID       @gotags: bson:"playerId"
+  string    AccountId         = 2;  // 账户ID       @gotags: bson:"accountId"
+  string    Nickname          = 3;  // 昵称         @gotags: bson:"nickname"
+  string    Avatar            = 4;  // 头像         @gotags: bson:"avatar"
+  int64     Level             = 5;  // 等级         @gotags: bson:"level"
+  int64     Exp               = 6;  // 经验         @gotags: bson:"exp"
+  int64     WorldLevel        = 7;  // 世界等级      @gotags: bson:"worldLevel"
+  repeated  UserRole Roles    = 8;  // 用户角色      @gotags: bson:"roles"
+  repeated  UserTeam Teams    = 9;  // 用户编队      @gotags: bson:"teams"
+  repeated  UserProp Props    = 10; // 用户道具      @gotags: bson:"props"
+  int64     CreateAt          = 11; // 创建时间      @gotags: bson:"createAt"
+  int64     LastHeartbeatTime = 12; // 最后心跳时间   @gotags: bson:"lastHeartbeatTime"
+  map<string, UnlockMission> StageMission = 13; // 关卡信息 @gotags: bson:"stageMission"
+
+  //  Email
+  //  解锁城市（关卡个数、获得星级）
+  //  解锁关卡（关卡ID，获得星级）
+  //  RedDot 红点
+  //  Scene 场景
+}
+
+// 用户角色
+message UserRole {
+  string  UserRoleId = 1;                   // 用户角色ID    @gotags: bson:"userRoleId"
+  int64   RoleId = 2;                       // 角色ID       @gotags: bson:"roleId"
+  int64   Level = 3;                        // 等级         @gotags: bson:"level"
+  int64   SkinId = 4;                       // 皮肤ID       @gotags: bson:"skinId"
+  int64   CareerId = 5;                     // 职业ID       @gotags: bson:"careerId"
+  int64   AdvancementId = 6;                // 阶段ID       @gotags: bson:"advancementId"
+  int64   MaxLevel = 7;                     // 等级上线      @gotags: bson:"maxLevel"
+  int64   Exp = 8;                          // 当前经验      @gotags: bson:"exp"
+  map<string, int64> UnlockCareer = 9;    // 已解锁职业    @gotags: bson:"unlockCareer"
+}
+
+message UserProp {
+  string  ItemId = 1; // 道具ID   @gotags: bson:"itemId"
+  int64   Counts = 2; // 道具数量  @gotags: bson:"counts"
+}
+
+// 用户编队
+message UserTeam {
+  string   TeamId  = 1;            // 编队ID @gotags: bson:"teamId"
+  string   TeamName  = 2;         // 编队名称 @gotags: bson:"teamName"
+  repeated int64 UserRoleIds = 3; // 用户角色ID @gotags: bson:"userRoleIds"
+}
+
+
+message UnlockMission {
+  int64  MissionID  = 1;  //@gotags: bson:"missionID"
+  int64  ChapterID  = 2;  //@gotags: bson:"chapterID"
+  uint32 StarLevel  = 3;  //@gotags: bson:"starLevel"
+}
+
