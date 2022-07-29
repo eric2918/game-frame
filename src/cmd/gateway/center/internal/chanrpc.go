@@ -22,6 +22,7 @@ func init() {
 	handleRpc("GetBestFrontInfo", GetBestGameInfo)
 	handleRpc("UpdateFrontInfo", UpdateGameInfo)
 	handleRpc("UpdateChatInfo", UpdateChatInfo)
+	handleRpc("AccountOffline", AccountOffline)
 }
 
 func NewServerAgent(args []interface{}) {
@@ -133,5 +134,13 @@ func UpdateChatInfo(args []interface{}) {
 	if ok {
 		chatInfo.clientCount = clientCount
 		log.Debug("%v server of client count is %v", serverName, clientCount)
+	}
+}
+
+func AccountOffline(args []interface{}) {
+	accountId := args[0].(string)
+	if _, ok := accountGameMap[accountId]; ok {
+		delete(accountGameMap, accountId)
+		log.Debug("%v account is offline", accountId)
 	}
 }
