@@ -1,7 +1,6 @@
 package internal
 
 import (
-	"fmt"
 	"frame/cmd/game/center"
 	"frame/cmd/game/player"
 	"frame/pb"
@@ -42,18 +41,15 @@ func handleCheckLogin(args []interface{}) {
 
 	res, err := cluster.CallN("account", "CheckToken", req.Token)
 	if err != nil {
-		fmt.Println(err.Error())
 		sendErrFunc(code.InvalidUsernameOrPassword)
 		return
 	}
 	accountId := res[0].(string)
 	username := res[1].(string)
-	fmt.Println(accountId, username)
 
 	for {
 		ok, err := center.ChanRPC.Call1("AccountOnline", accountId, agent)
 		if err != nil {
-			fmt.Println(err.Error())
 			sendErrFunc(code.InvalidUsernameOrPassword)
 			return
 		}
@@ -67,7 +63,6 @@ func handleCheckLogin(args []interface{}) {
 
 	var playerInfo pb.Player
 	err = mongo.Collection(mongo.GAME_DB, mongo.PLAYERS_COLLECTION).Find(bson.M{"accountId": accountId}).One(&playerInfo)
-	fmt.Println(err)
 	if err == nil {
 		sendMsg.Code = 200
 		sendMsg.Data = &pb.GS2C_CheckLoginData{

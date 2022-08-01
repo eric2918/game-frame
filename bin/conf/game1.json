@@ -2,6 +2,9 @@
 	"LogLevel": "debug",
 	"LogPath": "",
 
+	"MachineID": 1,
+	"StartTime": "2022-05-09",
+
 	"TCPAddr": "192.168.12.112:21001",
 	"MaxConnNum": 20000,
 
@@ -9,5 +12,12 @@
 	"ServerName": "game1",
 	"ConnAddrs": {"gateway": "192.168.12.112:30001", "account": "192.168.12.112:31001"},
 	"PendingWriteNum": 100,
-	"Language": "zh-cn"
+	"Language": "zh-cn",
+
+	"MongodbAddr": "mongodb://192.168.12.112:27017",
+	"MongodbSessionNum": 100,
+
+	"RedisAddr":  "192.168.12.112:6379",
+	"RedisPassword": "",
+	"RedisDb":1
 }

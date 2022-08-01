@@ -1,7 +1,7 @@
 package internal
 
 import (
-	"frame/cmd/game/game"
+	"frame/cmd/game/center"
 	"frame/conf"
 	"frame/msg"
 
@@ -25,6 +25,6 @@ func (m *Module) OnInit() {
 		LenMsgLen:       conf.LenMsgLen,
 		LittleEndian:    conf.LittleEndian,
 		Processor:       msg.Processor,
-		AgentChanRPC:    game.ChanRPC,
+		AgentChanRPC:    center.ChanRPC,
 	}
 }

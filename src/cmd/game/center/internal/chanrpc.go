@@ -1,7 +1,6 @@
 package internal
 
 import (
-	"fmt"
 	"frame/conf"
 
 	"github.com/eric2918/leaf/cluster"
@@ -34,13 +33,11 @@ func init() {
 }
 
 func NewAgent(args []interface{}) {
-	fmt.Println("NewAgent")
 	a := args[0].(gate.Agent)
 	_ = a
 }
 
 func CloseAgent(args []interface{}) error {
-	fmt.Println("CloseAgent")
 	a := args[0].(gate.Agent)
 	_ = a
 	return nil
