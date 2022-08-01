@@ -47,22 +47,20 @@ func GetGameInfo(args []interface{}) ([]interface{}, error) {
 	return []interface{}{0, conf.Server.MaxConnNum, conf.Server.TCPAddr, conf.Server.Region}, nil
 }
 
-func AccountOnline(args []interface{}) (interface{}, error) {
+func AccountOnline(args []interface{}) {
 	accountId := args[0].(string)
 	agent := args[1].(gate.Agent)
+
 	if oldAgent, ok := accountAgentMap[accountId]; ok {
 		delete(accountAgentMap, accountId)
+		clientCount -= 1
 		oldAgent.Destroy()
-		return false, nil
-	} else {
-		accountAgentMap[accountId] = agent
-
-		clientCount += 1
-		cluster.Go("gateway", "UpdateGameInfo", conf.Server.Region, conf.Server.ServerName, clientCount)
-
-		log.Debug("%v account is online", accountId)
-		return true, nil
 	}
+
+	accountAgentMap[accountId] = agent
+	clientCount += 1
+	cluster.Go("gateway", "UpdateGameInfo", conf.Server.Region, conf.Server.ServerName, clientCount)
+	log.Debug("%v account is online", accountId)
 }
 
 func AccountOffline(args []interface{}) {
@@ -71,10 +69,8 @@ func AccountOffline(args []interface{}) {
 	oldAgent, ok := accountAgentMap[accountId]
 	if ok && agent == oldAgent {
 		delete(accountAgentMap, accountId)
-
 		clientCount -= 1
 		cluster.Go("gateway", "UpdateGameInfo", conf.Server.Region, conf.Server.ServerName, clientCount)
-
 		log.Debug("%v account is offline", accountId)
 	}
 }

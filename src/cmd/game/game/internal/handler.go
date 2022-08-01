@@ -8,7 +8,6 @@ import (
 	"frame/pkg/code"
 	"frame/pkg/mongo"
 	"reflect"
-	"time"
 
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
@@ -49,19 +48,7 @@ func handleCheckLogin(args []interface{}) {
 	accountId := res[0].(string)
 	username := res[1].(string)
 
-	for {
-		ok, err := center.ChanRPC.Call1("AccountOnline", accountId, agent)
-		if err != nil {
-			sendErrFunc(code.InvalidUsernameOrPassword)
-			return
-		}
-
-		if ok.(bool) {
-			break
-		} else {
-			time.Sleep(time.Second)
-		}
-	}
+	center.ChanRPC.Go("AccountOnline", accountId, agent)
 
 	var playerInfo pb.Player
 	err = mongo.Collection(mongo.GAME_DB, mongo.PLAYERS_COLLECTION).Find(bson.M{"accountId": accountId}).One(&playerInfo)
