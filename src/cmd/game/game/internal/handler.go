@@ -1,6 +1,7 @@
 package internal
 
 import (
+	"fmt"
 	"frame/cmd/game/center"
 	"frame/cmd/game/player"
 	"frame/pb"
@@ -40,6 +41,7 @@ func handleCheckLogin(args []interface{}) {
 	}
 
 	res, err := cluster.CallN("account", "CheckToken", req.Token)
+	fmt.Println("handleCheckLogin", res, err)
 	if err != nil {
 		sendErrFunc(code.InvalidUsernameOrPassword)
 		return

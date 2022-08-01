@@ -51,6 +51,7 @@ func AccountOnline(args []interface{}) (interface{}, error) {
 	accountId := args[0].(string)
 	agent := args[1].(gate.Agent)
 	if oldAgent, ok := accountAgentMap[accountId]; ok {
+		delete(accountAgentMap, accountId)
 		oldAgent.Destroy()
 		return false, nil
 	} else {
