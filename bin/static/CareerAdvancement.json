@@ -1,0 +1,2946 @@
+[
+	{
+		"advancementId": 10000211,
+		"setRoleLvCap": 20,
+		"hpBasic": 100,
+		"defBasic": 100,
+		"atkBasic": 100,
+		"magBasic": 100
+	},
+	{
+		"advancementId": 10000212,
+		"setRoleLvCap": 25,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"unlockEffect": "技能顺序调整",
+		"hpBasic": 200,
+		"defBasic": 200,
+		"atkBasic": 200,
+		"magBasic": 200
+	},
+	{
+		"advancementId": 10000213,
+		"setRoleLvCap": 30,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"unlockEffect": "课程记忆,4",
+		"hpBasic": 300,
+		"defBasic": 300,
+		"atkBasic": 300,
+		"magBasic": 300
+	},
+	{
+		"advancementId": 10000221,
+		"setRoleLvCap": 35,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			},
+			{
+				"propId": 15,
+				"propNum": 1
+			}
+		],
+		"unlockSkill": 10000201,
+		"hpBasic": 100,
+		"defBasic": 100,
+		"atkBasic": 100,
+		"magBasic": 100
+	},
+	{
+		"advancementId": 10000222,
+		"setRoleLvCap": 40,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"unlockSkill": 10000202,
+		"hpBasic": 200,
+		"defBasic": 200,
+		"atkBasic": 200,
+		"magBasic": 200
+	},
+	{
+		"advancementId": 10000223,
+		"setRoleLvCap": 45,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"unlockEffect": "课程记忆,5",
+		"hpBasic": 300,
+		"defBasic": 300,
+		"atkBasic": 300,
+		"magBasic": 300
+	},
+	{
+		"advancementId": 10000231,
+		"setRoleLvCap": 35,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			},
+			{
+				"propId": 15,
+				"propNum": 1
+			}
+		],
+		"hpBasic": 100,
+		"defBasic": 100,
+		"atkBasic": 100,
+		"magBasic": 100
+	},
+	{
+		"advancementId": 10000232,
+		"setRoleLvCap": 40,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"hpBasic": 200,
+		"defBasic": 200,
+		"atkBasic": 200,
+		"magBasic": 200
+	},
+	{
+		"advancementId": 10000233,
+		"setRoleLvCap": 45,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"unlockEffect": "课程记忆,5",
+		"hpBasic": 300,
+		"defBasic": 300,
+		"atkBasic": 300,
+		"magBasic": 300
+	},
+	{
+		"advancementId": 10000241,
+		"setRoleLvCap": 35,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			},
+			{
+				"propId": 15,
+				"propNum": 1
+			}
+		],
+		"hpBasic": 100,
+		"defBasic": 100,
+		"atkBasic": 100,
+		"magBasic": 100
+	},
+	{
+		"advancementId": 10000242,
+		"setRoleLvCap": 40,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"hpBasic": 200,
+		"defBasic": 200,
+		"atkBasic": 200,
+		"magBasic": 200
+	},
+	{
+		"advancementId": 10000243,
+		"setRoleLvCap": 45,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"unlockEffect": "课程记忆,5",
+		"hpBasic": 300,
+		"defBasic": 300,
+		"atkBasic": 300,
+		"magBasic": 300
+	},
+	{
+		"advancementId": 10000251,
+		"setRoleLvCap": 50,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			},
+			{
+				"propId": 15,
+				"propNum": 1
+			}
+		],
+		"hpBasic": 100,
+		"defBasic": 100,
+		"atkBasic": 100,
+		"magBasic": 100
+	},
+	{
+		"advancementId": 10000252,
+		"setRoleLvCap": 55,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"hpBasic": 200,
+		"defBasic": 200,
+		"atkBasic": 200,
+		"magBasic": 200
+	},
+	{
+		"advancementId": 10000253,
+		"setRoleLvCap": 60,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"unlockEffect": "课程记忆,6",
+		"hpBasic": 300,
+		"defBasic": 300,
+		"atkBasic": 300,
+		"magBasic": 300
+	},
+	{
+		"advancementId": 10000261,
+		"setRoleLvCap": 50,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			},
+			{
+				"propId": 15,
+				"propNum": 1
+			}
+		],
+		"hpBasic": 100,
+		"defBasic": 100,
+		"atkBasic": 100,
+		"magBasic": 100
+	},
+	{
+		"advancementId": 10000262,
+		"setRoleLvCap": 55,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"hpBasic": 200,
+		"defBasic": 200,
+		"atkBasic": 200,
+		"magBasic": 200
+	},
+	{
+		"advancementId": 10000263,
+		"setRoleLvCap": 60,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"unlockEffect": "课程记忆,6",
+		"hpBasic": 300,
+		"defBasic": 300,
+		"atkBasic": 300,
+		"magBasic": 300
+	},
+	{
+		"advancementId": 10000271,
+		"setRoleLvCap": 50,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			},
+			{
+				"propId": 15,
+				"propNum": 1
+			}
+		],
+		"hpBasic": 100,
+		"defBasic": 100,
+		"atkBasic": 100,
+		"magBasic": 100
+	},
+	{
+		"advancementId": 10000272,
+		"setRoleLvCap": 55,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"hpBasic": 200,
+		"defBasic": 200,
+		"atkBasic": 200,
+		"magBasic": 200
+	},
+	{
+		"advancementId": 10000273,
+		"setRoleLvCap": 60,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"unlockEffect": "课程记忆,6",
+		"hpBasic": 300,
+		"defBasic": 300,
+		"atkBasic": 300,
+		"magBasic": 300
+	},
+	{
+		"advancementId": 10000281,
+		"setRoleLvCap": 65,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			},
+			{
+				"propId": 15,
+				"propNum": 1
+			}
+		],
+		"hpBasic": 100,
+		"defBasic": 100,
+		"atkBasic": 100,
+		"magBasic": 100
+	},
+	{
+		"advancementId": 10000282,
+		"setRoleLvCap": 70,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"hpBasic": 200,
+		"defBasic": 200,
+		"atkBasic": 200,
+		"magBasic": 200
+	},
+	{
+		"advancementId": 10000283,
+		"setRoleLvCap": 75,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"hpBasic": 300,
+		"defBasic": 300,
+		"atkBasic": 300,
+		"magBasic": 300
+	},
+	{
+		"advancementId": 10000311,
+		"setRoleLvCap": 20,
+		"hpBasic": 100,
+		"defBasic": 100,
+		"atkBasic": 100,
+		"magBasic": 100
+	},
+	{
+		"advancementId": 10000312,
+		"setRoleLvCap": 25,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"unlockEffect": "技能顺序调整",
+		"hpBasic": 200,
+		"defBasic": 200,
+		"atkBasic": 200,
+		"magBasic": 200
+	},
+	{
+		"advancementId": 10000313,
+		"setRoleLvCap": 30,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"unlockEffect": "课程记忆,4",
+		"hpBasic": 300,
+		"defBasic": 300,
+		"atkBasic": 300,
+		"magBasic": 300
+	},
+	{
+		"advancementId": 10000321,
+		"setRoleLvCap": 35,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			},
+			{
+				"propId": 15,
+				"propNum": 1
+			}
+		],
+		"unlockSkill": 10000301,
+		"hpBasic": 100,
+		"defBasic": 100,
+		"atkBasic": 100,
+		"magBasic": 100
+	},
+	{
+		"advancementId": 10000322,
+		"setRoleLvCap": 40,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"unlockSkill": 10000302,
+		"hpBasic": 200,
+		"defBasic": 200,
+		"atkBasic": 200,
+		"magBasic": 200
+	},
+	{
+		"advancementId": 10000323,
+		"setRoleLvCap": 45,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"unlockEffect": "课程记忆,5",
+		"hpBasic": 300,
+		"defBasic": 300,
+		"atkBasic": 300,
+		"magBasic": 300
+	},
+	{
+		"advancementId": 10000331,
+		"setRoleLvCap": 35,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			},
+			{
+				"propId": 15,
+				"propNum": 1
+			}
+		],
+		"hpBasic": 100,
+		"defBasic": 100,
+		"atkBasic": 100,
+		"magBasic": 100
+	},
+	{
+		"advancementId": 10000332,
+		"setRoleLvCap": 40,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"hpBasic": 200,
+		"defBasic": 200,
+		"atkBasic": 200,
+		"magBasic": 200
+	},
+	{
+		"advancementId": 10000333,
+		"setRoleLvCap": 45,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"unlockEffect": "课程记忆,5",
+		"hpBasic": 300,
+		"defBasic": 300,
+		"atkBasic": 300,
+		"magBasic": 300
+	},
+	{
+		"advancementId": 10000341,
+		"setRoleLvCap": 35,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			},
+			{
+				"propId": 15,
+				"propNum": 1
+			}
+		],
+		"hpBasic": 100,
+		"defBasic": 100,
+		"atkBasic": 100,
+		"magBasic": 100
+	},
+	{
+		"advancementId": 10000342,
+		"setRoleLvCap": 40,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"hpBasic": 200,
+		"defBasic": 200,
+		"atkBasic": 200,
+		"magBasic": 200
+	},
+	{
+		"advancementId": 10000343,
+		"setRoleLvCap": 45,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"unlockEffect": "课程记忆,5",
+		"hpBasic": 300,
+		"defBasic": 300,
+		"atkBasic": 300,
+		"magBasic": 300
+	},
+	{
+		"advancementId": 10000351,
+		"setRoleLvCap": 50,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			},
+			{
+				"propId": 15,
+				"propNum": 1
+			}
+		],
+		"hpBasic": 100,
+		"defBasic": 100,
+		"atkBasic": 100,
+		"magBasic": 100
+	},
+	{
+		"advancementId": 10000352,
+		"setRoleLvCap": 55,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"hpBasic": 200,
+		"defBasic": 200,
+		"atkBasic": 200,
+		"magBasic": 200
+	},
+	{
+		"advancementId": 10000353,
+		"setRoleLvCap": 60,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"unlockEffect": "课程记忆,6",
+		"hpBasic": 300,
+		"defBasic": 300,
+		"atkBasic": 300,
+		"magBasic": 300
+	},
+	{
+		"advancementId": 10000361,
+		"setRoleLvCap": 50,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			},
+			{
+				"propId": 15,
+				"propNum": 1
+			}
+		],
+		"hpBasic": 100,
+		"defBasic": 100,
+		"atkBasic": 100,
+		"magBasic": 100
+	},
+	{
+		"advancementId": 10000362,
+		"setRoleLvCap": 55,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"hpBasic": 200,
+		"defBasic": 200,
+		"atkBasic": 200,
+		"magBasic": 200
+	},
+	{
+		"advancementId": 10000363,
+		"setRoleLvCap": 60,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"unlockEffect": "课程记忆,6",
+		"hpBasic": 300,
+		"defBasic": 300,
+		"atkBasic": 300,
+		"magBasic": 300
+	},
+	{
+		"advancementId": 10000371,
+		"setRoleLvCap": 50,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			},
+			{
+				"propId": 15,
+				"propNum": 1
+			}
+		],
+		"hpBasic": 100,
+		"defBasic": 100,
+		"atkBasic": 100,
+		"magBasic": 100
+	},
+	{
+		"advancementId": 10000372,
+		"setRoleLvCap": 55,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"hpBasic": 200,
+		"defBasic": 200,
+		"atkBasic": 200,
+		"magBasic": 200
+	},
+	{
+		"advancementId": 10000373,
+		"setRoleLvCap": 60,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"unlockEffect": "课程记忆,6",
+		"hpBasic": 300,
+		"defBasic": 300,
+		"atkBasic": 300,
+		"magBasic": 300
+	},
+	{
+		"advancementId": 10000381,
+		"setRoleLvCap": 65,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			},
+			{
+				"propId": 15,
+				"propNum": 1
+			}
+		],
+		"hpBasic": 100,
+		"defBasic": 100,
+		"atkBasic": 100,
+		"magBasic": 100
+	},
+	{
+		"advancementId": 10000382,
+		"setRoleLvCap": 70,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"hpBasic": 200,
+		"defBasic": 200,
+		"atkBasic": 200,
+		"magBasic": 200
+	},
+	{
+		"advancementId": 10000383,
+		"setRoleLvCap": 75,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"hpBasic": 300,
+		"defBasic": 300,
+		"atkBasic": 300,
+		"magBasic": 300
+	},
+	{
+		"advancementId": 10000411,
+		"setRoleLvCap": 20,
+		"hpBasic": 100,
+		"defBasic": 100,
+		"atkBasic": 100,
+		"magBasic": 100
+	},
+	{
+		"advancementId": 10000412,
+		"setRoleLvCap": 25,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"unlockEffect": "技能顺序调整",
+		"hpBasic": 200,
+		"defBasic": 200,
+		"atkBasic": 200,
+		"magBasic": 200
+	},
+	{
+		"advancementId": 10000413,
+		"setRoleLvCap": 30,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"unlockEffect": "课程记忆,4",
+		"hpBasic": 300,
+		"defBasic": 300,
+		"atkBasic": 300,
+		"magBasic": 300
+	},
+	{
+		"advancementId": 10000421,
+		"setRoleLvCap": 35,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			},
+			{
+				"propId": 15,
+				"propNum": 1
+			}
+		],
+		"unlockSkill": 10000401,
+		"hpBasic": 100,
+		"defBasic": 100,
+		"atkBasic": 100,
+		"magBasic": 100
+	},
+	{
+		"advancementId": 10000422,
+		"setRoleLvCap": 40,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"unlockSkill": 10000402,
+		"hpBasic": 200,
+		"defBasic": 200,
+		"atkBasic": 200,
+		"magBasic": 200
+	},
+	{
+		"advancementId": 10000423,
+		"setRoleLvCap": 45,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"unlockEffect": "课程记忆,5",
+		"hpBasic": 300,
+		"defBasic": 300,
+		"atkBasic": 300,
+		"magBasic": 300
+	},
+	{
+		"advancementId": 10000431,
+		"setRoleLvCap": 35,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			},
+			{
+				"propId": 15,
+				"propNum": 1
+			}
+		],
+		"hpBasic": 100,
+		"defBasic": 100,
+		"atkBasic": 100,
+		"magBasic": 100
+	},
+	{
+		"advancementId": 10000432,
+		"setRoleLvCap": 40,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"hpBasic": 200,
+		"defBasic": 200,
+		"atkBasic": 200,
+		"magBasic": 200
+	},
+	{
+		"advancementId": 10000433,
+		"setRoleLvCap": 45,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"unlockEffect": "课程记忆,5",
+		"hpBasic": 300,
+		"defBasic": 300,
+		"atkBasic": 300,
+		"magBasic": 300
+	},
+	{
+		"advancementId": 10000441,
+		"setRoleLvCap": 35,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			},
+			{
+				"propId": 15,
+				"propNum": 1
+			}
+		],
+		"hpBasic": 100,
+		"defBasic": 100,
+		"atkBasic": 100,
+		"magBasic": 100
+	},
+	{
+		"advancementId": 10000442,
+		"setRoleLvCap": 40,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"hpBasic": 200,
+		"defBasic": 200,
+		"atkBasic": 200,
+		"magBasic": 200
+	},
+	{
+		"advancementId": 10000443,
+		"setRoleLvCap": 45,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"unlockEffect": "课程记忆,5",
+		"hpBasic": 300,
+		"defBasic": 300,
+		"atkBasic": 300,
+		"magBasic": 300
+	},
+	{
+		"advancementId": 10000451,
+		"setRoleLvCap": 50,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			},
+			{
+				"propId": 15,
+				"propNum": 1
+			}
+		],
+		"hpBasic": 100,
+		"defBasic": 100,
+		"atkBasic": 100,
+		"magBasic": 100
+	},
+	{
+		"advancementId": 10000452,
+		"setRoleLvCap": 55,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"hpBasic": 200,
+		"defBasic": 200,
+		"atkBasic": 200,
+		"magBasic": 200
+	},
+	{
+		"advancementId": 10000453,
+		"setRoleLvCap": 60,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"unlockEffect": "课程记忆,6",
+		"hpBasic": 300,
+		"defBasic": 300,
+		"atkBasic": 300,
+		"magBasic": 300
+	},
+	{
+		"advancementId": 10000461,
+		"setRoleLvCap": 50,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			},
+			{
+				"propId": 15,
+				"propNum": 1
+			}
+		],
+		"hpBasic": 100,
+		"defBasic": 100,
+		"atkBasic": 100,
+		"magBasic": 100
+	},
+	{
+		"advancementId": 10000462,
+		"setRoleLvCap": 55,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"hpBasic": 200,
+		"defBasic": 200,
+		"atkBasic": 200,
+		"magBasic": 200
+	},
+	{
+		"advancementId": 10000463,
+		"setRoleLvCap": 60,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"unlockEffect": "课程记忆,6",
+		"hpBasic": 300,
+		"defBasic": 300,
+		"atkBasic": 300,
+		"magBasic": 300
+	},
+	{
+		"advancementId": 10000471,
+		"setRoleLvCap": 50,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			},
+			{
+				"propId": 15,
+				"propNum": 1
+			}
+		],
+		"hpBasic": 100,
+		"defBasic": 100,
+		"atkBasic": 100,
+		"magBasic": 100
+	},
+	{
+		"advancementId": 10000472,
+		"setRoleLvCap": 55,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"hpBasic": 200,
+		"defBasic": 200,
+		"atkBasic": 200,
+		"magBasic": 200
+	},
+	{
+		"advancementId": 10000473,
+		"setRoleLvCap": 60,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"unlockEffect": "课程记忆,6",
+		"hpBasic": 300,
+		"defBasic": 300,
+		"atkBasic": 300,
+		"magBasic": 300
+	},
+	{
+		"advancementId": 10000481,
+		"setRoleLvCap": 65,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			},
+			{
+				"propId": 15,
+				"propNum": 1
+			}
+		],
+		"hpBasic": 100,
+		"defBasic": 100,
+		"atkBasic": 100,
+		"magBasic": 100
+	},
+	{
+		"advancementId": 10000482,
+		"setRoleLvCap": 70,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"hpBasic": 200,
+		"defBasic": 200,
+		"atkBasic": 200,
+		"magBasic": 200
+	},
+	{
+		"advancementId": 10000483,
+		"setRoleLvCap": 75,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"hpBasic": 300,
+		"defBasic": 300,
+		"atkBasic": 300,
+		"magBasic": 300
+	},
+	{
+		"advancementId": 10000611,
+		"setRoleLvCap": 20,
+		"hpBasic": 100,
+		"defBasic": 100,
+		"atkBasic": 100,
+		"magBasic": 100
+	},
+	{
+		"advancementId": 10000612,
+		"setRoleLvCap": 25,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"unlockEffect": "技能顺序调整",
+		"hpBasic": 200,
+		"defBasic": 200,
+		"atkBasic": 200,
+		"magBasic": 200
+	},
+	{
+		"advancementId": 10000613,
+		"setRoleLvCap": 30,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"unlockEffect": "课程记忆,4",
+		"hpBasic": 300,
+		"defBasic": 300,
+		"atkBasic": 300,
+		"magBasic": 300
+	},
+	{
+		"advancementId": 10000621,
+		"setRoleLvCap": 35,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			},
+			{
+				"propId": 15,
+				"propNum": 1
+			}
+		],
+		"unlockSkill": 10000601,
+		"hpBasic": 100,
+		"defBasic": 100,
+		"atkBasic": 100,
+		"magBasic": 100
+	},
+	{
+		"advancementId": 10000622,
+		"setRoleLvCap": 40,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"unlockSkill": 10000602,
+		"hpBasic": 200,
+		"defBasic": 200,
+		"atkBasic": 200,
+		"magBasic": 200
+	},
+	{
+		"advancementId": 10000623,
+		"setRoleLvCap": 45,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"unlockEffect": "课程记忆,5",
+		"hpBasic": 300,
+		"defBasic": 300,
+		"atkBasic": 300,
+		"magBasic": 300
+	},
+	{
+		"advancementId": 10000631,
+		"setRoleLvCap": 35,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			},
+			{
+				"propId": 15,
+				"propNum": 1
+			}
+		],
+		"hpBasic": 100,
+		"defBasic": 100,
+		"atkBasic": 100,
+		"magBasic": 100
+	},
+	{
+		"advancementId": 10000632,
+		"setRoleLvCap": 40,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"hpBasic": 200,
+		"defBasic": 200,
+		"atkBasic": 200,
+		"magBasic": 200
+	},
+	{
+		"advancementId": 10000633,
+		"setRoleLvCap": 45,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"unlockEffect": "课程记忆,5",
+		"hpBasic": 300,
+		"defBasic": 300,
+		"atkBasic": 300,
+		"magBasic": 300
+	},
+	{
+		"advancementId": 10000641,
+		"setRoleLvCap": 35,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			},
+			{
+				"propId": 15,
+				"propNum": 1
+			}
+		],
+		"hpBasic": 100,
+		"defBasic": 100,
+		"atkBasic": 100,
+		"magBasic": 100
+	},
+	{
+		"advancementId": 10000642,
+		"setRoleLvCap": 40,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"hpBasic": 200,
+		"defBasic": 200,
+		"atkBasic": 200,
+		"magBasic": 200
+	},
+	{
+		"advancementId": 10000643,
+		"setRoleLvCap": 45,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"unlockEffect": "课程记忆,5",
+		"hpBasic": 300,
+		"defBasic": 300,
+		"atkBasic": 300,
+		"magBasic": 300
+	},
+	{
+		"advancementId": 10000651,
+		"setRoleLvCap": 50,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			},
+			{
+				"propId": 15,
+				"propNum": 1
+			}
+		],
+		"hpBasic": 100,
+		"defBasic": 100,
+		"atkBasic": 100,
+		"magBasic": 100
+	},
+	{
+		"advancementId": 10000652,
+		"setRoleLvCap": 55,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"hpBasic": 200,
+		"defBasic": 200,
+		"atkBasic": 200,
+		"magBasic": 200
+	},
+	{
+		"advancementId": 10000653,
+		"setRoleLvCap": 60,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"unlockEffect": "课程记忆,6",
+		"hpBasic": 300,
+		"defBasic": 300,
+		"atkBasic": 300,
+		"magBasic": 300
+	},
+	{
+		"advancementId": 10000661,
+		"setRoleLvCap": 50,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			},
+			{
+				"propId": 15,
+				"propNum": 1
+			}
+		],
+		"hpBasic": 100,
+		"defBasic": 100,
+		"atkBasic": 100,
+		"magBasic": 100
+	},
+	{
+		"advancementId": 10000662,
+		"setRoleLvCap": 55,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"hpBasic": 200,
+		"defBasic": 200,
+		"atkBasic": 200,
+		"magBasic": 200
+	},
+	{
+		"advancementId": 10000663,
+		"setRoleLvCap": 60,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"unlockEffect": "课程记忆,6",
+		"hpBasic": 300,
+		"defBasic": 300,
+		"atkBasic": 300,
+		"magBasic": 300
+	},
+	{
+		"advancementId": 10000671,
+		"setRoleLvCap": 50,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			},
+			{
+				"propId": 15,
+				"propNum": 1
+			}
+		],
+		"hpBasic": 100,
+		"defBasic": 100,
+		"atkBasic": 100,
+		"magBasic": 100
+	},
+	{
+		"advancementId": 10000672,
+		"setRoleLvCap": 55,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"hpBasic": 200,
+		"defBasic": 200,
+		"atkBasic": 200,
+		"magBasic": 200
+	},
+	{
+		"advancementId": 10000673,
+		"setRoleLvCap": 60,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"unlockEffect": "课程记忆,6",
+		"hpBasic": 300,
+		"defBasic": 300,
+		"atkBasic": 300,
+		"magBasic": 300
+	},
+	{
+		"advancementId": 10000681,
+		"setRoleLvCap": 65,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			},
+			{
+				"propId": 15,
+				"propNum": 1
+			}
+		],
+		"hpBasic": 100,
+		"defBasic": 100,
+		"atkBasic": 100,
+		"magBasic": 100
+	},
+	{
+		"advancementId": 10000682,
+		"setRoleLvCap": 70,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"hpBasic": 200,
+		"defBasic": 200,
+		"atkBasic": 200,
+		"magBasic": 200
+	},
+	{
+		"advancementId": 10000683,
+		"setRoleLvCap": 75,
+		"advanceCost": [
+			{
+				"propId": 200051,
+				"propNum": 1
+			},
+			{
+				"propId": 200056,
+				"propNum": 1
+			},
+			{
+				"propId": 200066,
+				"propNum": 1
+			},
+			{
+				"propId": 200067,
+				"propNum": 1
+			},
+			{
+				"propId": 10,
+				"propNum": 100
+			}
+		],
+		"hpBasic": 300,
+		"defBasic": 300,
+		"atkBasic": 300,
+		"magBasic": 300
+	}
+]

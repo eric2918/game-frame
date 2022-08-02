@@ -40,8 +40,8 @@ message UserRole {
 }
 
 message UserProp {
-  string  ItemId = 1; // 道具ID   @gotags: bson:"itemId"
-  int64   Counts = 2; // 道具数量  @gotags: bson:"counts"
+  int64  ItemId = 1; // 道具ID   @gotags: bson:"itemId"
+  int64  Counts = 2; // 道具数量  @gotags: bson:"counts"
 }
 
 // 用户编队
@@ -53,8 +53,160 @@ message UserTeam {
 
 
 message UnlockMission {
-  int64  MissionID  = 1;  //@gotags: bson:"missionID"
+  string MissionID  = 1;  //@gotags: bson:"missionID"
   int64  ChapterID  = 2;  //@gotags: bson:"chapterID"
   uint32 StarLevel  = 3;  //@gotags: bson:"starLevel"
+}
+
+/**
+* @messageId 30101
+* @desc 获取用户编队
+*/
+message C2GS_GetUserTeams {
+}
+
+/**
+* @messageId 30102
+* @desc 获取用户编队
+*/
+message GS2C_GetUserTeams {
+  int64 Code  = 1;
+  repeated UserTeam Data = 2;
+}
+
+/**
+* @messageId 30103
+* @desc 获取用户角色
+*/
+message C2GS_GetUserRoles {
+}
+
+/**
+* @messageId 30104
+* @desc 获取用户角色
+*/
+message GS2C_GetUserRoles {
+  int64 Code  = 1;
+  repeated UserRole Data = 2;
+}
+
+/**
+* @messageId 30105
+* @desc 编辑用户编队
+*/
+message C2GS_EditUserTeam {
+  string   TeamId  = 1;            // 编队ID
+  string   TeamName  = 2;         // 编队名称
+  repeated int64 UserRoleIds = 3; // 用户角色ID
+}
+
+/**
+* @messageId 30106
+* @desc 编辑用户编队
+*/
+message GS2C_EditUserTeam {
+  int64 Code  = 1;
+  repeated UserTeam Data = 2;
+}
+
+/**
+* @messageId 30200
+* @desc 更新用户道具
+*/
+message GS2C_UpdateUserProps {
+  repeated UserProp Data = 1;
+}
+
+/**
+* @messageId 30201
+* @desc 获取用户道具
+*/
+message C2GS_GetUserProps {
+}
+
+/**
+* @messageId 30202
+* @desc 获取用户道具
+*/
+message GS2C_GetUserProps {
+  int64 Code  = 1;
+  repeated UserProp Data = 2;
+}
+
+/**
+* @messageId 30203
+* @desc 角色升级
+*/
+message C2GS_RoleUpgrade {
+  string UserRoleId = 1;
+  message used {
+    int64 ItemId  = 1;
+    int64 Counts  = 2;
+  }
+  repeated used Used = 2;
+}
+
+/**
+* @messageId 30204
+* @desc 角色升级
+*/
+message GS2C_RoleUpgrade {
+  int64  Code   = 1;
+  int64  Level  = 2;
+  int64  Exp    = 3;
+}
+
+/**
+* @messageId 30205
+* @desc 职业进阶
+*/
+message C2GS_RoleAdvanced {
+  string UserRoleId = 1;
+  int64  CareerId   = 2;
+}
+
+/**
+* @messageId 30206
+* @desc 职业进阶
+*/
+message GS2C_RoleAdvanced {
+  int64  Code = 1;
+  int64  MaxLevel  = 2;
+  int64  CareerId = 3;
+  int64  AdvancementId = 4;
+}
+
+
+/**
+* @messageId 30301
+* @desc 获取用户关卡信息
+*/
+message C2GS_GetUserStageMission {
+}
+
+/**
+* @messageId 30302
+* @desc 获取用户关卡信息
+*/
+message GS2C_GetUserStageMission {
+  int64          Code = 1;
+  repeated UnlockMission  Data = 2;
+}
+
+/**
+* @messageId 30303
+* @desc 获取用户关卡信息
+*/
+message C2GS_UpdateUserStageMission {
+  int64  MissionID  = 1;
+}
+
+/**
+* @messageId 30304
+* @desc 更新用户关卡信息
+*/
+message GS2C_UpdateUserStageMission {
+  int64          Code = 1;
+  repeated UnlockMission  Data = 2;
 }
 

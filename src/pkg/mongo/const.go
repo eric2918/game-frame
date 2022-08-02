@@ -7,7 +7,7 @@ const (
 	GAME_DB            = "game1"
 	PLAYERS_COLLECTION = "players"
 
-	STATIC_DB         = "static"
+	STATIC_DB         = "static1"
 	ROLES_COLLECTION  = "roles"
 	SKINS_COLLECTION  = "skins"
 	SKILLS_COLLECTION = "skills"

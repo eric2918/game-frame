@@ -1,0 +1,224 @@
+[
+	{
+		"key": "effect_common_hit01"
+	},
+	{
+		"key": "effect_common_hit_shield"
+	},
+	{
+		"key": "effect_common_hit_slash"
+	},
+	{
+		"key": "effect_common_audio_slash"
+	},
+	{
+		"key": "effect_common_audio_shield"
+	},
+	{
+		"key": "effect_element_hit_huo"
+	},
+	{
+		"key": "effect_element_hit_bing"
+	},
+	{
+		"key": "effect_element_hit_shui"
+	},
+	{
+		"key": "effect_element_hit_lei"
+	},
+	{
+		"key": "effect_element_hit_feng"
+	},
+	{
+		"key": "effect_element_hit_tu"
+	},
+	{
+		"key": "effect_hitfly_stone_ct"
+	},
+	{
+		"key": "effect_hitfly_stone_sp"
+	},
+	{
+		"key": "effect_hitfly_stone_trail"
+	},
+	{
+		"key": "effect_100003_decide"
+	},
+	{
+		"key": "effect_10000201|10000200"
+	},
+	{
+		"key": "effect_10000202|10000200"
+	},
+	{
+		"key": "effect_10000201_hit|10000200"
+	},
+	{
+		"key": "effect_100003_attack1|10000300"
+	},
+	{
+		"key": "effect_100003_attack3|10000300"
+	},
+	{
+		"key": "effect_100003_decide|10000300"
+	},
+	{
+		"key": "effect_100003_skill1_c1|10000300"
+	},
+	{
+		"key": "effect_100003_skill2_c1|10000300"
+	},
+	{
+		"key": "effect_100003_skill2_h1|10000300"
+	},
+	{
+		"key": "effect_100003_skill3_c1|10000300"
+	},
+	{
+		"key": "effect_100004_skill1_c1|10000400"
+	},
+	{
+		"key": "effect_100004_skill1_c2|10000400"
+	},
+	{
+		"key": "effect_100004_skill2_c1|10000400"
+	},
+	{
+		"key": "effect_100004_skill2_c2|10000400"
+	},
+	{
+		"key": "effect_100004_skill3_c1|10000400"
+	},
+	{
+		"key": "effect_100004_skill3_c2|10000400"
+	},
+	{
+		"key": "effect_100004_skill3_c3|10000400"
+	},
+	{
+		"key": "effect_100004_skill61_c1|10000400"
+	},
+	{
+		"key": "effect_100004_skill61_c2|10000400"
+	},
+	{
+		"key": "effect_100004_skill61_c3|10000400"
+	},
+	{
+		"key": "effect_100005_skill1|10000500"
+	},
+	{
+		"key": "effect_100005_skill1_c1|10000500"
+	},
+	{
+		"key": "effect_100005_skill1_c2|10000500"
+	},
+	{
+		"key": "effect_100005_skill1_h1|10000500"
+	},
+	{
+		"key": "effect_100005_skill1_h2|10000500"
+	},
+	{
+		"key": "effect_100005_skill2_c1|10000500"
+	},
+	{
+		"key": "effect_100005_skill2_c2|10000500"
+	},
+	{
+		"key": "effect_100005_skill2_h1|10000500"
+	},
+	{
+		"key": "effect_100005_skill2_h2|10000500"
+	},
+	{
+		"key": "effect_100005_skill3_c1|10000500"
+	},
+	{
+		"key": "effect_100005_skill3_c2|10000500"
+	},
+	{
+		"key": "effect_100005_skill3_c3|10000500"
+	},
+	{
+		"key": "effect_100005_skill3_h1|10000500"
+	},
+	{
+		"key": "effect_100005_skill3_h2|10000500"
+	},
+	{
+		"key": "effect_100005_skill3_h3|10000500"
+	},
+	{
+		"key": "effect_100005_skill61_c1|10000500"
+	},
+	{
+		"key": "effect_100006_skill1_spell1|10000600"
+	},
+	{
+		"key": "effect_100006_skill2_spell1|10000600"
+	},
+	{
+		"key": "effect_100006_skill3_spell1|10000600"
+	},
+	{
+		"key": "effect_100006_skill3_spell1_b|10000600"
+	},
+	{
+		"key": "effect_100006_skill1_spell10|10000600"
+	},
+	{
+		"key": "effect_100006_skill1_spell10_c|10000600"
+	},
+	{
+		"key": "effect_100006_skill1_spell10_b|10000600"
+	},
+	{
+		"key": "effect_100006_skill61|10000600"
+	},
+	{
+		"key": "effect_100007_skill1|10000700"
+	},
+	{
+		"key": "effect_100007_skill1_spell1|10000700"
+	},
+	{
+		"key": "effect_100007_skill1_spell2|10000700"
+	},
+	{
+		"key": "effect_100007_skill1_spell3|10000700"
+	},
+	{
+		"key": "effect_100007_skill1_spell1_b|10000700"
+	},
+	{
+		"key": "effect_100007_skill1_spell2_b|10000700"
+	},
+	{
+		"key": "effect_100007_skill1_spell3_b|10000700"
+	},
+	{
+		"key": "effect_100007_skill2|10000700"
+	},
+	{
+		"key": "effect_100007_skill2_h1|10000700"
+	},
+	{
+		"key": "effect_100007_skill3|10000700"
+	},
+	{
+		"key": "effect_100007_skill3_spell1|10000700"
+	},
+	{
+		"key": "effect_100007_skill3_spell1_b|10000700"
+	},
+	{
+		"key": "effect_100007_skill61|10000700"
+	},
+	{
+		"key": "effect_900001_skill71_c1"
+	},
+	{
+		"key": "effect_900001_skill72_c1"
+	}
+]

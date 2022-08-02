@@ -1,0 +1,870 @@
+[
+	{
+		"enum": "角色分类"
+	},
+	{
+		"enum": "RoleType",
+		"prop": "英雄",
+		"value": 1
+	},
+	{
+		"enum": "RoleType",
+		"prop": "怪物",
+		"value": 2
+	},
+	{
+		"enum": "RoleType",
+		"prop": "其他",
+		"value": 9
+	},
+	{
+		"enum": "技能槽位类型"
+	},
+	{
+		"enum": "SkillSlotType",
+		"prop": "Normal",
+		"value": 1
+	},
+	{
+		"enum": "SkillSlotType",
+		"prop": "NormalMax",
+		"value": 3
+	},
+	{
+		"enum": "SkillSlotType",
+		"prop": "Equip",
+		"value": 4
+	},
+	{
+		"enum": "SkillSlotType",
+		"prop": "Passive",
+		"value": 5
+	},
+	{
+		"enum": "SkillSlotType",
+		"prop": "Decide",
+		"value": 6
+	},
+	{
+		"enum": "SkillSlotType",
+		"prop": "Master",
+		"value": 7
+	},
+	{
+		"enum": "SkillSlotType",
+		"prop": "Hidden",
+		"value": 8
+	},
+	{
+		"enum": "技能定位类型（辅助AI判定）"
+	},
+	{
+		"enum": "SkillLocationType",
+		"prop": "其他",
+		"value": 0
+	},
+	{
+		"enum": "SkillLocationType",
+		"prop": "伤害",
+		"value": 1
+	},
+	{
+		"enum": "SkillLocationType",
+		"prop": "治疗",
+		"value": 2
+	},
+	{
+		"enum": "SkillLocationType",
+		"prop": "攻击增益",
+		"value": 3
+	},
+	{
+		"enum": "SkillLocationType",
+		"prop": "防御增益",
+		"value": 4
+	},
+	{
+		"enum": "SkillLocationType",
+		"prop": "攻击减益",
+		"value": 5
+	},
+	{
+		"enum": "SkillLocationType",
+		"prop": "防御减益",
+		"value": 6
+	},
+	{
+		"enum": "技能作用阵营（适用于主角技）"
+	},
+	{
+		"enum": "SkillAffectCampType",
+		"prop": "我方",
+		"value": 1
+	},
+	{
+		"enum": "SkillAffectCampType",
+		"prop": "敌方",
+		"value": 2
+	},
+	{
+		"enum": "SkillAffectCampType",
+		"prop": "双方",
+		"value": 3
+	},
+	{
+		"enum": "技能作用目标（适用于主角技）"
+	},
+	{
+		"enum": "SkillAffectTargetType",
+		"prop": "不可选",
+		"value": 0
+	},
+	{
+		"enum": "SkillAffectTargetType",
+		"prop": "前排",
+		"value": 1
+	},
+	{
+		"enum": "SkillAffectTargetType",
+		"prop": "中排",
+		"value": 2
+	},
+	{
+		"enum": "SkillAffectTargetType",
+		"prop": "后排",
+		"value": 3
+	},
+	{
+		"enum": "SkillAffectTargetType",
+		"prop": "无限制",
+		"value": 4
+	},
+	{
+		"enum": "技能作用目标数（适用于主角技）"
+	},
+	{
+		"enum": "SkillAffectNumberType",
+		"prop": "全体",
+		"value": 0
+	},
+	{
+		"enum": "SkillAffectNumberType",
+		"prop": "单体",
+		"value": 1
+	},
+	{
+		"enum": "SkillAffectNumberType",
+		"prop": "两体",
+		"value": 2
+	},
+	{
+		"enum": "SkillAffectNumberType",
+		"prop": "三体",
+		"value": 3
+	},
+	{
+		"enum": "法术&飞行物参照"
+	},
+	{
+		"enum": "SpellReferType",
+		"prop": "World",
+		"value": 0
+	},
+	{
+		"enum": "SpellReferType",
+		"prop": "Source",
+		"value": 1
+	},
+	{
+		"enum": "SpellReferType",
+		"prop": "Caster",
+		"value": 2
+	},
+	{
+		"enum": "SpellReferType",
+		"prop": "Target",
+		"value": 3
+	},
+	{
+		"enum": "角色动作大类（动作编辑器中使用）"
+	},
+	{
+		"enum": "RoleAnimationType",
+		"prop": "攻击类型",
+		"value": 1
+	},
+	{
+		"enum": "RoleAnimationType",
+		"prop": "防御类型",
+		"value": 2
+	},
+	{
+		"enum": "RoleAnimationType",
+		"prop": "移动类型",
+		"value": 3
+	},
+	{
+		"enum": "RoleAnimationType",
+		"prop": "其他类型",
+		"value": 4
+	},
+	{
+		"enum": "数值用途枚举"
+	},
+	{
+		"enum": "ValueUsageType",
+		"prop": "伤害率",
+		"value": 1
+	},
+	{
+		"enum": "ValueUsageType",
+		"prop": "伤害值",
+		"value": 2
+	},
+	{
+		"enum": "ValueUsageType",
+		"prop": "治疗率",
+		"value": 3
+	},
+	{
+		"enum": "ValueUsageType",
+		"prop": "治疗值",
+		"value": 4
+	},
+	{
+		"enum": "动作帧触发类型"
+	},
+	{
+		"enum": "FrameTriggerType",
+		"prop": "Begin",
+		"value": 1
+	},
+	{
+		"enum": "FrameTriggerType",
+		"prop": "Cast",
+		"value": 2
+	},
+	{
+		"enum": "FrameTriggerType",
+		"prop": "Move",
+		"value": 3
+	},
+	{
+		"enum": "FrameTriggerType",
+		"prop": "Hit",
+		"value": 4
+	},
+	{
+		"enum": "FrameTriggerType",
+		"prop": "Shot",
+		"value": 5
+	},
+	{
+		"enum": "FrameTriggerType",
+		"prop": "Back",
+		"value": 6
+	},
+	{
+		"enum": "FrameTriggerType",
+		"prop": "Effect",
+		"value": 7
+	},
+	{
+		"enum": "FrameTriggerType",
+		"prop": "Sound",
+		"value": 8
+	},
+	{
+		"enum": "FrameTriggerType",
+		"prop": "Movie",
+		"value": 9
+	},
+	{
+		"enum": "FrameTriggerType",
+		"prop": "End",
+		"value": 10
+	},
+	{
+		"enum": "技能位移参数类型（动作编辑器中使用）"
+	},
+	{
+		"enum": "SkillMoveParamType",
+		"prop": "Duration",
+		"value": 0
+	},
+	{
+		"enum": "SkillMoveParamType",
+		"prop": "HitPutPos",
+		"value": 1
+	},
+	{
+		"enum": "SkillMoveParamType",
+		"prop": "Distance",
+		"value": 2
+	},
+	{
+		"enum": "通用位移参数（动作编辑器中使用）"
+	},
+	{
+		"enum": "MoveParamType",
+		"prop": "Speed",
+		"value": 0
+	},
+	{
+		"enum": "MoveParamType",
+		"prop": "StartTime",
+		"value": 1
+	},
+	{
+		"enum": "MoveParamType",
+		"prop": "OverTime",
+		"value": 2
+	},
+	{
+		"enum": "特效放置类型"
+	},
+	{
+		"enum": "EffectPlaceType",
+		"prop": "Local",
+		"value": 0
+	},
+	{
+		"enum": "EffectPlaceType",
+		"prop": "World",
+		"value": 1
+	},
+	{
+		"enum": "单位战斗属性枚举"
+	},
+	{
+		"enum": "BattleAttributeType",
+		"prop": "生命",
+		"value": 1
+	},
+	{
+		"enum": "BattleAttributeType",
+		"prop": "最大生命",
+		"value": 2
+	},
+	{
+		"enum": "BattleAttributeType",
+		"prop": "攻击",
+		"value": 3
+	},
+	{
+		"enum": "BattleAttributeType",
+		"prop": "防御",
+		"value": 4
+	},
+	{
+		"enum": "BattleAttributeType",
+		"prop": "元素力",
+		"value": 5
+	},
+	{
+		"enum": "BattleAttributeType",
+		"prop": "SP",
+		"value": 6
+	},
+	{
+		"enum": "BattleAttributeType",
+		"prop": "最大SP",
+		"value": 7
+	},
+	{
+		"enum": "BattleAttributeType",
+		"prop": "SP回复",
+		"value": 8
+	},
+	{
+		"enum": "BattleAttributeType",
+		"prop": "暴击率",
+		"value": 9
+	},
+	{
+		"enum": "BattleAttributeType",
+		"prop": "暴抗率",
+		"value": 10
+	},
+	{
+		"enum": "BattleAttributeType",
+		"prop": "暴击增伤倍率",
+		"value": 11
+	},
+	{
+		"enum": "BattleAttributeType",
+		"prop": "暴击免伤倍率",
+		"value": 12
+	},
+	{
+		"enum": "BattleAttributeType",
+		"prop": "穿透",
+		"value": 13
+	},
+	{
+		"enum": "BattleAttributeType",
+		"prop": "穿透倍率",
+		"value": 14
+	},
+	{
+		"enum": "BattleAttributeType",
+		"prop": "增伤倍率",
+		"value": 15
+	},
+	{
+		"enum": "BattleAttributeType",
+		"prop": "免伤倍率",
+		"value": 16
+	},
+	{
+		"enum": "BattleAttributeType",
+		"prop": "背击增伤倍率",
+		"value": 17
+	},
+	{
+		"enum": "BattleAttributeType",
+		"prop": "浮空增伤倍率",
+		"value": 18
+	},
+	{
+		"enum": "BattleAttributeType",
+		"prop": "弹回追击增伤倍率",
+		"value": 19
+	},
+	{
+		"enum": "BattleAttributeType",
+		"prop": "属性增伤倍率",
+		"value": 20
+	},
+	{
+		"enum": "BattleAttributeType",
+		"prop": "反伤倍率",
+		"value": 21
+	},
+	{
+		"enum": "BattleAttributeType",
+		"prop": "吸血倍率",
+		"value": 22
+	},
+	{
+		"enum": "BattleAttributeType",
+		"prop": "治疗倍率",
+		"value": 23
+	},
+	{
+		"enum": "BattleAttributeType",
+		"prop": "被治疗倍率",
+		"value": 24
+	},
+	{
+		"enum": "BattleAttributeType",
+		"prop": "重量等级",
+		"value": 25
+	},
+	{
+		"enum": "BattleAttributeType",
+		"prop": "护盾",
+		"value": 26
+	},
+	{
+		"enum": "BattleAttributeType",
+		"prop": "最大护盾",
+		"value": 27
+	},
+	{
+		"enum": "BattleAttributeType",
+		"prop": "初始最大护盾倍率",
+		"value": 28
+	},
+	{
+		"enum": "BattleAttributeType",
+		"prop": "护盾增伤倍率",
+		"value": 29
+	},
+	{
+		"enum": "BattleAttributeType",
+		"prop": "护盾承伤倍率",
+		"value": 30
+	},
+	{
+		"enum": "BattleAttributeType",
+		"prop": "格挡槽",
+		"value": 31
+	},
+	{
+		"enum": "BattleAttributeType",
+		"prop": "最大格挡槽",
+		"value": 32
+	},
+	{
+		"enum": "BattleAttributeType",
+		"prop": "格挡承伤倍率",
+		"value": 33
+	},
+	{
+		"enum": "BattleAttributeType",
+		"prop": "属性克制倍率",
+		"value": 34
+	},
+	{
+		"enum": "BattleAttributeType",
+		"prop": "属性被克制倍率",
+		"value": 35
+	},
+	{
+		"enum": "BattleAttributeType",
+		"prop": "CT石掉率",
+		"value": 36
+	},
+	{
+		"enum": "BattleAttributeType",
+		"prop": "SP石掉率",
+		"value": 37
+	},
+	{
+		"enum": "BattleAttributeType",
+		"prop": "CT石收集权重",
+		"value": 38
+	},
+	{
+		"enum": "BattleAttributeType",
+		"prop": "SP石收集权重",
+		"value": 39
+	},
+	{
+		"enum": "震屏样式"
+	},
+	{
+		"enum": "ScreenShakeStyle",
+		"prop": "S1",
+		"value": 1
+	},
+	{
+		"enum": "战斗血条样式"
+	},
+	{
+		"enum": "BattleHPStyle",
+		"prop": "ScreenTop",
+		"value": 1
+	},
+	{
+		"enum": "BattleHPStyle",
+		"prop": "Overhead",
+		"value": 2
+	},
+	{
+		"enum": "元素类型"
+	},
+	{
+		"enum": "ElementType",
+		"prop": "无",
+		"value": 0
+	},
+	{
+		"enum": "ElementType",
+		"prop": "火",
+		"value": 1
+	},
+	{
+		"enum": "ElementType",
+		"prop": "冰",
+		"value": 2
+	},
+	{
+		"enum": "ElementType",
+		"prop": "水",
+		"value": 3
+	},
+	{
+		"enum": "ElementType",
+		"prop": "雷",
+		"value": 4
+	},
+	{
+		"enum": "ElementType",
+		"prop": "风",
+		"value": 5
+	},
+	{
+		"enum": "ElementType",
+		"prop": "土",
+		"value": 6
+	},
+	{
+		"enum": "战斗评分事件类型"
+	},
+	{
+		"enum": "BattleScoreEventType",
+		"prop": "正常连击",
+		"value": 1
+	},
+	{
+		"enum": "BattleScoreEventType",
+		"prop": "浮空追击",
+		"value": 2
+	},
+	{
+		"enum": "BattleScoreEventType",
+		"prop": "弹回追击",
+		"value": 3
+	},
+	{
+		"enum": "BattleScoreEventType",
+		"prop": "背后攻击",
+		"value": 4
+	},
+	{
+		"enum": "BattleScoreEventType",
+		"prop": "元素反应",
+		"value": 5
+	},
+	{
+		"enum": "BattleScoreEventType",
+		"prop": "首次决定技",
+		"value": 6
+	},
+	{
+		"enum": "BattleScoreEventType",
+		"prop": "连续决定技",
+		"value": 7
+	},
+	{
+		"enum": "战斗评分挡位"
+	},
+	{
+		"enum": "BattleScoreRankType",
+		"prop": "D",
+		"value": 1
+	},
+	{
+		"enum": "BattleScoreRankType",
+		"prop": "C",
+		"value": 2
+	},
+	{
+		"enum": "BattleScoreRankType",
+		"prop": "B",
+		"value": 3
+	},
+	{
+		"enum": "BattleScoreRankType",
+		"prop": "A",
+		"value": 4
+	},
+	{
+		"enum": "BattleScoreRankType",
+		"prop": "S",
+		"value": 5
+	},
+	{
+		"enum": "BattleScoreRankType",
+		"prop": "SS",
+		"value": 6
+	},
+	{
+		"enum": "BattleScoreRankType",
+		"prop": "SSS",
+		"value": 7
+	},
+	{
+		"enum": "探索资源风格"
+	},
+	{
+		"enum": "ExploreResourceStyle",
+		"prop": "遗迹",
+		"value": 1
+	},
+	{
+		"enum": "ExploreResourceStyle",
+		"prop": "山坡",
+		"value": 2
+	},
+	{
+		"enum": "ExploreResourceStyle",
+		"prop": "地下密道",
+		"value": 3
+	},
+	{
+		"enum": "ExploreResourceStyle",
+		"prop": "钟乳石洞",
+		"value": 4
+	},
+	{
+		"enum": "武器类型"
+	},
+	{
+		"enum": "WeaponType",
+		"prop": "单手武器",
+		"value": 1
+	},
+	{
+		"enum": "WeaponType",
+		"prop": "长柄武器",
+		"value": 2
+	},
+	{
+		"enum": "WeaponType",
+		"prop": "双手武器",
+		"value": 3
+	},
+	{
+		"enum": "WeaponType",
+		"prop": "拳套武器",
+		"value": 4
+	},
+	{
+		"enum": "WeaponType",
+		"prop": "远程武器",
+		"value": 5
+	},
+	{
+		"enum": "WeaponType",
+		"prop": "法术武器",
+		"value": 6
+	},
+	{
+		"enum": "稀有度"
+	},
+	{
+		"enum": "RareType",
+		"prop": "圣者",
+		"value": 1
+	},
+	{
+		"enum": "RareType",
+		"prop": "SSR",
+		"value": 2
+	},
+	{
+		"enum": "RareType",
+		"prop": "SR",
+		"value": 3
+	},
+	{
+		"enum": "RareType",
+		"prop": "R",
+		"value": 4
+	},
+	{
+		"enum": "RareType",
+		"prop": "N",
+		"value": 5
+	},
+	{
+		"enum": "道具类型"
+	},
+	{
+		"enum": "PropType",
+		"prop": "钻石",
+		"value": 1
+	},
+	{
+		"enum": "PropType",
+		"prop": "体力",
+		"value": 2
+	},
+	{
+		"enum": "PropType",
+		"prop": "金币",
+		"value": 3
+	},
+	{
+		"enum": "PropType",
+		"prop": "账号经验",
+		"value": 4
+	},
+	{
+		"enum": "PropType",
+		"prop": "角色经验",
+		"value": 5
+	},
+	{
+		"enum": "PropType",
+		"prop": "武器经验",
+		"value": 6
+	},
+	{
+		"enum": "PropType",
+		"prop": "转职道具",
+		"value": 7
+	},
+	{
+		"enum": "PropType",
+		"prop": "经验书",
+		"value": 8
+	},
+	{
+		"enum": "PropType",
+		"prop": "进阶材料",
+		"value": 9
+	},
+	{
+		"enum": "种族类型"
+	},
+	{
+		"enum": "RaceType",
+		"prop": "人类",
+		"value": 1
+	},
+	{
+		"enum": "RaceType",
+		"prop": "龙",
+		"value": 2
+	},
+	{
+		"enum": "RaceType",
+		"prop": "威尔",
+		"value": 3
+	},
+	{
+		"enum": "RaceType",
+		"prop": "精灵",
+		"value": 4
+	},
+	{
+		"enum": "RaceType",
+		"prop": "遗忘者",
+		"value": 5
+	},
+	{
+		"enum": "关卡类型"
+	},
+	{
+		"enum": "missionType",
+		"prop": "剧情",
+		"value": 1
+	},
+	{
+		"enum": "missionType",
+		"prop": "战斗",
+		"value": 2
+	},
+	{
+		"enum": "missionType",
+		"prop": "探索",
+		"value": 3
+	},
+	{
+		"enum": "missionType",
+		"prop": "教程",
+		"value": 4
+	},
+	{
+		"enum": "关卡三星条件类型"
+	},
+	{
+		"enum": "starConditionsType",
+		"prop": "全收集",
+		"value": 1
+	},
+	{
+		"enum": "starConditionsType",
+		"prop": "无阵亡",
+		"value": 2
+	},
+	{
+		"enum": "starConditionsType",
+		"prop": "通关",
+		"value": 3
+	}
+]

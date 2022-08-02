@@ -19,5 +19,7 @@
 
 	"RedisAddr":  "192.168.12.112:6379",
 	"RedisPassword": "",
-	"RedisDb":1
+	"RedisDb":1,
+
+	"MaxTeamsCounts": 10
 }

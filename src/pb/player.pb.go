@@ -281,8 +281,8 @@ type UserProp struct {
 	sizeCache     protoimpl.SizeCache
 	unknownFields protoimpl.UnknownFields
 
-	ItemId string `protobuf:"bytes,1,opt,name=ItemId,proto3" json:"ItemId,omitempty" bson:"itemId"`  // 道具ID   @gotags: bson:"itemId"
-	Counts int64  `protobuf:"varint,2,opt,name=Counts,proto3" json:"Counts,omitempty" bson:"counts"` // 道具数量  @gotags: bson:"counts"
+	ItemId int64 `protobuf:"varint,1,opt,name=ItemId,proto3" json:"ItemId,omitempty" bson:"itemId"` // 道具ID   @gotags: bson:"itemId"
+	Counts int64 `protobuf:"varint,2,opt,name=Counts,proto3" json:"Counts,omitempty" bson:"counts"` // 道具数量  @gotags: bson:"counts"
 }
 
 func (x *UserProp) Reset() {
@@ -317,11 +317,11 @@ func (*UserProp) Descriptor() ([]byte, []int) {
 	return file_player_proto_rawDescGZIP(), []int{2}
 }
 
-func (x *UserProp) GetItemId() string {
+func (x *UserProp) GetItemId() int64 {
 	if x != nil {
 		return x.ItemId
 	}
-	return ""
+	return 0
 }
 
 func (x *UserProp) GetCounts() int64 {
@@ -400,7 +400,7 @@ type UnlockMission struct {
 	sizeCache     protoimpl.SizeCache
 	unknownFields protoimpl.UnknownFields
 
-	MissionID int64  `protobuf:"varint,1,opt,name=MissionID,proto3" json:"MissionID,omitempty" bson:"missionID"` //@gotags: bson:"missionID"
+	MissionID string `protobuf:"bytes,1,opt,name=MissionID,proto3" json:"MissionID,omitempty" bson:"missionID"`  //@gotags: bson:"missionID"
 	ChapterID int64  `protobuf:"varint,2,opt,name=ChapterID,proto3" json:"ChapterID,omitempty" bson:"chapterID"` //@gotags: bson:"chapterID"
 	StarLevel uint32 `protobuf:"varint,3,opt,name=StarLevel,proto3" json:"StarLevel,omitempty" bson:"starLevel"` //@gotags: bson:"starLevel"
 }
@@ -437,11 +437,11 @@ func (*UnlockMission) Descriptor() ([]byte, []int) {
 	return file_player_proto_rawDescGZIP(), []int{4}
 }
 
-func (x *UnlockMission) GetMissionID() int64 {
+func (x *UnlockMission) GetMissionID() string {
 	if x != nil {
 		return x.MissionID
 	}
-	return 0
+	return ""
 }
 
 func (x *UnlockMission) GetChapterID() int64 {
@@ -454,6 +454,995 @@ func (x *UnlockMission) GetChapterID() int64 {
 func (x *UnlockMission) GetStarLevel() uint32 {
 	if x != nil {
 		return x.StarLevel
+	}
+	return 0
+}
+
+//*
+// @messageId 30101
+// @desc 获取用户编队
+type C2GS_GetUserTeams struct {
+	state         protoimpl.MessageState
+	sizeCache     protoimpl.SizeCache
+	unknownFields protoimpl.UnknownFields
+}
+
+func (x *C2GS_GetUserTeams) Reset() {
+	*x = C2GS_GetUserTeams{}
+	if protoimpl.UnsafeEnabled {
+		mi := &file_player_proto_msgTypes[5]
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		ms.StoreMessageInfo(mi)
+	}
+}
+
+func (x *C2GS_GetUserTeams) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*C2GS_GetUserTeams) ProtoMessage() {}
+
+func (x *C2GS_GetUserTeams) ProtoReflect() protoreflect.Message {
+	mi := &file_player_proto_msgTypes[5]
+	if protoimpl.UnsafeEnabled && x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use C2GS_GetUserTeams.ProtoReflect.Descriptor instead.
+func (*C2GS_GetUserTeams) Descriptor() ([]byte, []int) {
+	return file_player_proto_rawDescGZIP(), []int{5}
+}
+
+//*
+// @messageId 30102
+// @desc 获取用户编队
+type GS2C_GetUserTeams struct {
+	state         protoimpl.MessageState
+	sizeCache     protoimpl.SizeCache
+	unknownFields protoimpl.UnknownFields
+
+	Code int64       `protobuf:"varint,1,opt,name=Code,proto3" json:"Code,omitempty"`
+	Data []*UserTeam `protobuf:"bytes,2,rep,name=Data,proto3" json:"Data,omitempty"`
+}
+
+func (x *GS2C_GetUserTeams) Reset() {
+	*x = GS2C_GetUserTeams{}
+	if protoimpl.UnsafeEnabled {
+		mi := &file_player_proto_msgTypes[6]
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		ms.StoreMessageInfo(mi)
+	}
+}
+
+func (x *GS2C_GetUserTeams) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*GS2C_GetUserTeams) ProtoMessage() {}
+
+func (x *GS2C_GetUserTeams) ProtoReflect() protoreflect.Message {
+	mi := &file_player_proto_msgTypes[6]
+	if protoimpl.UnsafeEnabled && x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use GS2C_GetUserTeams.ProtoReflect.Descriptor instead.
+func (*GS2C_GetUserTeams) Descriptor() ([]byte, []int) {
+	return file_player_proto_rawDescGZIP(), []int{6}
+}
+
+func (x *GS2C_GetUserTeams) GetCode() int64 {
+	if x != nil {
+		return x.Code
+	}
+	return 0
+}
+
+func (x *GS2C_GetUserTeams) GetData() []*UserTeam {
+	if x != nil {
+		return x.Data
+	}
+	return nil
+}
+
+//*
+// @messageId 30103
+// @desc 获取用户角色
+type C2GS_GetUserRoles struct {
+	state         protoimpl.MessageState
+	sizeCache     protoimpl.SizeCache
+	unknownFields protoimpl.UnknownFields
+}
+
+func (x *C2GS_GetUserRoles) Reset() {
+	*x = C2GS_GetUserRoles{}
+	if protoimpl.UnsafeEnabled {
+		mi := &file_player_proto_msgTypes[7]
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		ms.StoreMessageInfo(mi)
+	}
+}
+
+func (x *C2GS_GetUserRoles) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*C2GS_GetUserRoles) ProtoMessage() {}
+
+func (x *C2GS_GetUserRoles) ProtoReflect() protoreflect.Message {
+	mi := &file_player_proto_msgTypes[7]
+	if protoimpl.UnsafeEnabled && x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use C2GS_GetUserRoles.ProtoReflect.Descriptor instead.
+func (*C2GS_GetUserRoles) Descriptor() ([]byte, []int) {
+	return file_player_proto_rawDescGZIP(), []int{7}
+}
+
+//*
+// @messageId 30104
+// @desc 获取用户角色
+type GS2C_GetUserRoles struct {
+	state         protoimpl.MessageState
+	sizeCache     protoimpl.SizeCache
+	unknownFields protoimpl.UnknownFields
+
+	Code int64       `protobuf:"varint,1,opt,name=Code,proto3" json:"Code,omitempty"`
+	Data []*UserRole `protobuf:"bytes,2,rep,name=Data,proto3" json:"Data,omitempty"`
+}
+
+func (x *GS2C_GetUserRoles) Reset() {
+	*x = GS2C_GetUserRoles{}
+	if protoimpl.UnsafeEnabled {
+		mi := &file_player_proto_msgTypes[8]
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		ms.StoreMessageInfo(mi)
+	}
+}
+
+func (x *GS2C_GetUserRoles) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*GS2C_GetUserRoles) ProtoMessage() {}
+
+func (x *GS2C_GetUserRoles) ProtoReflect() protoreflect.Message {
+	mi := &file_player_proto_msgTypes[8]
+	if protoimpl.UnsafeEnabled && x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use GS2C_GetUserRoles.ProtoReflect.Descriptor instead.
+func (*GS2C_GetUserRoles) Descriptor() ([]byte, []int) {
+	return file_player_proto_rawDescGZIP(), []int{8}
+}
+
+func (x *GS2C_GetUserRoles) GetCode() int64 {
+	if x != nil {
+		return x.Code
+	}
+	return 0
+}
+
+func (x *GS2C_GetUserRoles) GetData() []*UserRole {
+	if x != nil {
+		return x.Data
+	}
+	return nil
+}
+
+//*
+// @messageId 30105
+// @desc 编辑用户编队
+type C2GS_EditUserTeam struct {
+	state         protoimpl.MessageState
+	sizeCache     protoimpl.SizeCache
+	unknownFields protoimpl.UnknownFields
+
+	TeamId      string  `protobuf:"bytes,1,opt,name=TeamId,proto3" json:"TeamId,omitempty"`                   // 编队ID
+	TeamName    string  `protobuf:"bytes,2,opt,name=TeamName,proto3" json:"TeamName,omitempty"`               // 编队名称
+	UserRoleIds []int64 `protobuf:"varint,3,rep,packed,name=UserRoleIds,proto3" json:"UserRoleIds,omitempty"` // 用户角色ID
+}
+
+func (x *C2GS_EditUserTeam) Reset() {
+	*x = C2GS_EditUserTeam{}
+	if protoimpl.UnsafeEnabled {
+		mi := &file_player_proto_msgTypes[9]
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		ms.StoreMessageInfo(mi)
+	}
+}
+
+func (x *C2GS_EditUserTeam) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*C2GS_EditUserTeam) ProtoMessage() {}
+
+func (x *C2GS_EditUserTeam) ProtoReflect() protoreflect.Message {
+	mi := &file_player_proto_msgTypes[9]
+	if protoimpl.UnsafeEnabled && x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use C2GS_EditUserTeam.ProtoReflect.Descriptor instead.
+func (*C2GS_EditUserTeam) Descriptor() ([]byte, []int) {
+	return file_player_proto_rawDescGZIP(), []int{9}
+}
+
+func (x *C2GS_EditUserTeam) GetTeamId() string {
+	if x != nil {
+		return x.TeamId
+	}
+	return ""
+}
+
+func (x *C2GS_EditUserTeam) GetTeamName() string {
+	if x != nil {
+		return x.TeamName
+	}
+	return ""
+}
+
+func (x *C2GS_EditUserTeam) GetUserRoleIds() []int64 {
+	if x != nil {
+		return x.UserRoleIds
+	}
+	return nil
+}
+
+//*
+// @messageId 30106
+// @desc 编辑用户编队
+type GS2C_EditUserTeam struct {
+	state         protoimpl.MessageState
+	sizeCache     protoimpl.SizeCache
+	unknownFields protoimpl.UnknownFields
+
+	Code int64       `protobuf:"varint,1,opt,name=Code,proto3" json:"Code,omitempty"`
+	Data []*UserTeam `protobuf:"bytes,2,rep,name=Data,proto3" json:"Data,omitempty"`
+}
+
+func (x *GS2C_EditUserTeam) Reset() {
+	*x = GS2C_EditUserTeam{}
+	if protoimpl.UnsafeEnabled {
+		mi := &file_player_proto_msgTypes[10]
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		ms.StoreMessageInfo(mi)
+	}
+}
+
+func (x *GS2C_EditUserTeam) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*GS2C_EditUserTeam) ProtoMessage() {}
+
+func (x *GS2C_EditUserTeam) ProtoReflect() protoreflect.Message {
+	mi := &file_player_proto_msgTypes[10]
+	if protoimpl.UnsafeEnabled && x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use GS2C_EditUserTeam.ProtoReflect.Descriptor instead.
+func (*GS2C_EditUserTeam) Descriptor() ([]byte, []int) {
+	return file_player_proto_rawDescGZIP(), []int{10}
+}
+
+func (x *GS2C_EditUserTeam) GetCode() int64 {
+	if x != nil {
+		return x.Code
+	}
+	return 0
+}
+
+func (x *GS2C_EditUserTeam) GetData() []*UserTeam {
+	if x != nil {
+		return x.Data
+	}
+	return nil
+}
+
+//*
+// @messageId 30200
+// @desc 更新用户道具
+type GS2C_UpdateUserProps struct {
+	state         protoimpl.MessageState
+	sizeCache     protoimpl.SizeCache
+	unknownFields protoimpl.UnknownFields
+
+	Data []*UserProp `protobuf:"bytes,1,rep,name=Data,proto3" json:"Data,omitempty"`
+}
+
+func (x *GS2C_UpdateUserProps) Reset() {
+	*x = GS2C_UpdateUserProps{}
+	if protoimpl.UnsafeEnabled {
+		mi := &file_player_proto_msgTypes[11]
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		ms.StoreMessageInfo(mi)
+	}
+}
+
+func (x *GS2C_UpdateUserProps) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*GS2C_UpdateUserProps) ProtoMessage() {}
+
+func (x *GS2C_UpdateUserProps) ProtoReflect() protoreflect.Message {
+	mi := &file_player_proto_msgTypes[11]
+	if protoimpl.UnsafeEnabled && x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use GS2C_UpdateUserProps.ProtoReflect.Descriptor instead.
+func (*GS2C_UpdateUserProps) Descriptor() ([]byte, []int) {
+	return file_player_proto_rawDescGZIP(), []int{11}
+}
+
+func (x *GS2C_UpdateUserProps) GetData() []*UserProp {
+	if x != nil {
+		return x.Data
+	}
+	return nil
+}
+
+//*
+// @messageId 30201
+// @desc 获取用户道具
+type C2GS_GetUserProps struct {
+	state         protoimpl.MessageState
+	sizeCache     protoimpl.SizeCache
+	unknownFields protoimpl.UnknownFields
+}
+
+func (x *C2GS_GetUserProps) Reset() {
+	*x = C2GS_GetUserProps{}
+	if protoimpl.UnsafeEnabled {
+		mi := &file_player_proto_msgTypes[12]
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		ms.StoreMessageInfo(mi)
+	}
+}
+
+func (x *C2GS_GetUserProps) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*C2GS_GetUserProps) ProtoMessage() {}
+
+func (x *C2GS_GetUserProps) ProtoReflect() protoreflect.Message {
+	mi := &file_player_proto_msgTypes[12]
+	if protoimpl.UnsafeEnabled && x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use C2GS_GetUserProps.ProtoReflect.Descriptor instead.
+func (*C2GS_GetUserProps) Descriptor() ([]byte, []int) {
+	return file_player_proto_rawDescGZIP(), []int{12}
+}
+
+//*
+// @messageId 30202
+// @desc 获取用户道具
+type GS2C_GetUserProps struct {
+	state         protoimpl.MessageState
+	sizeCache     protoimpl.SizeCache
+	unknownFields protoimpl.UnknownFields
+
+	Code int64       `protobuf:"varint,1,opt,name=Code,proto3" json:"Code,omitempty"`
+	Data []*UserProp `protobuf:"bytes,2,rep,name=Data,proto3" json:"Data,omitempty"`
+}
+
+func (x *GS2C_GetUserProps) Reset() {
+	*x = GS2C_GetUserProps{}
+	if protoimpl.UnsafeEnabled {
+		mi := &file_player_proto_msgTypes[13]
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		ms.StoreMessageInfo(mi)
+	}
+}
+
+func (x *GS2C_GetUserProps) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*GS2C_GetUserProps) ProtoMessage() {}
+
+func (x *GS2C_GetUserProps) ProtoReflect() protoreflect.Message {
+	mi := &file_player_proto_msgTypes[13]
+	if protoimpl.UnsafeEnabled && x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use GS2C_GetUserProps.ProtoReflect.Descriptor instead.
+func (*GS2C_GetUserProps) Descriptor() ([]byte, []int) {
+	return file_player_proto_rawDescGZIP(), []int{13}
+}
+
+func (x *GS2C_GetUserProps) GetCode() int64 {
+	if x != nil {
+		return x.Code
+	}
+	return 0
+}
+
+func (x *GS2C_GetUserProps) GetData() []*UserProp {
+	if x != nil {
+		return x.Data
+	}
+	return nil
+}
+
+//*
+// @messageId 30203
+// @desc 角色升级
+type C2GS_RoleUpgrade struct {
+	state         protoimpl.MessageState
+	sizeCache     protoimpl.SizeCache
+	unknownFields protoimpl.UnknownFields
+
+	UserRoleId string                  `protobuf:"bytes,1,opt,name=UserRoleId,proto3" json:"UserRoleId,omitempty"`
+	Used       []*C2GS_RoleUpgradeUsed `protobuf:"bytes,2,rep,name=Used,proto3" json:"Used,omitempty"`
+}
+
+func (x *C2GS_RoleUpgrade) Reset() {
+	*x = C2GS_RoleUpgrade{}
+	if protoimpl.UnsafeEnabled {
+		mi := &file_player_proto_msgTypes[14]
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		ms.StoreMessageInfo(mi)
+	}
+}
+
+func (x *C2GS_RoleUpgrade) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*C2GS_RoleUpgrade) ProtoMessage() {}
+
+func (x *C2GS_RoleUpgrade) ProtoReflect() protoreflect.Message {
+	mi := &file_player_proto_msgTypes[14]
+	if protoimpl.UnsafeEnabled && x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use C2GS_RoleUpgrade.ProtoReflect.Descriptor instead.
+func (*C2GS_RoleUpgrade) Descriptor() ([]byte, []int) {
+	return file_player_proto_rawDescGZIP(), []int{14}
+}
+
+func (x *C2GS_RoleUpgrade) GetUserRoleId() string {
+	if x != nil {
+		return x.UserRoleId
+	}
+	return ""
+}
+
+func (x *C2GS_RoleUpgrade) GetUsed() []*C2GS_RoleUpgradeUsed {
+	if x != nil {
+		return x.Used
+	}
+	return nil
+}
+
+//*
+// @messageId 30204
+// @desc 角色升级
+type GS2C_RoleUpgrade struct {
+	state         protoimpl.MessageState
+	sizeCache     protoimpl.SizeCache
+	unknownFields protoimpl.UnknownFields
+
+	Code  int64 `protobuf:"varint,1,opt,name=Code,proto3" json:"Code,omitempty"`
+	Level int64 `protobuf:"varint,2,opt,name=Level,proto3" json:"Level,omitempty"`
+	Exp   int64 `protobuf:"varint,3,opt,name=Exp,proto3" json:"Exp,omitempty"`
+}
+
+func (x *GS2C_RoleUpgrade) Reset() {
+	*x = GS2C_RoleUpgrade{}
+	if protoimpl.UnsafeEnabled {
+		mi := &file_player_proto_msgTypes[15]
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		ms.StoreMessageInfo(mi)
+	}
+}
+
+func (x *GS2C_RoleUpgrade) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*GS2C_RoleUpgrade) ProtoMessage() {}
+
+func (x *GS2C_RoleUpgrade) ProtoReflect() protoreflect.Message {
+	mi := &file_player_proto_msgTypes[15]
+	if protoimpl.UnsafeEnabled && x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use GS2C_RoleUpgrade.ProtoReflect.Descriptor instead.
+func (*GS2C_RoleUpgrade) Descriptor() ([]byte, []int) {
+	return file_player_proto_rawDescGZIP(), []int{15}
+}
+
+func (x *GS2C_RoleUpgrade) GetCode() int64 {
+	if x != nil {
+		return x.Code
+	}
+	return 0
+}
+
+func (x *GS2C_RoleUpgrade) GetLevel() int64 {
+	if x != nil {
+		return x.Level
+	}
+	return 0
+}
+
+func (x *GS2C_RoleUpgrade) GetExp() int64 {
+	if x != nil {
+		return x.Exp
+	}
+	return 0
+}
+
+//*
+// @messageId 30205
+// @desc 职业进阶
+type C2GS_RoleAdvanced struct {
+	state         protoimpl.MessageState
+	sizeCache     protoimpl.SizeCache
+	unknownFields protoimpl.UnknownFields
+
+	UserRoleId string `protobuf:"bytes,1,opt,name=UserRoleId,proto3" json:"UserRoleId,omitempty"`
+	CareerId   int64  `protobuf:"varint,2,opt,name=CareerId,proto3" json:"CareerId,omitempty"`
+}
+
+func (x *C2GS_RoleAdvanced) Reset() {
+	*x = C2GS_RoleAdvanced{}
+	if protoimpl.UnsafeEnabled {
+		mi := &file_player_proto_msgTypes[16]
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		ms.StoreMessageInfo(mi)
+	}
+}
+
+func (x *C2GS_RoleAdvanced) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*C2GS_RoleAdvanced) ProtoMessage() {}
+
+func (x *C2GS_RoleAdvanced) ProtoReflect() protoreflect.Message {
+	mi := &file_player_proto_msgTypes[16]
+	if protoimpl.UnsafeEnabled && x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use C2GS_RoleAdvanced.ProtoReflect.Descriptor instead.
+func (*C2GS_RoleAdvanced) Descriptor() ([]byte, []int) {
+	return file_player_proto_rawDescGZIP(), []int{16}
+}
+
+func (x *C2GS_RoleAdvanced) GetUserRoleId() string {
+	if x != nil {
+		return x.UserRoleId
+	}
+	return ""
+}
+
+func (x *C2GS_RoleAdvanced) GetCareerId() int64 {
+	if x != nil {
+		return x.CareerId
+	}
+	return 0
+}
+
+//*
+// @messageId 30206
+// @desc 职业进阶
+type GS2C_RoleAdvanced struct {
+	state         protoimpl.MessageState
+	sizeCache     protoimpl.SizeCache
+	unknownFields protoimpl.UnknownFields
+
+	Code          int64 `protobuf:"varint,1,opt,name=Code,proto3" json:"Code,omitempty"`
+	MaxLevel      int64 `protobuf:"varint,2,opt,name=MaxLevel,proto3" json:"MaxLevel,omitempty"`
+	CareerId      int64 `protobuf:"varint,3,opt,name=CareerId,proto3" json:"CareerId,omitempty"`
+	AdvancementId int64 `protobuf:"varint,4,opt,name=AdvancementId,proto3" json:"AdvancementId,omitempty"`
+}
+
+func (x *GS2C_RoleAdvanced) Reset() {
+	*x = GS2C_RoleAdvanced{}
+	if protoimpl.UnsafeEnabled {
+		mi := &file_player_proto_msgTypes[17]
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		ms.StoreMessageInfo(mi)
+	}
+}
+
+func (x *GS2C_RoleAdvanced) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*GS2C_RoleAdvanced) ProtoMessage() {}
+
+func (x *GS2C_RoleAdvanced) ProtoReflect() protoreflect.Message {
+	mi := &file_player_proto_msgTypes[17]
+	if protoimpl.UnsafeEnabled && x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use GS2C_RoleAdvanced.ProtoReflect.Descriptor instead.
+func (*GS2C_RoleAdvanced) Descriptor() ([]byte, []int) {
+	return file_player_proto_rawDescGZIP(), []int{17}
+}
+
+func (x *GS2C_RoleAdvanced) GetCode() int64 {
+	if x != nil {
+		return x.Code
+	}
+	return 0
+}
+
+func (x *GS2C_RoleAdvanced) GetMaxLevel() int64 {
+	if x != nil {
+		return x.MaxLevel
+	}
+	return 0
+}
+
+func (x *GS2C_RoleAdvanced) GetCareerId() int64 {
+	if x != nil {
+		return x.CareerId
+	}
+	return 0
+}
+
+func (x *GS2C_RoleAdvanced) GetAdvancementId() int64 {
+	if x != nil {
+		return x.AdvancementId
+	}
+	return 0
+}
+
+//*
+// @messageId 30301
+// @desc 获取用户关卡信息
+type C2GS_GetUserStageMission struct {
+	state         protoimpl.MessageState
+	sizeCache     protoimpl.SizeCache
+	unknownFields protoimpl.UnknownFields
+}
+
+func (x *C2GS_GetUserStageMission) Reset() {
+	*x = C2GS_GetUserStageMission{}
+	if protoimpl.UnsafeEnabled {
+		mi := &file_player_proto_msgTypes[18]
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		ms.StoreMessageInfo(mi)
+	}
+}
+
+func (x *C2GS_GetUserStageMission) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*C2GS_GetUserStageMission) ProtoMessage() {}
+
+func (x *C2GS_GetUserStageMission) ProtoReflect() protoreflect.Message {
+	mi := &file_player_proto_msgTypes[18]
+	if protoimpl.UnsafeEnabled && x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use C2GS_GetUserStageMission.ProtoReflect.Descriptor instead.
+func (*C2GS_GetUserStageMission) Descriptor() ([]byte, []int) {
+	return file_player_proto_rawDescGZIP(), []int{18}
+}
+
+//*
+// @messageId 30302
+// @desc 获取用户关卡信息
+type GS2C_GetUserStageMission struct {
+	state         protoimpl.MessageState
+	sizeCache     protoimpl.SizeCache
+	unknownFields protoimpl.UnknownFields
+
+	Code int64            `protobuf:"varint,1,opt,name=Code,proto3" json:"Code,omitempty"`
+	Data []*UnlockMission `protobuf:"bytes,2,rep,name=Data,proto3" json:"Data,omitempty"`
+}
+
+func (x *GS2C_GetUserStageMission) Reset() {
+	*x = GS2C_GetUserStageMission{}
+	if protoimpl.UnsafeEnabled {
+		mi := &file_player_proto_msgTypes[19]
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		ms.StoreMessageInfo(mi)
+	}
+}
+
+func (x *GS2C_GetUserStageMission) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*GS2C_GetUserStageMission) ProtoMessage() {}
+
+func (x *GS2C_GetUserStageMission) ProtoReflect() protoreflect.Message {
+	mi := &file_player_proto_msgTypes[19]
+	if protoimpl.UnsafeEnabled && x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use GS2C_GetUserStageMission.ProtoReflect.Descriptor instead.
+func (*GS2C_GetUserStageMission) Descriptor() ([]byte, []int) {
+	return file_player_proto_rawDescGZIP(), []int{19}
+}
+
+func (x *GS2C_GetUserStageMission) GetCode() int64 {
+	if x != nil {
+		return x.Code
+	}
+	return 0
+}
+
+func (x *GS2C_GetUserStageMission) GetData() []*UnlockMission {
+	if x != nil {
+		return x.Data
+	}
+	return nil
+}
+
+//*
+// @messageId 30303
+// @desc 获取用户关卡信息
+type C2GS_UpdateUserStageMission struct {
+	state         protoimpl.MessageState
+	sizeCache     protoimpl.SizeCache
+	unknownFields protoimpl.UnknownFields
+
+	MissionID int64 `protobuf:"varint,1,opt,name=MissionID,proto3" json:"MissionID,omitempty"`
+}
+
+func (x *C2GS_UpdateUserStageMission) Reset() {
+	*x = C2GS_UpdateUserStageMission{}
+	if protoimpl.UnsafeEnabled {
+		mi := &file_player_proto_msgTypes[20]
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		ms.StoreMessageInfo(mi)
+	}
+}
+
+func (x *C2GS_UpdateUserStageMission) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*C2GS_UpdateUserStageMission) ProtoMessage() {}
+
+func (x *C2GS_UpdateUserStageMission) ProtoReflect() protoreflect.Message {
+	mi := &file_player_proto_msgTypes[20]
+	if protoimpl.UnsafeEnabled && x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use C2GS_UpdateUserStageMission.ProtoReflect.Descriptor instead.
+func (*C2GS_UpdateUserStageMission) Descriptor() ([]byte, []int) {
+	return file_player_proto_rawDescGZIP(), []int{20}
+}
+
+func (x *C2GS_UpdateUserStageMission) GetMissionID() int64 {
+	if x != nil {
+		return x.MissionID
+	}
+	return 0
+}
+
+//*
+// @messageId 30304
+// @desc 更新用户关卡信息
+type GS2C_UpdateUserStageMission struct {
+	state         protoimpl.MessageState
+	sizeCache     protoimpl.SizeCache
+	unknownFields protoimpl.UnknownFields
+
+	Code int64            `protobuf:"varint,1,opt,name=Code,proto3" json:"Code,omitempty"`
+	Data []*UnlockMission `protobuf:"bytes,2,rep,name=Data,proto3" json:"Data,omitempty"`
+}
+
+func (x *GS2C_UpdateUserStageMission) Reset() {
+	*x = GS2C_UpdateUserStageMission{}
+	if protoimpl.UnsafeEnabled {
+		mi := &file_player_proto_msgTypes[21]
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		ms.StoreMessageInfo(mi)
+	}
+}
+
+func (x *GS2C_UpdateUserStageMission) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*GS2C_UpdateUserStageMission) ProtoMessage() {}
+
+func (x *GS2C_UpdateUserStageMission) ProtoReflect() protoreflect.Message {
+	mi := &file_player_proto_msgTypes[21]
+	if protoimpl.UnsafeEnabled && x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use GS2C_UpdateUserStageMission.ProtoReflect.Descriptor instead.
+func (*GS2C_UpdateUserStageMission) Descriptor() ([]byte, []int) {
+	return file_player_proto_rawDescGZIP(), []int{21}
+}
+
+func (x *GS2C_UpdateUserStageMission) GetCode() int64 {
+	if x != nil {
+		return x.Code
+	}
+	return 0
+}
+
+func (x *GS2C_UpdateUserStageMission) GetData() []*UnlockMission {
+	if x != nil {
+		return x.Data
+	}
+	return nil
+}
+
+type C2GS_RoleUpgradeUsed struct {
+	state         protoimpl.MessageState
+	sizeCache     protoimpl.SizeCache
+	unknownFields protoimpl.UnknownFields
+
+	ItemId int64 `protobuf:"varint,1,opt,name=ItemId,proto3" json:"ItemId,omitempty"`
+	Counts int64 `protobuf:"varint,2,opt,name=Counts,proto3" json:"Counts,omitempty"`
+}
+
+func (x *C2GS_RoleUpgradeUsed) Reset() {
+	*x = C2GS_RoleUpgradeUsed{}
+	if protoimpl.UnsafeEnabled {
+		mi := &file_player_proto_msgTypes[24]
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		ms.StoreMessageInfo(mi)
+	}
+}
+
+func (x *C2GS_RoleUpgradeUsed) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*C2GS_RoleUpgradeUsed) ProtoMessage() {}
+
+func (x *C2GS_RoleUpgradeUsed) ProtoReflect() protoreflect.Message {
+	mi := &file_player_proto_msgTypes[24]
+	if protoimpl.UnsafeEnabled && x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use C2GS_RoleUpgradeUsed.ProtoReflect.Descriptor instead.
+func (*C2GS_RoleUpgradeUsed) Descriptor() ([]byte, []int) {
+	return file_player_proto_rawDescGZIP(), []int{14, 0}
+}
+
+func (x *C2GS_RoleUpgradeUsed) GetItemId() int64 {
+	if x != nil {
+		return x.ItemId
+	}
+	return 0
+}
+
+func (x *C2GS_RoleUpgradeUsed) GetCounts() int64 {
+	if x != nil {
+		return x.Counts
 	}
 	return 0
 }
@@ -520,7 +1509,7 @@ var file_player_proto_rawDesc = []byte{
 	0x20, 0x01, 0x28, 0x09, 0x52, 0x03, 0x6b, 0x65, 0x79, 0x12, 0x14, 0x0a, 0x05, 0x76, 0x61, 0x6c,
 	0x75, 0x65, 0x18, 0x02, 0x20, 0x01, 0x28, 0x03, 0x52, 0x05, 0x76, 0x61, 0x6c, 0x75, 0x65, 0x3a,
 	0x02, 0x38, 0x01, 0x22, 0x3a, 0x0a, 0x08, 0x55, 0x73, 0x65, 0x72, 0x50, 0x72, 0x6f, 0x70, 0x12,
-	0x16, 0x0a, 0x06, 0x49, 0x74, 0x65, 0x6d, 0x49, 0x64, 0x18, 0x01, 0x20, 0x01, 0x28, 0x09, 0x52,
+	0x16, 0x0a, 0x06, 0x49, 0x74, 0x65, 0x6d, 0x49, 0x64, 0x18, 0x01, 0x20, 0x01, 0x28, 0x03, 0x52,
 	0x06, 0x49, 0x74, 0x65, 0x6d, 0x49, 0x64, 0x12, 0x16, 0x0a, 0x06, 0x43, 0x6f, 0x75, 0x6e, 0x74,
 	0x73, 0x18, 0x02, 0x20, 0x01, 0x28, 0x03, 0x52, 0x06, 0x43, 0x6f, 0x75, 0x6e, 0x74, 0x73, 0x22,
 	0x60, 0x0a, 0x08, 0x55, 0x73, 0x65, 0x72, 0x54, 0x65, 0x61, 0x6d, 0x12, 0x16, 0x0a, 0x06, 0x54,
@@ -531,12 +1520,92 @@ var file_player_proto_rawDesc = []byte{
 	0x20, 0x03, 0x28, 0x03, 0x52, 0x0b, 0x55, 0x73, 0x65, 0x72, 0x52, 0x6f, 0x6c, 0x65, 0x49, 0x64,
 	0x73, 0x22, 0x69, 0x0a, 0x0d, 0x55, 0x6e, 0x6c, 0x6f, 0x63, 0x6b, 0x4d, 0x69, 0x73, 0x73, 0x69,
 	0x6f, 0x6e, 0x12, 0x1c, 0x0a, 0x09, 0x4d, 0x69, 0x73, 0x73, 0x69, 0x6f, 0x6e, 0x49, 0x44, 0x18,
-	0x01, 0x20, 0x01, 0x28, 0x03, 0x52, 0x09, 0x4d, 0x69, 0x73, 0x73, 0x69, 0x6f, 0x6e, 0x49, 0x44,
+	0x01, 0x20, 0x01, 0x28, 0x09, 0x52, 0x09, 0x4d, 0x69, 0x73, 0x73, 0x69, 0x6f, 0x6e, 0x49, 0x44,
 	0x12, 0x1c, 0x0a, 0x09, 0x43, 0x68, 0x61, 0x70, 0x74, 0x65, 0x72, 0x49, 0x44, 0x18, 0x02, 0x20,
 	0x01, 0x28, 0x03, 0x52, 0x09, 0x43, 0x68, 0x61, 0x70, 0x74, 0x65, 0x72, 0x49, 0x44, 0x12, 0x1c,
 	0x0a, 0x09, 0x53, 0x74, 0x61, 0x72, 0x4c, 0x65, 0x76, 0x65, 0x6c, 0x18, 0x03, 0x20, 0x01, 0x28,
-	0x0d, 0x52, 0x09, 0x53, 0x74, 0x61, 0x72, 0x4c, 0x65, 0x76, 0x65, 0x6c, 0x42, 0x07, 0x5a, 0x05,
-	0x2e, 0x2e, 0x2f, 0x70, 0x62, 0x62, 0x06, 0x70, 0x72, 0x6f, 0x74, 0x6f, 0x33,
+	0x0d, 0x52, 0x09, 0x53, 0x74, 0x61, 0x72, 0x4c, 0x65, 0x76, 0x65, 0x6c, 0x22, 0x13, 0x0a, 0x11,
+	0x43, 0x32, 0x47, 0x53, 0x5f, 0x47, 0x65, 0x74, 0x55, 0x73, 0x65, 0x72, 0x54, 0x65, 0x61, 0x6d,
+	0x73, 0x22, 0x4d, 0x0a, 0x11, 0x47, 0x53, 0x32, 0x43, 0x5f, 0x47, 0x65, 0x74, 0x55, 0x73, 0x65,
+	0x72, 0x54, 0x65, 0x61, 0x6d, 0x73, 0x12, 0x12, 0x0a, 0x04, 0x43, 0x6f, 0x64, 0x65, 0x18, 0x01,
+	0x20, 0x01, 0x28, 0x03, 0x52, 0x04, 0x43, 0x6f, 0x64, 0x65, 0x12, 0x24, 0x0a, 0x04, 0x44, 0x61,
+	0x74, 0x61, 0x18, 0x02, 0x20, 0x03, 0x28, 0x0b, 0x32, 0x10, 0x2e, 0x70, 0x6c, 0x61, 0x79, 0x65,
+	0x72, 0x2e, 0x55, 0x73, 0x65, 0x72, 0x54, 0x65, 0x61, 0x6d, 0x52, 0x04, 0x44, 0x61, 0x74, 0x61,
+	0x22, 0x13, 0x0a, 0x11, 0x43, 0x32, 0x47, 0x53, 0x5f, 0x47, 0x65, 0x74, 0x55, 0x73, 0x65, 0x72,
+	0x52, 0x6f, 0x6c, 0x65, 0x73, 0x22, 0x4d, 0x0a, 0x11, 0x47, 0x53, 0x32, 0x43, 0x5f, 0x47, 0x65,
+	0x74, 0x55, 0x73, 0x65, 0x72, 0x52, 0x6f, 0x6c, 0x65, 0x73, 0x12, 0x12, 0x0a, 0x04, 0x43, 0x6f,
+	0x64, 0x65, 0x18, 0x01, 0x20, 0x01, 0x28, 0x03, 0x52, 0x04, 0x43, 0x6f, 0x64, 0x65, 0x12, 0x24,
+	0x0a, 0x04, 0x44, 0x61, 0x74, 0x61, 0x18, 0x02, 0x20, 0x03, 0x28, 0x0b, 0x32, 0x10, 0x2e, 0x70,
+	0x6c, 0x61, 0x79, 0x65, 0x72, 0x2e, 0x55, 0x73, 0x65, 0x72, 0x52, 0x6f, 0x6c, 0x65, 0x52, 0x04,
+	0x44, 0x61, 0x74, 0x61, 0x22, 0x69, 0x0a, 0x11, 0x43, 0x32, 0x47, 0x53, 0x5f, 0x45, 0x64, 0x69,
+	0x74, 0x55, 0x73, 0x65, 0x72, 0x54, 0x65, 0x61, 0x6d, 0x12, 0x16, 0x0a, 0x06, 0x54, 0x65, 0x61,
+	0x6d, 0x49, 0x64, 0x18, 0x01, 0x20, 0x01, 0x28, 0x09, 0x52, 0x06, 0x54, 0x65, 0x61, 0x6d, 0x49,
+	0x64, 0x12, 0x1a, 0x0a, 0x08, 0x54, 0x65, 0x61, 0x6d, 0x4e, 0x61, 0x6d, 0x65, 0x18, 0x02, 0x20,
+	0x01, 0x28, 0x09, 0x52, 0x08, 0x54, 0x65, 0x61, 0x6d, 0x4e, 0x61, 0x6d, 0x65, 0x12, 0x20, 0x0a,
+	0x0b, 0x55, 0x73, 0x65, 0x72, 0x52, 0x6f, 0x6c, 0x65, 0x49, 0x64, 0x73, 0x18, 0x03, 0x20, 0x03,
+	0x28, 0x03, 0x52, 0x0b, 0x55, 0x73, 0x65, 0x72, 0x52, 0x6f, 0x6c, 0x65, 0x49, 0x64, 0x73, 0x22,
+	0x4d, 0x0a, 0x11, 0x47, 0x53, 0x32, 0x43, 0x5f, 0x45, 0x64, 0x69, 0x74, 0x55, 0x73, 0x65, 0x72,
+	0x54, 0x65, 0x61, 0x6d, 0x12, 0x12, 0x0a, 0x04, 0x43, 0x6f, 0x64, 0x65, 0x18, 0x01, 0x20, 0x01,
+	0x28, 0x03, 0x52, 0x04, 0x43, 0x6f, 0x64, 0x65, 0x12, 0x24, 0x0a, 0x04, 0x44, 0x61, 0x74, 0x61,
+	0x18, 0x02, 0x20, 0x03, 0x28, 0x0b, 0x32, 0x10, 0x2e, 0x70, 0x6c, 0x61, 0x79, 0x65, 0x72, 0x2e,
+	0x55, 0x73, 0x65, 0x72, 0x54, 0x65, 0x61, 0x6d, 0x52, 0x04, 0x44, 0x61, 0x74, 0x61, 0x22, 0x3c,
+	0x0a, 0x14, 0x47, 0x53, 0x32, 0x43, 0x5f, 0x55, 0x70, 0x64, 0x61, 0x74, 0x65, 0x55, 0x73, 0x65,
+	0x72, 0x50, 0x72, 0x6f, 0x70, 0x73, 0x12, 0x24, 0x0a, 0x04, 0x44, 0x61, 0x74, 0x61, 0x18, 0x01,
+	0x20, 0x03, 0x28, 0x0b, 0x32, 0x10, 0x2e, 0x70, 0x6c, 0x61, 0x79, 0x65, 0x72, 0x2e, 0x55, 0x73,
+	0x65, 0x72, 0x50, 0x72, 0x6f, 0x70, 0x52, 0x04, 0x44, 0x61, 0x74, 0x61, 0x22, 0x13, 0x0a, 0x11,
+	0x43, 0x32, 0x47, 0x53, 0x5f, 0x47, 0x65, 0x74, 0x55, 0x73, 0x65, 0x72, 0x50, 0x72, 0x6f, 0x70,
+	0x73, 0x22, 0x4d, 0x0a, 0x11, 0x47, 0x53, 0x32, 0x43, 0x5f, 0x47, 0x65, 0x74, 0x55, 0x73, 0x65,
+	0x72, 0x50, 0x72, 0x6f, 0x70, 0x73, 0x12, 0x12, 0x0a, 0x04, 0x43, 0x6f, 0x64, 0x65, 0x18, 0x01,
+	0x20, 0x01, 0x28, 0x03, 0x52, 0x04, 0x43, 0x6f, 0x64, 0x65, 0x12, 0x24, 0x0a, 0x04, 0x44, 0x61,
+	0x74, 0x61, 0x18, 0x02, 0x20, 0x03, 0x28, 0x0b, 0x32, 0x10, 0x2e, 0x70, 0x6c, 0x61, 0x79, 0x65,
+	0x72, 0x2e, 0x55, 0x73, 0x65, 0x72, 0x50, 0x72, 0x6f, 0x70, 0x52, 0x04, 0x44, 0x61, 0x74, 0x61,
+	0x22, 0x9d, 0x01, 0x0a, 0x10, 0x43, 0x32, 0x47, 0x53, 0x5f, 0x52, 0x6f, 0x6c, 0x65, 0x55, 0x70,
+	0x67, 0x72, 0x61, 0x64, 0x65, 0x12, 0x1e, 0x0a, 0x0a, 0x55, 0x73, 0x65, 0x72, 0x52, 0x6f, 0x6c,
+	0x65, 0x49, 0x64, 0x18, 0x01, 0x20, 0x01, 0x28, 0x09, 0x52, 0x0a, 0x55, 0x73, 0x65, 0x72, 0x52,
+	0x6f, 0x6c, 0x65, 0x49, 0x64, 0x12, 0x31, 0x0a, 0x04, 0x55, 0x73, 0x65, 0x64, 0x18, 0x02, 0x20,
+	0x03, 0x28, 0x0b, 0x32, 0x1d, 0x2e, 0x70, 0x6c, 0x61, 0x79, 0x65, 0x72, 0x2e, 0x43, 0x32, 0x47,
+	0x53, 0x5f, 0x52, 0x6f, 0x6c, 0x65, 0x55, 0x70, 0x67, 0x72, 0x61, 0x64, 0x65, 0x2e, 0x75, 0x73,
+	0x65, 0x64, 0x52, 0x04, 0x55, 0x73, 0x65, 0x64, 0x1a, 0x36, 0x0a, 0x04, 0x75, 0x73, 0x65, 0x64,
+	0x12, 0x16, 0x0a, 0x06, 0x49, 0x74, 0x65, 0x6d, 0x49, 0x64, 0x18, 0x01, 0x20, 0x01, 0x28, 0x03,
+	0x52, 0x06, 0x49, 0x74, 0x65, 0x6d, 0x49, 0x64, 0x12, 0x16, 0x0a, 0x06, 0x43, 0x6f, 0x75, 0x6e,
+	0x74, 0x73, 0x18, 0x02, 0x20, 0x01, 0x28, 0x03, 0x52, 0x06, 0x43, 0x6f, 0x75, 0x6e, 0x74, 0x73,
+	0x22, 0x4e, 0x0a, 0x10, 0x47, 0x53, 0x32, 0x43, 0x5f, 0x52, 0x6f, 0x6c, 0x65, 0x55, 0x70, 0x67,
+	0x72, 0x61, 0x64, 0x65, 0x12, 0x12, 0x0a, 0x04, 0x43, 0x6f, 0x64, 0x65, 0x18, 0x01, 0x20, 0x01,
+	0x28, 0x03, 0x52, 0x04, 0x43, 0x6f, 0x64, 0x65, 0x12, 0x14, 0x0a, 0x05, 0x4c, 0x65, 0x76, 0x65,
+	0x6c, 0x18, 0x02, 0x20, 0x01, 0x28, 0x03, 0x52, 0x05, 0x4c, 0x65, 0x76, 0x65, 0x6c, 0x12, 0x10,
+	0x0a, 0x03, 0x45, 0x78, 0x70, 0x18, 0x03, 0x20, 0x01, 0x28, 0x03, 0x52, 0x03, 0x45, 0x78, 0x70,
+	0x22, 0x4f, 0x0a, 0x11, 0x43, 0x32, 0x47, 0x53, 0x5f, 0x52, 0x6f, 0x6c, 0x65, 0x41, 0x64, 0x76,
+	0x61, 0x6e, 0x63, 0x65, 0x64, 0x12, 0x1e, 0x0a, 0x0a, 0x55, 0x73, 0x65, 0x72, 0x52, 0x6f, 0x6c,
+	0x65, 0x49, 0x64, 0x18, 0x01, 0x20, 0x01, 0x28, 0x09, 0x52, 0x0a, 0x55, 0x73, 0x65, 0x72, 0x52,
+	0x6f, 0x6c, 0x65, 0x49, 0x64, 0x12, 0x1a, 0x0a, 0x08, 0x43, 0x61, 0x72, 0x65, 0x65, 0x72, 0x49,
+	0x64, 0x18, 0x02, 0x20, 0x01, 0x28, 0x03, 0x52, 0x08, 0x43, 0x61, 0x72, 0x65, 0x65, 0x72, 0x49,
+	0x64, 0x22, 0x85, 0x01, 0x0a, 0x11, 0x47, 0x53, 0x32, 0x43, 0x5f, 0x52, 0x6f, 0x6c, 0x65, 0x41,
+	0x64, 0x76, 0x61, 0x6e, 0x63, 0x65, 0x64, 0x12, 0x12, 0x0a, 0x04, 0x43, 0x6f, 0x64, 0x65, 0x18,
+	0x01, 0x20, 0x01, 0x28, 0x03, 0x52, 0x04, 0x43, 0x6f, 0x64, 0x65, 0x12, 0x1a, 0x0a, 0x08, 0x4d,
+	0x61, 0x78, 0x4c, 0x65, 0x76, 0x65, 0x6c, 0x18, 0x02, 0x20, 0x01, 0x28, 0x03, 0x52, 0x08, 0x4d,
+	0x61, 0x78, 0x4c, 0x65, 0x76, 0x65, 0x6c, 0x12, 0x1a, 0x0a, 0x08, 0x43, 0x61, 0x72, 0x65, 0x65,
+	0x72, 0x49, 0x64, 0x18, 0x03, 0x20, 0x01, 0x28, 0x03, 0x52, 0x08, 0x43, 0x61, 0x72, 0x65, 0x65,
+	0x72, 0x49, 0x64, 0x12, 0x24, 0x0a, 0x0d, 0x41, 0x64, 0x76, 0x61, 0x6e, 0x63, 0x65, 0x6d, 0x65,
+	0x6e, 0x74, 0x49, 0x64, 0x18, 0x04, 0x20, 0x01, 0x28, 0x03, 0x52, 0x0d, 0x41, 0x64, 0x76, 0x61,
+	0x6e, 0x63, 0x65, 0x6d, 0x65, 0x6e, 0x74, 0x49, 0x64, 0x22, 0x1a, 0x0a, 0x18, 0x43, 0x32, 0x47,
+	0x53, 0x5f, 0x47, 0x65, 0x74, 0x55, 0x73, 0x65, 0x72, 0x53, 0x74, 0x61, 0x67, 0x65, 0x4d, 0x69,
+	0x73, 0x73, 0x69, 0x6f, 0x6e, 0x22, 0x59, 0x0a, 0x18, 0x47, 0x53, 0x32, 0x43, 0x5f, 0x47, 0x65,
+	0x74, 0x55, 0x73, 0x65, 0x72, 0x53, 0x74, 0x61, 0x67, 0x65, 0x4d, 0x69, 0x73, 0x73, 0x69, 0x6f,
+	0x6e, 0x12, 0x12, 0x0a, 0x04, 0x43, 0x6f, 0x64, 0x65, 0x18, 0x01, 0x20, 0x01, 0x28, 0x03, 0x52,
+	0x04, 0x43, 0x6f, 0x64, 0x65, 0x12, 0x29, 0x0a, 0x04, 0x44, 0x61, 0x74, 0x61, 0x18, 0x02, 0x20,
+	0x03, 0x28, 0x0b, 0x32, 0x15, 0x2e, 0x70, 0x6c, 0x61, 0x79, 0x65, 0x72, 0x2e, 0x55, 0x6e, 0x6c,
+	0x6f, 0x63, 0x6b, 0x4d, 0x69, 0x73, 0x73, 0x69, 0x6f, 0x6e, 0x52, 0x04, 0x44, 0x61, 0x74, 0x61,
+	0x22, 0x3b, 0x0a, 0x1b, 0x43, 0x32, 0x47, 0x53, 0x5f, 0x55, 0x70, 0x64, 0x61, 0x74, 0x65, 0x55,
+	0x73, 0x65, 0x72, 0x53, 0x74, 0x61, 0x67, 0x65, 0x4d, 0x69, 0x73, 0x73, 0x69, 0x6f, 0x6e, 0x12,
+	0x1c, 0x0a, 0x09, 0x4d, 0x69, 0x73, 0x73, 0x69, 0x6f, 0x6e, 0x49, 0x44, 0x18, 0x01, 0x20, 0x01,
+	0x28, 0x03, 0x52, 0x09, 0x4d, 0x69, 0x73, 0x73, 0x69, 0x6f, 0x6e, 0x49, 0x44, 0x22, 0x5c, 0x0a,
+	0x1b, 0x47, 0x53, 0x32, 0x43, 0x5f, 0x55, 0x70, 0x64, 0x61, 0x74, 0x65, 0x55, 0x73, 0x65, 0x72,
+	0x53, 0x74, 0x61, 0x67, 0x65, 0x4d, 0x69, 0x73, 0x73, 0x69, 0x6f, 0x6e, 0x12, 0x12, 0x0a, 0x04,
+	0x43, 0x6f, 0x64, 0x65, 0x18, 0x01, 0x20, 0x01, 0x28, 0x03, 0x52, 0x04, 0x43, 0x6f, 0x64, 0x65,
+	0x12, 0x29, 0x0a, 0x04, 0x44, 0x61, 0x74, 0x61, 0x18, 0x02, 0x20, 0x03, 0x28, 0x0b, 0x32, 0x15,
+	0x2e, 0x70, 0x6c, 0x61, 0x79, 0x65, 0x72, 0x2e, 0x55, 0x6e, 0x6c, 0x6f, 0x63, 0x6b, 0x4d, 0x69,
+	0x73, 0x73, 0x69, 0x6f, 0x6e, 0x52, 0x04, 0x44, 0x61, 0x74, 0x61, 0x42, 0x07, 0x5a, 0x05, 0x2e,
+	0x2e, 0x2f, 0x70, 0x62, 0x62, 0x06, 0x70, 0x72, 0x6f, 0x74, 0x6f, 0x33,
 }
 
 var (
@@ -551,28 +1620,54 @@ func file_player_proto_rawDescGZIP() []byte {
 	return file_player_proto_rawDescData
 }
 
-var file_player_proto_msgTypes = make([]protoimpl.MessageInfo, 7)
+var file_player_proto_msgTypes = make([]protoimpl.MessageInfo, 25)
 var file_player_proto_goTypes = []interface{}{
-	(*Player)(nil),        // 0: player.Player
-	(*UserRole)(nil),      // 1: player.UserRole
-	(*UserProp)(nil),      // 2: player.UserProp
-	(*UserTeam)(nil),      // 3: player.UserTeam
-	(*UnlockMission)(nil), // 4: player.UnlockMission
-	nil,                   // 5: player.Player.StageMissionEntry
-	nil,                   // 6: player.UserRole.UnlockCareerEntry
+	(*Player)(nil),                      // 0: player.Player
+	(*UserRole)(nil),                    // 1: player.UserRole
+	(*UserProp)(nil),                    // 2: player.UserProp
+	(*UserTeam)(nil),                    // 3: player.UserTeam
+	(*UnlockMission)(nil),               // 4: player.UnlockMission
+	(*C2GS_GetUserTeams)(nil),           // 5: player.C2GS_GetUserTeams
+	(*GS2C_GetUserTeams)(nil),           // 6: player.GS2C_GetUserTeams
+	(*C2GS_GetUserRoles)(nil),           // 7: player.C2GS_GetUserRoles
+	(*GS2C_GetUserRoles)(nil),           // 8: player.GS2C_GetUserRoles
+	(*C2GS_EditUserTeam)(nil),           // 9: player.C2GS_EditUserTeam
+	(*GS2C_EditUserTeam)(nil),           // 10: player.GS2C_EditUserTeam
+	(*GS2C_UpdateUserProps)(nil),        // 11: player.GS2C_UpdateUserProps
+	(*C2GS_GetUserProps)(nil),           // 12: player.C2GS_GetUserProps
+	(*GS2C_GetUserProps)(nil),           // 13: player.GS2C_GetUserProps
+	(*C2GS_RoleUpgrade)(nil),            // 14: player.C2GS_RoleUpgrade
+	(*GS2C_RoleUpgrade)(nil),            // 15: player.GS2C_RoleUpgrade
+	(*C2GS_RoleAdvanced)(nil),           // 16: player.C2GS_RoleAdvanced
+	(*GS2C_RoleAdvanced)(nil),           // 17: player.GS2C_RoleAdvanced
+	(*C2GS_GetUserStageMission)(nil),    // 18: player.C2GS_GetUserStageMission
+	(*GS2C_GetUserStageMission)(nil),    // 19: player.GS2C_GetUserStageMission
+	(*C2GS_UpdateUserStageMission)(nil), // 20: player.C2GS_UpdateUserStageMission
+	(*GS2C_UpdateUserStageMission)(nil), // 21: player.GS2C_UpdateUserStageMission
+	nil,                                 // 22: player.Player.StageMissionEntry
+	nil,                                 // 23: player.UserRole.UnlockCareerEntry
+	(*C2GS_RoleUpgradeUsed)(nil),        // 24: player.C2GS_RoleUpgrade.used
 }
 var file_player_proto_depIdxs = []int32{
-	1, // 0: player.Player.Roles:type_name -> player.UserRole
-	3, // 1: player.Player.Teams:type_name -> player.UserTeam
-	2, // 2: player.Player.Props:type_name -> player.UserProp
-	5, // 3: player.Player.StageMission:type_name -> player.Player.StageMissionEntry
-	6, // 4: player.UserRole.UnlockCareer:type_name -> player.UserRole.UnlockCareerEntry
-	4, // 5: player.Player.StageMissionEntry.value:type_name -> player.UnlockMission
-	6, // [6:6] is the sub-list for method output_type
-	6, // [6:6] is the sub-list for method input_type
-	6, // [6:6] is the sub-list for extension type_name
-	6, // [6:6] is the sub-list for extension extendee
-	0, // [0:6] is the sub-list for field type_name
+	1,  // 0: player.Player.Roles:type_name -> player.UserRole
+	3,  // 1: player.Player.Teams:type_name -> player.UserTeam
+	2,  // 2: player.Player.Props:type_name -> player.UserProp
+	22, // 3: player.Player.StageMission:type_name -> player.Player.StageMissionEntry
+	23, // 4: player.UserRole.UnlockCareer:type_name -> player.UserRole.UnlockCareerEntry
+	3,  // 5: player.GS2C_GetUserTeams.Data:type_name -> player.UserTeam
+	1,  // 6: player.GS2C_GetUserRoles.Data:type_name -> player.UserRole
+	3,  // 7: player.GS2C_EditUserTeam.Data:type_name -> player.UserTeam
+	2,  // 8: player.GS2C_UpdateUserProps.Data:type_name -> player.UserProp
+	2,  // 9: player.GS2C_GetUserProps.Data:type_name -> player.UserProp
+	24, // 10: player.C2GS_RoleUpgrade.Used:type_name -> player.C2GS_RoleUpgrade.used
+	4,  // 11: player.GS2C_GetUserStageMission.Data:type_name -> player.UnlockMission
+	4,  // 12: player.GS2C_UpdateUserStageMission.Data:type_name -> player.UnlockMission
+	4,  // 13: player.Player.StageMissionEntry.value:type_name -> player.UnlockMission
+	14, // [14:14] is the sub-list for method output_type
+	14, // [14:14] is the sub-list for method input_type
+	14, // [14:14] is the sub-list for extension type_name
+	14, // [14:14] is the sub-list for extension extendee
+	0,  // [0:14] is the sub-list for field type_name
 }
 
 func init() { file_player_proto_init() }
@@ -641,6 +1736,222 @@ func file_player_proto_init() {
 				return nil
 			}
 		}
+		file_player_proto_msgTypes[5].Exporter = func(v interface{}, i int) interface{} {
+			switch v := v.(*C2GS_GetUserTeams); i {
+			case 0:
+				return &v.state
+			case 1:
+				return &v.sizeCache
+			case 2:
+				return &v.unknownFields
+			default:
+				return nil
+			}
+		}
+		file_player_proto_msgTypes[6].Exporter = func(v interface{}, i int) interface{} {
+			switch v := v.(*GS2C_GetUserTeams); i {
+			case 0:
+				return &v.state
+			case 1:
+				return &v.sizeCache
+			case 2:
+				return &v.unknownFields
+			default:
+				return nil
+			}
+		}
+		file_player_proto_msgTypes[7].Exporter = func(v interface{}, i int) interface{} {
+			switch v := v.(*C2GS_GetUserRoles); i {
+			case 0:
+				return &v.state
+			case 1:
+				return &v.sizeCache
+			case 2:
+				return &v.unknownFields
+			default:
+				return nil
+			}
+		}
+		file_player_proto_msgTypes[8].Exporter = func(v interface{}, i int) interface{} {
+			switch v := v.(*GS2C_GetUserRoles); i {
+			case 0:
+				return &v.state
+			case 1:
+				return &v.sizeCache
+			case 2:
+				return &v.unknownFields
+			default:
+				return nil
+			}
+		}
+		file_player_proto_msgTypes[9].Exporter = func(v interface{}, i int) interface{} {
+			switch v := v.(*C2GS_EditUserTeam); i {
+			case 0:
+				return &v.state
+			case 1:
+				return &v.sizeCache
+			case 2:
+				return &v.unknownFields
+			default:
+				return nil
+			}
+		}
+		file_player_proto_msgTypes[10].Exporter = func(v interface{}, i int) interface{} {
+			switch v := v.(*GS2C_EditUserTeam); i {
+			case 0:
+				return &v.state
+			case 1:
+				return &v.sizeCache
+			case 2:
+				return &v.unknownFields
+			default:
+				return nil
+			}
+		}
+		file_player_proto_msgTypes[11].Exporter = func(v interface{}, i int) interface{} {
+			switch v := v.(*GS2C_UpdateUserProps); i {
+			case 0:
+				return &v.state
+			case 1:
+				return &v.sizeCache
+			case 2:
+				return &v.unknownFields
+			default:
+				return nil
+			}
+		}
+		file_player_proto_msgTypes[12].Exporter = func(v interface{}, i int) interface{} {
+			switch v := v.(*C2GS_GetUserProps); i {
+			case 0:
+				return &v.state
+			case 1:
+				return &v.sizeCache
+			case 2:
+				return &v.unknownFields
+			default:
+				return nil
+			}
+		}
+		file_player_proto_msgTypes[13].Exporter = func(v interface{}, i int) interface{} {
+			switch v := v.(*GS2C_GetUserProps); i {
+			case 0:
+				return &v.state
+			case 1:
+				return &v.sizeCache
+			case 2:
+				return &v.unknownFields
+			default:
+				return nil
+			}
+		}
+		file_player_proto_msgTypes[14].Exporter = func(v interface{}, i int) interface{} {
+			switch v := v.(*C2GS_RoleUpgrade); i {
+			case 0:
+				return &v.state
+			case 1:
+				return &v.sizeCache
+			case 2:
+				return &v.unknownFields
+			default:
+				return nil
+			}
+		}
+		file_player_proto_msgTypes[15].Exporter = func(v interface{}, i int) interface{} {
+			switch v := v.(*GS2C_RoleUpgrade); i {
+			case 0:
+				return &v.state
+			case 1:
+				return &v.sizeCache
+			case 2:
+				return &v.unknownFields
+			default:
+				return nil
+			}
+		}
+		file_player_proto_msgTypes[16].Exporter = func(v interface{}, i int) interface{} {
+			switch v := v.(*C2GS_RoleAdvanced); i {
+			case 0:
+				return &v.state
+			case 1:
+				return &v.sizeCache
+			case 2:
+				return &v.unknownFields
+			default:
+				return nil
+			}
+		}
+		file_player_proto_msgTypes[17].Exporter = func(v interface{}, i int) interface{} {
+			switch v := v.(*GS2C_RoleAdvanced); i {
+			case 0:
+				return &v.state
+			case 1:
+				return &v.sizeCache
+			case 2:
+				return &v.unknownFields
+			default:
+				return nil
+			}
+		}
+		file_player_proto_msgTypes[18].Exporter = func(v interface{}, i int) interface{} {
+			switch v := v.(*C2GS_GetUserStageMission); i {
+			case 0:
+				return &v.state
+			case 1:
+				return &v.sizeCache
+			case 2:
+				return &v.unknownFields
+			default:
+				return nil
+			}
+		}
+		file_player_proto_msgTypes[19].Exporter = func(v interface{}, i int) interface{} {
+			switch v := v.(*GS2C_GetUserStageMission); i {
+			case 0:
+				return &v.state
+			case 1:
+				return &v.sizeCache
+			case 2:
+				return &v.unknownFields
+			default:
+				return nil
+			}
+		}
+		file_player_proto_msgTypes[20].Exporter = func(v interface{}, i int) interface{} {
+			switch v := v.(*C2GS_UpdateUserStageMission); i {
+			case 0:
+				return &v.state
+			case 1:
+				return &v.sizeCache
+			case 2:
+				return &v.unknownFields
+			default:
+				return nil
+			}
+		}
+		file_player_proto_msgTypes[21].Exporter = func(v interface{}, i int) interface{} {
+			switch v := v.(*GS2C_UpdateUserStageMission); i {
+			case 0:
+				return &v.state
+			case 1:
+				return &v.sizeCache
+			case 2:
+				return &v.unknownFields
+			default:
+				return nil
+			}
+		}
+		file_player_proto_msgTypes[24].Exporter = func(v interface{}, i int) interface{} {
+			switch v := v.(*C2GS_RoleUpgradeUsed); i {
+			case 0:
+				return &v.state
+			case 1:
+				return &v.sizeCache
+			case 2:
+				return &v.unknownFields
+			default:
+				return nil
+			}
+		}
 	}
 	type x struct{}
 	out := protoimpl.TypeBuilder{
@@ -648,7 +1959,7 @@ func file_player_proto_init() {
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
 			RawDescriptor: file_player_proto_rawDesc,
 			NumEnums:      0,
-			NumMessages:   7,
+			NumMessages:   25,
 			NumExtensions: 0,
 			NumServices:   0,
 		},

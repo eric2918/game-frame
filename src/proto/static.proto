@@ -1,3 +1,148 @@
 syntax = "proto3";
 package static;
 option go_package = "../pb";
+
+
+
+message Config {
+  repeated RoleSkill RoleSkill = 1;
+  repeated RoleBasic RoleBasic = 2;
+  repeated RoleSkin RoleSkin = 3;
+  repeated PropBasic PropBasic = 4;
+  repeated RoleAttrBasic RoleAttrBasic = 5;
+}
+
+// 技能信息
+message RoleSkill {
+  int64   SkillId     = 1; // 技能ID    @gotags: bson:"skillId"
+  string  ShowName    = 2; // 展示名称   @gotags: bson:"showName"
+}
+
+// 角色皮肤
+message RoleSkin {
+  int64  SkinId   = 1;  // 皮肤ID   @gotags: bson:"skinId"
+  int64  RoleId   = 2;  // 角色Id   @gotags: bson:"roleId"
+}
+
+// 道具
+message PropBasic {
+  int64   ItemId        = 1;  // 道具ID    @gotags: bson:"itemId"
+  int64   Type          = 2;  // 类型      @gotags: bson:"type"
+  string  ShowName      = 3;  // 展示名称   @gotags: bson:"showName"
+  int64   Rare          = 4;  // 稀有度    @gotags: bson:"rare"
+  string  Desc          = 5;  // 描述      @gotags: bson:"desc"
+  string  Desc2         = 6;  // 背景描述   @gotags: bson:"desc2"
+  string  Icon          = 7;  // 图标      @gotags: bson:"icon"
+  string  UsedCondition = 8;  // 使用条件   @gotags: bson:"usedCondition"
+  int64   HeroExp       = 9;  // 英雄经验   @gotags: bson:"heroExp"
+}
+
+// 角色信息
+message RoleBasic {
+  int64           RoleId                = 1;  // @gotags: bson:"roleId"
+  repeated int64  SkillIds              = 2;  // @gotags: bson:"skillIds"
+  int64           Rare                  = 3;  // @gotags: bson:"rare"
+  int64           Element               = 4;  // @gotags: bson:"element"
+  int64           Weapon                = 5;  // @gotags: bson:"weapon"
+  int64           Hp                    = 6;  // @gotags: bson:"hp"
+  int64           Attack                = 7;  // @gotags: bson:"attack"
+  bool            IsForbidden           = 8;  // @gotags: bson:"isForbidden"
+  string          ShowName              = 9;  // @gotags: bson:"showName"
+  int64           StoneCtDropRate       = 10; // @gotags: bson:"stoneCtDropRate"
+  int64           StoneSpDropRate       = 11; // @gotags: bson:"stoneSpDropRate"
+  int64           StoneCtCollectWeight  = 12; // @gotags: bson:"stoneCtCollectWeight"
+  int64           StoneSpCollectWeight  = 13; // @gotags: bson:"stoneSpCollectWeight"
+  repeated int64  CareerIds             = 14; // @gotags: bson:"careerIds"
+}
+
+message RoleAttrBasic {
+  int64   Id        = 1;  // @gotags: bson:"id"
+  int64   RoleId    = 2;  // @gotags: bson:"roleId"
+  int64   Level     = 3;  // @gotags: bson:"level"
+  string  ShowName  = 4;  // @gotags: bson:"showName"
+  int64   HpBasic   = 5;  // @gotags: bson:"hpBasic"
+  int64   DefBasic  = 6;  // @gotags: bson:"defBasic"
+  int64   AtkBasic  = 7;  // @gotags: bson:"atkBasic"
+  int64   MagBasic  = 8;  // @gotags: bson:"magBasic"
+}
+
+message Career {
+  int64           CareerID    = 1;  // @gotags: bson:"careerID"
+  string          CareerName  = 2;  // @gotags: bson:"careerName"
+  string          Desc        = 3;  // @gotags: bson:"desc"
+  repeated int64  Advancement = 4;  // @gotags: bson:"advancement"
+  string          Attr        = 5;  // @gotags: bson:"attr"
+}
+
+message CareerAdvancement {
+  int64 AdvancementID               = 1;  // @gotags: bson:"advancementID"
+  int64 SetRoleLvCap                = 2;  // @gotags: bson:"setRoleLvCap"
+  int64 HpBasic                     = 3;  // @gotags: bson:"hpBasic"
+  int64 DefBasic                    = 4;  // @gotags: bson:"defBasic"
+  int64 AtkBasic                    = 5;  // @gotags: bson:"atkBasic"
+  int64 MagBasic                    = 6;  // @gotags: bson:"magBasic"
+  repeated AdvanceCost AdvanceCost  = 7;  // @gotags: bson:"advanceCost"
+  string UnlockEffect               = 8;  // @gotags: bson:"unlockEffect"
+  int64 UnlockSkill                 = 9;  // @gotags: bson:"unlockSkill"
+
+}
+message AdvanceCost {
+  int64 PropID  = 1;  // @gotags: bson:"propID"
+  int64 PropNum = 2;  // @gotags: bson:"propNum"
+}
+
+message RoleLvExp {
+  int64 Level       = 1;  // @gotags: bson:"level"
+  int64 LevelExp    = 2;  // @gotags: bson:"levelExp"
+  int64 LevelExpAdd = 3;  // @gotags: bson:"levelExpAdd"
+}
+
+message StageMission {
+  int64  MissionID      = 1;  //@gotags: bson:"missionID"
+  string MissionOrder   = 2;  //@gotags: bson:"missionOrder"
+  string MissionNext    = 3;  //@gotags: bson:"missionNext"
+  string Set            = 4;  //@gotags: bson:"set"
+  int64  ChapterID      = 5;  //@gotags: bson:"chapterID"
+  string MissionName    = 6;  //@gotags: bson:"missionName"
+  int64  Mission        = 7;  //@gotags: bson:"mission"
+  int64  IfBoss         = 8;  //@gotags: bson:"ifBoss"
+  string StarConditions = 9;  //@gotags: bson:"starConditions"
+  string Cost           = 10; //@gotags: bson:"cost"
+  string FirstDrop      = 11; //@gotags: bson:"firstDrop"
+  string StarDrop       = 12; //@gotags: bson:"starDrop"
+  string NormalDrop     = 13; //@gotags: bson:"normalDrop"
+  string Desc           = 14; //@gotags: bson:"desc"
+}
+
+/**
+* @messageId 10201
+* @desc 获取所有技能
+*/
+message C2GS_GetSkills {
+}
+
+/**
+* @messageId 10202
+* @desc 获取所有技能
+*/
+message GS2C_GetSkills {
+  int64 Code = 1;
+  repeated RoleSkill Data = 2;
+}
+
+/**
+* @messageId 10101
+* @desc 获取所有角色
+*/
+message C2GS_GetRoles {
+}
+
+/**
+* @messageId 10102
+* @desc 获取所有角色
+*/
+message GS2C_GetRoles {
+  int64 Code  = 1;
+  repeated RoleBasic Data = 2;
+}
+

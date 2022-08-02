@@ -1,0 +1,3002 @@
+[
+	{
+		"id": "100002_1",
+		"roleId": 100002,
+		"level": 1,
+		"showName": "优莉欧勒",
+		"hpBasic": 100,
+		"defBasic": 100,
+		"atkBasic": 100,
+		"magBasic": 100
+	},
+	{
+		"id": "100002_2",
+		"roleId": 100002,
+		"level": 2,
+		"showName": "优莉欧勒",
+		"hpBasic": 120,
+		"defBasic": 120,
+		"atkBasic": 120,
+		"magBasic": 120
+	},
+	{
+		"id": "100002_3",
+		"roleId": 100002,
+		"level": 3,
+		"showName": "优莉欧勒",
+		"hpBasic": 140,
+		"defBasic": 140,
+		"atkBasic": 140,
+		"magBasic": 140
+	},
+	{
+		"id": "100002_4",
+		"roleId": 100002,
+		"level": 4,
+		"showName": "优莉欧勒",
+		"hpBasic": 160,
+		"defBasic": 160,
+		"atkBasic": 160,
+		"magBasic": 160
+	},
+	{
+		"id": "100002_5",
+		"roleId": 100002,
+		"level": 5,
+		"showName": "优莉欧勒",
+		"hpBasic": 180,
+		"defBasic": 180,
+		"atkBasic": 180,
+		"magBasic": 180
+	},
+	{
+		"id": "100002_6",
+		"roleId": 100002,
+		"level": 6,
+		"showName": "优莉欧勒",
+		"hpBasic": 200,
+		"defBasic": 200,
+		"atkBasic": 200,
+		"magBasic": 200
+	},
+	{
+		"id": "100002_7",
+		"roleId": 100002,
+		"level": 7,
+		"showName": "优莉欧勒",
+		"hpBasic": 220,
+		"defBasic": 220,
+		"atkBasic": 220,
+		"magBasic": 220
+	},
+	{
+		"id": "100002_8",
+		"roleId": 100002,
+		"level": 8,
+		"showName": "优莉欧勒",
+		"hpBasic": 240,
+		"defBasic": 240,
+		"atkBasic": 240,
+		"magBasic": 240
+	},
+	{
+		"id": "100002_9",
+		"roleId": 100002,
+		"level": 9,
+		"showName": "优莉欧勒",
+		"hpBasic": 260,
+		"defBasic": 260,
+		"atkBasic": 260,
+		"magBasic": 260
+	},
+	{
+		"id": "100002_10",
+		"roleId": 100002,
+		"level": 10,
+		"showName": "优莉欧勒",
+		"hpBasic": 280,
+		"defBasic": 280,
+		"atkBasic": 280,
+		"magBasic": 280
+	},
+	{
+		"id": "100002_11",
+		"roleId": 100002,
+		"level": 11,
+		"showName": "优莉欧勒",
+		"hpBasic": 300,
+		"defBasic": 300,
+		"atkBasic": 300,
+		"magBasic": 300
+	},
+	{
+		"id": "100002_12",
+		"roleId": 100002,
+		"level": 12,
+		"showName": "优莉欧勒",
+		"hpBasic": 320,
+		"defBasic": 320,
+		"atkBasic": 320,
+		"magBasic": 320
+	},
+	{
+		"id": "100002_13",
+		"roleId": 100002,
+		"level": 13,
+		"showName": "优莉欧勒",
+		"hpBasic": 340,
+		"defBasic": 340,
+		"atkBasic": 340,
+		"magBasic": 340
+	},
+	{
+		"id": "100002_14",
+		"roleId": 100002,
+		"level": 14,
+		"showName": "优莉欧勒",
+		"hpBasic": 360,
+		"defBasic": 360,
+		"atkBasic": 360,
+		"magBasic": 360
+	},
+	{
+		"id": "100002_15",
+		"roleId": 100002,
+		"level": 15,
+		"showName": "优莉欧勒",
+		"hpBasic": 380,
+		"defBasic": 380,
+		"atkBasic": 380,
+		"magBasic": 380
+	},
+	{
+		"id": "100002_16",
+		"roleId": 100002,
+		"level": 16,
+		"showName": "优莉欧勒",
+		"hpBasic": 400,
+		"defBasic": 400,
+		"atkBasic": 400,
+		"magBasic": 400
+	},
+	{
+		"id": "100002_17",
+		"roleId": 100002,
+		"level": 17,
+		"showName": "优莉欧勒",
+		"hpBasic": 420,
+		"defBasic": 420,
+		"atkBasic": 420,
+		"magBasic": 420
+	},
+	{
+		"id": "100002_18",
+		"roleId": 100002,
+		"level": 18,
+		"showName": "优莉欧勒",
+		"hpBasic": 440,
+		"defBasic": 440,
+		"atkBasic": 440,
+		"magBasic": 440
+	},
+	{
+		"id": "100002_19",
+		"roleId": 100002,
+		"level": 19,
+		"showName": "优莉欧勒",
+		"hpBasic": 460,
+		"defBasic": 460,
+		"atkBasic": 460,
+		"magBasic": 460
+	},
+	{
+		"id": "100002_20",
+		"roleId": 100002,
+		"level": 20,
+		"showName": "优莉欧勒",
+		"hpBasic": 480,
+		"defBasic": 480,
+		"atkBasic": 480,
+		"magBasic": 480
+	},
+	{
+		"id": "100002_21",
+		"roleId": 100002,
+		"level": 21,
+		"showName": "优莉欧勒",
+		"hpBasic": 500,
+		"defBasic": 500,
+		"atkBasic": 500,
+		"magBasic": 500
+	},
+	{
+		"id": "100002_22",
+		"roleId": 100002,
+		"level": 22,
+		"showName": "优莉欧勒",
+		"hpBasic": 520,
+		"defBasic": 520,
+		"atkBasic": 520,
+		"magBasic": 520
+	},
+	{
+		"id": "100002_23",
+		"roleId": 100002,
+		"level": 23,
+		"showName": "优莉欧勒",
+		"hpBasic": 540,
+		"defBasic": 540,
+		"atkBasic": 540,
+		"magBasic": 540
+	},
+	{
+		"id": "100002_24",
+		"roleId": 100002,
+		"level": 24,
+		"showName": "优莉欧勒",
+		"hpBasic": 560,
+		"defBasic": 560,
+		"atkBasic": 560,
+		"magBasic": 560
+	},
+	{
+		"id": "100002_25",
+		"roleId": 100002,
+		"level": 25,
+		"showName": "优莉欧勒",
+		"hpBasic": 580,
+		"defBasic": 580,
+		"atkBasic": 580,
+		"magBasic": 580
+	},
+	{
+		"id": "100002_26",
+		"roleId": 100002,
+		"level": 26,
+		"showName": "优莉欧勒",
+		"hpBasic": 600,
+		"defBasic": 600,
+		"atkBasic": 600,
+		"magBasic": 600
+	},
+	{
+		"id": "100002_27",
+		"roleId": 100002,
+		"level": 27,
+		"showName": "优莉欧勒",
+		"hpBasic": 620,
+		"defBasic": 620,
+		"atkBasic": 620,
+		"magBasic": 620
+	},
+	{
+		"id": "100002_28",
+		"roleId": 100002,
+		"level": 28,
+		"showName": "优莉欧勒",
+		"hpBasic": 640,
+		"defBasic": 640,
+		"atkBasic": 640,
+		"magBasic": 640
+	},
+	{
+		"id": "100002_29",
+		"roleId": 100002,
+		"level": 29,
+		"showName": "优莉欧勒",
+		"hpBasic": 660,
+		"defBasic": 660,
+		"atkBasic": 660,
+		"magBasic": 660
+	},
+	{
+		"id": "100002_30",
+		"roleId": 100002,
+		"level": 30,
+		"showName": "优莉欧勒",
+		"hpBasic": 680,
+		"defBasic": 680,
+		"atkBasic": 680,
+		"magBasic": 680
+	},
+	{
+		"id": "100002_31",
+		"roleId": 100002,
+		"level": 31,
+		"showName": "优莉欧勒",
+		"hpBasic": 700,
+		"defBasic": 700,
+		"atkBasic": 700,
+		"magBasic": 700
+	},
+	{
+		"id": "100002_32",
+		"roleId": 100002,
+		"level": 32,
+		"showName": "优莉欧勒",
+		"hpBasic": 720,
+		"defBasic": 720,
+		"atkBasic": 720,
+		"magBasic": 720
+	},
+	{
+		"id": "100002_33",
+		"roleId": 100002,
+		"level": 33,
+		"showName": "优莉欧勒",
+		"hpBasic": 740,
+		"defBasic": 740,
+		"atkBasic": 740,
+		"magBasic": 740
+	},
+	{
+		"id": "100002_34",
+		"roleId": 100002,
+		"level": 34,
+		"showName": "优莉欧勒",
+		"hpBasic": 760,
+		"defBasic": 760,
+		"atkBasic": 760,
+		"magBasic": 760
+	},
+	{
+		"id": "100002_35",
+		"roleId": 100002,
+		"level": 35,
+		"showName": "优莉欧勒",
+		"hpBasic": 780,
+		"defBasic": 780,
+		"atkBasic": 780,
+		"magBasic": 780
+	},
+	{
+		"id": "100002_36",
+		"roleId": 100002,
+		"level": 36,
+		"showName": "优莉欧勒",
+		"hpBasic": 800,
+		"defBasic": 800,
+		"atkBasic": 800,
+		"magBasic": 800
+	},
+	{
+		"id": "100002_37",
+		"roleId": 100002,
+		"level": 37,
+		"showName": "优莉欧勒",
+		"hpBasic": 820,
+		"defBasic": 820,
+		"atkBasic": 820,
+		"magBasic": 820
+	},
+	{
+		"id": "100002_38",
+		"roleId": 100002,
+		"level": 38,
+		"showName": "优莉欧勒",
+		"hpBasic": 840,
+		"defBasic": 840,
+		"atkBasic": 840,
+		"magBasic": 840
+	},
+	{
+		"id": "100002_39",
+		"roleId": 100002,
+		"level": 39,
+		"showName": "优莉欧勒",
+		"hpBasic": 860,
+		"defBasic": 860,
+		"atkBasic": 860,
+		"magBasic": 860
+	},
+	{
+		"id": "100002_40",
+		"roleId": 100002,
+		"level": 40,
+		"showName": "优莉欧勒",
+		"hpBasic": 880,
+		"defBasic": 880,
+		"atkBasic": 880,
+		"magBasic": 880
+	},
+	{
+		"id": "100002_41",
+		"roleId": 100002,
+		"level": 41,
+		"showName": "优莉欧勒",
+		"hpBasic": 900,
+		"defBasic": 900,
+		"atkBasic": 900,
+		"magBasic": 900
+	},
+	{
+		"id": "100002_42",
+		"roleId": 100002,
+		"level": 42,
+		"showName": "优莉欧勒",
+		"hpBasic": 920,
+		"defBasic": 920,
+		"atkBasic": 920,
+		"magBasic": 920
+	},
+	{
+		"id": "100002_43",
+		"roleId": 100002,
+		"level": 43,
+		"showName": "优莉欧勒",
+		"hpBasic": 940,
+		"defBasic": 940,
+		"atkBasic": 940,
+		"magBasic": 940
+	},
+	{
+		"id": "100002_44",
+		"roleId": 100002,
+		"level": 44,
+		"showName": "优莉欧勒",
+		"hpBasic": 960,
+		"defBasic": 960,
+		"atkBasic": 960,
+		"magBasic": 960
+	},
+	{
+		"id": "100002_45",
+		"roleId": 100002,
+		"level": 45,
+		"showName": "优莉欧勒",
+		"hpBasic": 980,
+		"defBasic": 980,
+		"atkBasic": 980,
+		"magBasic": 980
+	},
+	{
+		"id": "100002_46",
+		"roleId": 100002,
+		"level": 46,
+		"showName": "优莉欧勒",
+		"hpBasic": 1000,
+		"defBasic": 1000,
+		"atkBasic": 1000,
+		"magBasic": 1000
+	},
+	{
+		"id": "100002_47",
+		"roleId": 100002,
+		"level": 47,
+		"showName": "优莉欧勒",
+		"hpBasic": 1020,
+		"defBasic": 1020,
+		"atkBasic": 1020,
+		"magBasic": 1020
+	},
+	{
+		"id": "100002_48",
+		"roleId": 100002,
+		"level": 48,
+		"showName": "优莉欧勒",
+		"hpBasic": 1040,
+		"defBasic": 1040,
+		"atkBasic": 1040,
+		"magBasic": 1040
+	},
+	{
+		"id": "100002_49",
+		"roleId": 100002,
+		"level": 49,
+		"showName": "优莉欧勒",
+		"hpBasic": 1060,
+		"defBasic": 1060,
+		"atkBasic": 1060,
+		"magBasic": 1060
+	},
+	{
+		"id": "100002_50",
+		"roleId": 100002,
+		"level": 50,
+		"showName": "优莉欧勒",
+		"hpBasic": 1080,
+		"defBasic": 1080,
+		"atkBasic": 1080,
+		"magBasic": 1080
+	},
+	{
+		"id": "100002_51",
+		"roleId": 100002,
+		"level": 51,
+		"showName": "优莉欧勒",
+		"hpBasic": 1100,
+		"defBasic": 1100,
+		"atkBasic": 1100,
+		"magBasic": 1100
+	},
+	{
+		"id": "100002_52",
+		"roleId": 100002,
+		"level": 52,
+		"showName": "优莉欧勒",
+		"hpBasic": 1120,
+		"defBasic": 1120,
+		"atkBasic": 1120,
+		"magBasic": 1120
+	},
+	{
+		"id": "100002_53",
+		"roleId": 100002,
+		"level": 53,
+		"showName": "优莉欧勒",
+		"hpBasic": 1140,
+		"defBasic": 1140,
+		"atkBasic": 1140,
+		"magBasic": 1140
+	},
+	{
+		"id": "100002_54",
+		"roleId": 100002,
+		"level": 54,
+		"showName": "优莉欧勒",
+		"hpBasic": 1160,
+		"defBasic": 1160,
+		"atkBasic": 1160,
+		"magBasic": 1160
+	},
+	{
+		"id": "100002_55",
+		"roleId": 100002,
+		"level": 55,
+		"showName": "优莉欧勒",
+		"hpBasic": 1180,
+		"defBasic": 1180,
+		"atkBasic": 1180,
+		"magBasic": 1180
+	},
+	{
+		"id": "100002_56",
+		"roleId": 100002,
+		"level": 56,
+		"showName": "优莉欧勒",
+		"hpBasic": 1200,
+		"defBasic": 1200,
+		"atkBasic": 1200,
+		"magBasic": 1200
+	},
+	{
+		"id": "100002_57",
+		"roleId": 100002,
+		"level": 57,
+		"showName": "优莉欧勒",
+		"hpBasic": 1220,
+		"defBasic": 1220,
+		"atkBasic": 1220,
+		"magBasic": 1220
+	},
+	{
+		"id": "100002_58",
+		"roleId": 100002,
+		"level": 58,
+		"showName": "优莉欧勒",
+		"hpBasic": 1240,
+		"defBasic": 1240,
+		"atkBasic": 1240,
+		"magBasic": 1240
+	},
+	{
+		"id": "100002_59",
+		"roleId": 100002,
+		"level": 59,
+		"showName": "优莉欧勒",
+		"hpBasic": 1260,
+		"defBasic": 1260,
+		"atkBasic": 1260,
+		"magBasic": 1260
+	},
+	{
+		"id": "100002_60",
+		"roleId": 100002,
+		"level": 60,
+		"showName": "优莉欧勒",
+		"hpBasic": 1280,
+		"defBasic": 1280,
+		"atkBasic": 1280,
+		"magBasic": 1280
+	},
+	{
+		"id": "100002_61",
+		"roleId": 100002,
+		"level": 61,
+		"showName": "优莉欧勒",
+		"hpBasic": 1300,
+		"defBasic": 1300,
+		"atkBasic": 1300,
+		"magBasic": 1300
+	},
+	{
+		"id": "100002_62",
+		"roleId": 100002,
+		"level": 62,
+		"showName": "优莉欧勒",
+		"hpBasic": 1320,
+		"defBasic": 1320,
+		"atkBasic": 1320,
+		"magBasic": 1320
+	},
+	{
+		"id": "100002_63",
+		"roleId": 100002,
+		"level": 63,
+		"showName": "优莉欧勒",
+		"hpBasic": 1340,
+		"defBasic": 1340,
+		"atkBasic": 1340,
+		"magBasic": 1340
+	},
+	{
+		"id": "100002_64",
+		"roleId": 100002,
+		"level": 64,
+		"showName": "优莉欧勒",
+		"hpBasic": 1360,
+		"defBasic": 1360,
+		"atkBasic": 1360,
+		"magBasic": 1360
+	},
+	{
+		"id": "100002_65",
+		"roleId": 100002,
+		"level": 65,
+		"showName": "优莉欧勒",
+		"hpBasic": 1380,
+		"defBasic": 1380,
+		"atkBasic": 1380,
+		"magBasic": 1380
+	},
+	{
+		"id": "100002_66",
+		"roleId": 100002,
+		"level": 66,
+		"showName": "优莉欧勒",
+		"hpBasic": 1400,
+		"defBasic": 1400,
+		"atkBasic": 1400,
+		"magBasic": 1400
+	},
+	{
+		"id": "100002_67",
+		"roleId": 100002,
+		"level": 67,
+		"showName": "优莉欧勒",
+		"hpBasic": 1420,
+		"defBasic": 1420,
+		"atkBasic": 1420,
+		"magBasic": 1420
+	},
+	{
+		"id": "100002_68",
+		"roleId": 100002,
+		"level": 68,
+		"showName": "优莉欧勒",
+		"hpBasic": 1440,
+		"defBasic": 1440,
+		"atkBasic": 1440,
+		"magBasic": 1440
+	},
+	{
+		"id": "100002_69",
+		"roleId": 100002,
+		"level": 69,
+		"showName": "优莉欧勒",
+		"hpBasic": 1460,
+		"defBasic": 1460,
+		"atkBasic": 1460,
+		"magBasic": 1460
+	},
+	{
+		"id": "100002_70",
+		"roleId": 100002,
+		"level": 70,
+		"showName": "优莉欧勒",
+		"hpBasic": 1480,
+		"defBasic": 1480,
+		"atkBasic": 1480,
+		"magBasic": 1480
+	},
+	{
+		"id": "100002_71",
+		"roleId": 100002,
+		"level": 71,
+		"showName": "优莉欧勒",
+		"hpBasic": 1500,
+		"defBasic": 1500,
+		"atkBasic": 1500,
+		"magBasic": 1500
+	},
+	{
+		"id": "100002_72",
+		"roleId": 100002,
+		"level": 72,
+		"showName": "优莉欧勒",
+		"hpBasic": 1520,
+		"defBasic": 1520,
+		"atkBasic": 1520,
+		"magBasic": 1520
+	},
+	{
+		"id": "100002_73",
+		"roleId": 100002,
+		"level": 73,
+		"showName": "优莉欧勒",
+		"hpBasic": 1540,
+		"defBasic": 1540,
+		"atkBasic": 1540,
+		"magBasic": 1540
+	},
+	{
+		"id": "100002_74",
+		"roleId": 100002,
+		"level": 74,
+		"showName": "优莉欧勒",
+		"hpBasic": 1560,
+		"defBasic": 1560,
+		"atkBasic": 1560,
+		"magBasic": 1560
+	},
+	{
+		"id": "100002_75",
+		"roleId": 100002,
+		"level": 75,
+		"showName": "优莉欧勒",
+		"hpBasic": 1580,
+		"defBasic": 1580,
+		"atkBasic": 1580,
+		"magBasic": 1580
+	},
+	{
+		"id": "100003_1",
+		"roleId": 100003,
+		"level": 1,
+		"showName": "萝特",
+		"hpBasic": 100,
+		"defBasic": 100,
+		"atkBasic": 100,
+		"magBasic": 100
+	},
+	{
+		"id": "100003_2",
+		"roleId": 100003,
+		"level": 2,
+		"showName": "萝特",
+		"hpBasic": 120,
+		"defBasic": 120,
+		"atkBasic": 120,
+		"magBasic": 120
+	},
+	{
+		"id": "100003_3",
+		"roleId": 100003,
+		"level": 3,
+		"showName": "萝特",
+		"hpBasic": 140,
+		"defBasic": 140,
+		"atkBasic": 140,
+		"magBasic": 140
+	},
+	{
+		"id": "100003_4",
+		"roleId": 100003,
+		"level": 4,
+		"showName": "萝特",
+		"hpBasic": 160,
+		"defBasic": 160,
+		"atkBasic": 160,
+		"magBasic": 160
+	},
+	{
+		"id": "100003_5",
+		"roleId": 100003,
+		"level": 5,
+		"showName": "萝特",
+		"hpBasic": 180,
+		"defBasic": 180,
+		"atkBasic": 180,
+		"magBasic": 180
+	},
+	{
+		"id": "100003_6",
+		"roleId": 100003,
+		"level": 6,
+		"showName": "萝特",
+		"hpBasic": 200,
+		"defBasic": 200,
+		"atkBasic": 200,
+		"magBasic": 200
+	},
+	{
+		"id": "100003_7",
+		"roleId": 100003,
+		"level": 7,
+		"showName": "萝特",
+		"hpBasic": 220,
+		"defBasic": 220,
+		"atkBasic": 220,
+		"magBasic": 220
+	},
+	{
+		"id": "100003_8",
+		"roleId": 100003,
+		"level": 8,
+		"showName": "萝特",
+		"hpBasic": 240,
+		"defBasic": 240,
+		"atkBasic": 240,
+		"magBasic": 240
+	},
+	{
+		"id": "100003_9",
+		"roleId": 100003,
+		"level": 9,
+		"showName": "萝特",
+		"hpBasic": 260,
+		"defBasic": 260,
+		"atkBasic": 260,
+		"magBasic": 260
+	},
+	{
+		"id": "100003_10",
+		"roleId": 100003,
+		"level": 10,
+		"showName": "萝特",
+		"hpBasic": 280,
+		"defBasic": 280,
+		"atkBasic": 280,
+		"magBasic": 280
+	},
+	{
+		"id": "100003_11",
+		"roleId": 100003,
+		"level": 11,
+		"showName": "萝特",
+		"hpBasic": 300,
+		"defBasic": 300,
+		"atkBasic": 300,
+		"magBasic": 300
+	},
+	{
+		"id": "100003_12",
+		"roleId": 100003,
+		"level": 12,
+		"showName": "萝特",
+		"hpBasic": 320,
+		"defBasic": 320,
+		"atkBasic": 320,
+		"magBasic": 320
+	},
+	{
+		"id": "100003_13",
+		"roleId": 100003,
+		"level": 13,
+		"showName": "萝特",
+		"hpBasic": 340,
+		"defBasic": 340,
+		"atkBasic": 340,
+		"magBasic": 340
+	},
+	{
+		"id": "100003_14",
+		"roleId": 100003,
+		"level": 14,
+		"showName": "萝特",
+		"hpBasic": 360,
+		"defBasic": 360,
+		"atkBasic": 360,
+		"magBasic": 360
+	},
+	{
+		"id": "100003_15",
+		"roleId": 100003,
+		"level": 15,
+		"showName": "萝特",
+		"hpBasic": 380,
+		"defBasic": 380,
+		"atkBasic": 380,
+		"magBasic": 380
+	},
+	{
+		"id": "100003_16",
+		"roleId": 100003,
+		"level": 16,
+		"showName": "萝特",
+		"hpBasic": 400,
+		"defBasic": 400,
+		"atkBasic": 400,
+		"magBasic": 400
+	},
+	{
+		"id": "100003_17",
+		"roleId": 100003,
+		"level": 17,
+		"showName": "萝特",
+		"hpBasic": 420,
+		"defBasic": 420,
+		"atkBasic": 420,
+		"magBasic": 420
+	},
+	{
+		"id": "100003_18",
+		"roleId": 100003,
+		"level": 18,
+		"showName": "萝特",
+		"hpBasic": 440,
+		"defBasic": 440,
+		"atkBasic": 440,
+		"magBasic": 440
+	},
+	{
+		"id": "100003_19",
+		"roleId": 100003,
+		"level": 19,
+		"showName": "萝特",
+		"hpBasic": 460,
+		"defBasic": 460,
+		"atkBasic": 460,
+		"magBasic": 460
+	},
+	{
+		"id": "100003_20",
+		"roleId": 100003,
+		"level": 20,
+		"showName": "萝特",
+		"hpBasic": 480,
+		"defBasic": 480,
+		"atkBasic": 480,
+		"magBasic": 480
+	},
+	{
+		"id": "100003_21",
+		"roleId": 100003,
+		"level": 21,
+		"showName": "萝特",
+		"hpBasic": 500,
+		"defBasic": 500,
+		"atkBasic": 500,
+		"magBasic": 500
+	},
+	{
+		"id": "100003_22",
+		"roleId": 100003,
+		"level": 22,
+		"showName": "萝特",
+		"hpBasic": 520,
+		"defBasic": 520,
+		"atkBasic": 520,
+		"magBasic": 520
+	},
+	{
+		"id": "100003_23",
+		"roleId": 100003,
+		"level": 23,
+		"showName": "萝特",
+		"hpBasic": 540,
+		"defBasic": 540,
+		"atkBasic": 540,
+		"magBasic": 540
+	},
+	{
+		"id": "100003_24",
+		"roleId": 100003,
+		"level": 24,
+		"showName": "萝特",
+		"hpBasic": 560,
+		"defBasic": 560,
+		"atkBasic": 560,
+		"magBasic": 560
+	},
+	{
+		"id": "100003_25",
+		"roleId": 100003,
+		"level": 25,
+		"showName": "萝特",
+		"hpBasic": 580,
+		"defBasic": 580,
+		"atkBasic": 580,
+		"magBasic": 580
+	},
+	{
+		"id": "100003_26",
+		"roleId": 100003,
+		"level": 26,
+		"showName": "萝特",
+		"hpBasic": 600,
+		"defBasic": 600,
+		"atkBasic": 600,
+		"magBasic": 600
+	},
+	{
+		"id": "100003_27",
+		"roleId": 100003,
+		"level": 27,
+		"showName": "萝特",
+		"hpBasic": 620,
+		"defBasic": 620,
+		"atkBasic": 620,
+		"magBasic": 620
+	},
+	{
+		"id": "100003_28",
+		"roleId": 100003,
+		"level": 28,
+		"showName": "萝特",
+		"hpBasic": 640,
+		"defBasic": 640,
+		"atkBasic": 640,
+		"magBasic": 640
+	},
+	{
+		"id": "100003_29",
+		"roleId": 100003,
+		"level": 29,
+		"showName": "萝特",
+		"hpBasic": 660,
+		"defBasic": 660,
+		"atkBasic": 660,
+		"magBasic": 660
+	},
+	{
+		"id": "100003_30",
+		"roleId": 100003,
+		"level": 30,
+		"showName": "萝特",
+		"hpBasic": 680,
+		"defBasic": 680,
+		"atkBasic": 680,
+		"magBasic": 680
+	},
+	{
+		"id": "100003_31",
+		"roleId": 100003,
+		"level": 31,
+		"showName": "萝特",
+		"hpBasic": 700,
+		"defBasic": 700,
+		"atkBasic": 700,
+		"magBasic": 700
+	},
+	{
+		"id": "100003_32",
+		"roleId": 100003,
+		"level": 32,
+		"showName": "萝特",
+		"hpBasic": 720,
+		"defBasic": 720,
+		"atkBasic": 720,
+		"magBasic": 720
+	},
+	{
+		"id": "100003_33",
+		"roleId": 100003,
+		"level": 33,
+		"showName": "萝特",
+		"hpBasic": 740,
+		"defBasic": 740,
+		"atkBasic": 740,
+		"magBasic": 740
+	},
+	{
+		"id": "100003_34",
+		"roleId": 100003,
+		"level": 34,
+		"showName": "萝特",
+		"hpBasic": 760,
+		"defBasic": 760,
+		"atkBasic": 760,
+		"magBasic": 760
+	},
+	{
+		"id": "100003_35",
+		"roleId": 100003,
+		"level": 35,
+		"showName": "萝特",
+		"hpBasic": 780,
+		"defBasic": 780,
+		"atkBasic": 780,
+		"magBasic": 780
+	},
+	{
+		"id": "100003_36",
+		"roleId": 100003,
+		"level": 36,
+		"showName": "萝特",
+		"hpBasic": 800,
+		"defBasic": 800,
+		"atkBasic": 800,
+		"magBasic": 800
+	},
+	{
+		"id": "100003_37",
+		"roleId": 100003,
+		"level": 37,
+		"showName": "萝特",
+		"hpBasic": 820,
+		"defBasic": 820,
+		"atkBasic": 820,
+		"magBasic": 820
+	},
+	{
+		"id": "100003_38",
+		"roleId": 100003,
+		"level": 38,
+		"showName": "萝特",
+		"hpBasic": 840,
+		"defBasic": 840,
+		"atkBasic": 840,
+		"magBasic": 840
+	},
+	{
+		"id": "100003_39",
+		"roleId": 100003,
+		"level": 39,
+		"showName": "萝特",
+		"hpBasic": 860,
+		"defBasic": 860,
+		"atkBasic": 860,
+		"magBasic": 860
+	},
+	{
+		"id": "100003_40",
+		"roleId": 100003,
+		"level": 40,
+		"showName": "萝特",
+		"hpBasic": 880,
+		"defBasic": 880,
+		"atkBasic": 880,
+		"magBasic": 880
+	},
+	{
+		"id": "100003_41",
+		"roleId": 100003,
+		"level": 41,
+		"showName": "萝特",
+		"hpBasic": 900,
+		"defBasic": 900,
+		"atkBasic": 900,
+		"magBasic": 900
+	},
+	{
+		"id": "100003_42",
+		"roleId": 100003,
+		"level": 42,
+		"showName": "萝特",
+		"hpBasic": 920,
+		"defBasic": 920,
+		"atkBasic": 920,
+		"magBasic": 920
+	},
+	{
+		"id": "100003_43",
+		"roleId": 100003,
+		"level": 43,
+		"showName": "萝特",
+		"hpBasic": 940,
+		"defBasic": 940,
+		"atkBasic": 940,
+		"magBasic": 940
+	},
+	{
+		"id": "100003_44",
+		"roleId": 100003,
+		"level": 44,
+		"showName": "萝特",
+		"hpBasic": 960,
+		"defBasic": 960,
+		"atkBasic": 960,
+		"magBasic": 960
+	},
+	{
+		"id": "100003_45",
+		"roleId": 100003,
+		"level": 45,
+		"showName": "萝特",
+		"hpBasic": 980,
+		"defBasic": 980,
+		"atkBasic": 980,
+		"magBasic": 980
+	},
+	{
+		"id": "100003_46",
+		"roleId": 100003,
+		"level": 46,
+		"showName": "萝特",
+		"hpBasic": 1000,
+		"defBasic": 1000,
+		"atkBasic": 1000,
+		"magBasic": 1000
+	},
+	{
+		"id": "100003_47",
+		"roleId": 100003,
+		"level": 47,
+		"showName": "萝特",
+		"hpBasic": 1020,
+		"defBasic": 1020,
+		"atkBasic": 1020,
+		"magBasic": 1020
+	},
+	{
+		"id": "100003_48",
+		"roleId": 100003,
+		"level": 48,
+		"showName": "萝特",
+		"hpBasic": 1040,
+		"defBasic": 1040,
+		"atkBasic": 1040,
+		"magBasic": 1040
+	},
+	{
+		"id": "100003_49",
+		"roleId": 100003,
+		"level": 49,
+		"showName": "萝特",
+		"hpBasic": 1060,
+		"defBasic": 1060,
+		"atkBasic": 1060,
+		"magBasic": 1060
+	},
+	{
+		"id": "100003_50",
+		"roleId": 100003,
+		"level": 50,
+		"showName": "萝特",
+		"hpBasic": 1080,
+		"defBasic": 1080,
+		"atkBasic": 1080,
+		"magBasic": 1080
+	},
+	{
+		"id": "100003_51",
+		"roleId": 100003,
+		"level": 51,
+		"showName": "萝特",
+		"hpBasic": 1100,
+		"defBasic": 1100,
+		"atkBasic": 1100,
+		"magBasic": 1100
+	},
+	{
+		"id": "100003_52",
+		"roleId": 100003,
+		"level": 52,
+		"showName": "萝特",
+		"hpBasic": 1120,
+		"defBasic": 1120,
+		"atkBasic": 1120,
+		"magBasic": 1120
+	},
+	{
+		"id": "100003_53",
+		"roleId": 100003,
+		"level": 53,
+		"showName": "萝特",
+		"hpBasic": 1140,
+		"defBasic": 1140,
+		"atkBasic": 1140,
+		"magBasic": 1140
+	},
+	{
+		"id": "100003_54",
+		"roleId": 100003,
+		"level": 54,
+		"showName": "萝特",
+		"hpBasic": 1160,
+		"defBasic": 1160,
+		"atkBasic": 1160,
+		"magBasic": 1160
+	},
+	{
+		"id": "100003_55",
+		"roleId": 100003,
+		"level": 55,
+		"showName": "萝特",
+		"hpBasic": 1180,
+		"defBasic": 1180,
+		"atkBasic": 1180,
+		"magBasic": 1180
+	},
+	{
+		"id": "100003_56",
+		"roleId": 100003,
+		"level": 56,
+		"showName": "萝特",
+		"hpBasic": 1200,
+		"defBasic": 1200,
+		"atkBasic": 1200,
+		"magBasic": 1200
+	},
+	{
+		"id": "100003_57",
+		"roleId": 100003,
+		"level": 57,
+		"showName": "萝特",
+		"hpBasic": 1220,
+		"defBasic": 1220,
+		"atkBasic": 1220,
+		"magBasic": 1220
+	},
+	{
+		"id": "100003_58",
+		"roleId": 100003,
+		"level": 58,
+		"showName": "萝特",
+		"hpBasic": 1240,
+		"defBasic": 1240,
+		"atkBasic": 1240,
+		"magBasic": 1240
+	},
+	{
+		"id": "100003_59",
+		"roleId": 100003,
+		"level": 59,
+		"showName": "萝特",
+		"hpBasic": 1260,
+		"defBasic": 1260,
+		"atkBasic": 1260,
+		"magBasic": 1260
+	},
+	{
+		"id": "100003_60",
+		"roleId": 100003,
+		"level": 60,
+		"showName": "萝特",
+		"hpBasic": 1280,
+		"defBasic": 1280,
+		"atkBasic": 1280,
+		"magBasic": 1280
+	},
+	{
+		"id": "100003_61",
+		"roleId": 100003,
+		"level": 61,
+		"showName": "萝特",
+		"hpBasic": 1300,
+		"defBasic": 1300,
+		"atkBasic": 1300,
+		"magBasic": 1300
+	},
+	{
+		"id": "100003_62",
+		"roleId": 100003,
+		"level": 62,
+		"showName": "萝特",
+		"hpBasic": 1320,
+		"defBasic": 1320,
+		"atkBasic": 1320,
+		"magBasic": 1320
+	},
+	{
+		"id": "100003_63",
+		"roleId": 100003,
+		"level": 63,
+		"showName": "萝特",
+		"hpBasic": 1340,
+		"defBasic": 1340,
+		"atkBasic": 1340,
+		"magBasic": 1340
+	},
+	{
+		"id": "100003_64",
+		"roleId": 100003,
+		"level": 64,
+		"showName": "萝特",
+		"hpBasic": 1360,
+		"defBasic": 1360,
+		"atkBasic": 1360,
+		"magBasic": 1360
+	},
+	{
+		"id": "100003_65",
+		"roleId": 100003,
+		"level": 65,
+		"showName": "萝特",
+		"hpBasic": 1380,
+		"defBasic": 1380,
+		"atkBasic": 1380,
+		"magBasic": 1380
+	},
+	{
+		"id": "100003_66",
+		"roleId": 100003,
+		"level": 66,
+		"showName": "萝特",
+		"hpBasic": 1400,
+		"defBasic": 1400,
+		"atkBasic": 1400,
+		"magBasic": 1400
+	},
+	{
+		"id": "100003_67",
+		"roleId": 100003,
+		"level": 67,
+		"showName": "萝特",
+		"hpBasic": 1420,
+		"defBasic": 1420,
+		"atkBasic": 1420,
+		"magBasic": 1420
+	},
+	{
+		"id": "100003_68",
+		"roleId": 100003,
+		"level": 68,
+		"showName": "萝特",
+		"hpBasic": 1440,
+		"defBasic": 1440,
+		"atkBasic": 1440,
+		"magBasic": 1440
+	},
+	{
+		"id": "100003_69",
+		"roleId": 100003,
+		"level": 69,
+		"showName": "萝特",
+		"hpBasic": 1460,
+		"defBasic": 1460,
+		"atkBasic": 1460,
+		"magBasic": 1460
+	},
+	{
+		"id": "100003_70",
+		"roleId": 100003,
+		"level": 70,
+		"showName": "萝特",
+		"hpBasic": 1480,
+		"defBasic": 1480,
+		"atkBasic": 1480,
+		"magBasic": 1480
+	},
+	{
+		"id": "100003_71",
+		"roleId": 100003,
+		"level": 71,
+		"showName": "萝特",
+		"hpBasic": 1500,
+		"defBasic": 1500,
+		"atkBasic": 1500,
+		"magBasic": 1500
+	},
+	{
+		"id": "100003_72",
+		"roleId": 100003,
+		"level": 72,
+		"showName": "萝特",
+		"hpBasic": 1520,
+		"defBasic": 1520,
+		"atkBasic": 1520,
+		"magBasic": 1520
+	},
+	{
+		"id": "100003_73",
+		"roleId": 100003,
+		"level": 73,
+		"showName": "萝特",
+		"hpBasic": 1540,
+		"defBasic": 1540,
+		"atkBasic": 1540,
+		"magBasic": 1540
+	},
+	{
+		"id": "100003_74",
+		"roleId": 100003,
+		"level": 74,
+		"showName": "萝特",
+		"hpBasic": 1560,
+		"defBasic": 1560,
+		"atkBasic": 1560,
+		"magBasic": 1560
+	},
+	{
+		"id": "100003_75",
+		"roleId": 100003,
+		"level": 75,
+		"showName": "萝特",
+		"hpBasic": 1580,
+		"defBasic": 1580,
+		"atkBasic": 1580,
+		"magBasic": 1580
+	},
+	{
+		"id": "100004_1",
+		"roleId": 100004,
+		"level": 1,
+		"showName": "希可",
+		"hpBasic": 100,
+		"defBasic": 100,
+		"atkBasic": 100,
+		"magBasic": 100
+	},
+	{
+		"id": "100004_2",
+		"roleId": 100004,
+		"level": 2,
+		"showName": "希可",
+		"hpBasic": 120,
+		"defBasic": 120,
+		"atkBasic": 120,
+		"magBasic": 120
+	},
+	{
+		"id": "100004_3",
+		"roleId": 100004,
+		"level": 3,
+		"showName": "希可",
+		"hpBasic": 140,
+		"defBasic": 140,
+		"atkBasic": 140,
+		"magBasic": 140
+	},
+	{
+		"id": "100004_4",
+		"roleId": 100004,
+		"level": 4,
+		"showName": "希可",
+		"hpBasic": 160,
+		"defBasic": 160,
+		"atkBasic": 160,
+		"magBasic": 160
+	},
+	{
+		"id": "100004_5",
+		"roleId": 100004,
+		"level": 5,
+		"showName": "希可",
+		"hpBasic": 180,
+		"defBasic": 180,
+		"atkBasic": 180,
+		"magBasic": 180
+	},
+	{
+		"id": "100004_6",
+		"roleId": 100004,
+		"level": 6,
+		"showName": "希可",
+		"hpBasic": 200,
+		"defBasic": 200,
+		"atkBasic": 200,
+		"magBasic": 200
+	},
+	{
+		"id": "100004_7",
+		"roleId": 100004,
+		"level": 7,
+		"showName": "希可",
+		"hpBasic": 220,
+		"defBasic": 220,
+		"atkBasic": 220,
+		"magBasic": 220
+	},
+	{
+		"id": "100004_8",
+		"roleId": 100004,
+		"level": 8,
+		"showName": "希可",
+		"hpBasic": 240,
+		"defBasic": 240,
+		"atkBasic": 240,
+		"magBasic": 240
+	},
+	{
+		"id": "100004_9",
+		"roleId": 100004,
+		"level": 9,
+		"showName": "希可",
+		"hpBasic": 260,
+		"defBasic": 260,
+		"atkBasic": 260,
+		"magBasic": 260
+	},
+	{
+		"id": "100004_10",
+		"roleId": 100004,
+		"level": 10,
+		"showName": "希可",
+		"hpBasic": 280,
+		"defBasic": 280,
+		"atkBasic": 280,
+		"magBasic": 280
+	},
+	{
+		"id": "100004_11",
+		"roleId": 100004,
+		"level": 11,
+		"showName": "希可",
+		"hpBasic": 300,
+		"defBasic": 300,
+		"atkBasic": 300,
+		"magBasic": 300
+	},
+	{
+		"id": "100004_12",
+		"roleId": 100004,
+		"level": 12,
+		"showName": "希可",
+		"hpBasic": 320,
+		"defBasic": 320,
+		"atkBasic": 320,
+		"magBasic": 320
+	},
+	{
+		"id": "100004_13",
+		"roleId": 100004,
+		"level": 13,
+		"showName": "希可",
+		"hpBasic": 340,
+		"defBasic": 340,
+		"atkBasic": 340,
+		"magBasic": 340
+	},
+	{
+		"id": "100004_14",
+		"roleId": 100004,
+		"level": 14,
+		"showName": "希可",
+		"hpBasic": 360,
+		"defBasic": 360,
+		"atkBasic": 360,
+		"magBasic": 360
+	},
+	{
+		"id": "100004_15",
+		"roleId": 100004,
+		"level": 15,
+		"showName": "希可",
+		"hpBasic": 380,
+		"defBasic": 380,
+		"atkBasic": 380,
+		"magBasic": 380
+	},
+	{
+		"id": "100004_16",
+		"roleId": 100004,
+		"level": 16,
+		"showName": "希可",
+		"hpBasic": 400,
+		"defBasic": 400,
+		"atkBasic": 400,
+		"magBasic": 400
+	},
+	{
+		"id": "100004_17",
+		"roleId": 100004,
+		"level": 17,
+		"showName": "希可",
+		"hpBasic": 420,
+		"defBasic": 420,
+		"atkBasic": 420,
+		"magBasic": 420
+	},
+	{
+		"id": "100004_18",
+		"roleId": 100004,
+		"level": 18,
+		"showName": "希可",
+		"hpBasic": 440,
+		"defBasic": 440,
+		"atkBasic": 440,
+		"magBasic": 440
+	},
+	{
+		"id": "100004_19",
+		"roleId": 100004,
+		"level": 19,
+		"showName": "希可",
+		"hpBasic": 460,
+		"defBasic": 460,
+		"atkBasic": 460,
+		"magBasic": 460
+	},
+	{
+		"id": "100004_20",
+		"roleId": 100004,
+		"level": 20,
+		"showName": "希可",
+		"hpBasic": 480,
+		"defBasic": 480,
+		"atkBasic": 480,
+		"magBasic": 480
+	},
+	{
+		"id": "100004_21",
+		"roleId": 100004,
+		"level": 21,
+		"showName": "希可",
+		"hpBasic": 500,
+		"defBasic": 500,
+		"atkBasic": 500,
+		"magBasic": 500
+	},
+	{
+		"id": "100004_22",
+		"roleId": 100004,
+		"level": 22,
+		"showName": "希可",
+		"hpBasic": 520,
+		"defBasic": 520,
+		"atkBasic": 520,
+		"magBasic": 520
+	},
+	{
+		"id": "100004_23",
+		"roleId": 100004,
+		"level": 23,
+		"showName": "希可",
+		"hpBasic": 540,
+		"defBasic": 540,
+		"atkBasic": 540,
+		"magBasic": 540
+	},
+	{
+		"id": "100004_24",
+		"roleId": 100004,
+		"level": 24,
+		"showName": "希可",
+		"hpBasic": 560,
+		"defBasic": 560,
+		"atkBasic": 560,
+		"magBasic": 560
+	},
+	{
+		"id": "100004_25",
+		"roleId": 100004,
+		"level": 25,
+		"showName": "希可",
+		"hpBasic": 580,
+		"defBasic": 580,
+		"atkBasic": 580,
+		"magBasic": 580
+	},
+	{
+		"id": "100004_26",
+		"roleId": 100004,
+		"level": 26,
+		"showName": "希可",
+		"hpBasic": 600,
+		"defBasic": 600,
+		"atkBasic": 600,
+		"magBasic": 600
+	},
+	{
+		"id": "100004_27",
+		"roleId": 100004,
+		"level": 27,
+		"showName": "希可",
+		"hpBasic": 620,
+		"defBasic": 620,
+		"atkBasic": 620,
+		"magBasic": 620
+	},
+	{
+		"id": "100004_28",
+		"roleId": 100004,
+		"level": 28,
+		"showName": "希可",
+		"hpBasic": 640,
+		"defBasic": 640,
+		"atkBasic": 640,
+		"magBasic": 640
+	},
+	{
+		"id": "100004_29",
+		"roleId": 100004,
+		"level": 29,
+		"showName": "希可",
+		"hpBasic": 660,
+		"defBasic": 660,
+		"atkBasic": 660,
+		"magBasic": 660
+	},
+	{
+		"id": "100004_30",
+		"roleId": 100004,
+		"level": 30,
+		"showName": "希可",
+		"hpBasic": 680,
+		"defBasic": 680,
+		"atkBasic": 680,
+		"magBasic": 680
+	},
+	{
+		"id": "100004_31",
+		"roleId": 100004,
+		"level": 31,
+		"showName": "希可",
+		"hpBasic": 700,
+		"defBasic": 700,
+		"atkBasic": 700,
+		"magBasic": 700
+	},
+	{
+		"id": "100004_32",
+		"roleId": 100004,
+		"level": 32,
+		"showName": "希可",
+		"hpBasic": 720,
+		"defBasic": 720,
+		"atkBasic": 720,
+		"magBasic": 720
+	},
+	{
+		"id": "100004_33",
+		"roleId": 100004,
+		"level": 33,
+		"showName": "希可",
+		"hpBasic": 740,
+		"defBasic": 740,
+		"atkBasic": 740,
+		"magBasic": 740
+	},
+	{
+		"id": "100004_34",
+		"roleId": 100004,
+		"level": 34,
+		"showName": "希可",
+		"hpBasic": 760,
+		"defBasic": 760,
+		"atkBasic": 760,
+		"magBasic": 760
+	},
+	{
+		"id": "100004_35",
+		"roleId": 100004,
+		"level": 35,
+		"showName": "希可",
+		"hpBasic": 780,
+		"defBasic": 780,
+		"atkBasic": 780,
+		"magBasic": 780
+	},
+	{
+		"id": "100004_36",
+		"roleId": 100004,
+		"level": 36,
+		"showName": "希可",
+		"hpBasic": 800,
+		"defBasic": 800,
+		"atkBasic": 800,
+		"magBasic": 800
+	},
+	{
+		"id": "100004_37",
+		"roleId": 100004,
+		"level": 37,
+		"showName": "希可",
+		"hpBasic": 820,
+		"defBasic": 820,
+		"atkBasic": 820,
+		"magBasic": 820
+	},
+	{
+		"id": "100004_38",
+		"roleId": 100004,
+		"level": 38,
+		"showName": "希可",
+		"hpBasic": 840,
+		"defBasic": 840,
+		"atkBasic": 840,
+		"magBasic": 840
+	},
+	{
+		"id": "100004_39",
+		"roleId": 100004,
+		"level": 39,
+		"showName": "希可",
+		"hpBasic": 860,
+		"defBasic": 860,
+		"atkBasic": 860,
+		"magBasic": 860
+	},
+	{
+		"id": "100004_40",
+		"roleId": 100004,
+		"level": 40,
+		"showName": "希可",
+		"hpBasic": 880,
+		"defBasic": 880,
+		"atkBasic": 880,
+		"magBasic": 880
+	},
+	{
+		"id": "100004_41",
+		"roleId": 100004,
+		"level": 41,
+		"showName": "希可",
+		"hpBasic": 900,
+		"defBasic": 900,
+		"atkBasic": 900,
+		"magBasic": 900
+	},
+	{
+		"id": "100004_42",
+		"roleId": 100004,
+		"level": 42,
+		"showName": "希可",
+		"hpBasic": 920,
+		"defBasic": 920,
+		"atkBasic": 920,
+		"magBasic": 920
+	},
+	{
+		"id": "100004_43",
+		"roleId": 100004,
+		"level": 43,
+		"showName": "希可",
+		"hpBasic": 940,
+		"defBasic": 940,
+		"atkBasic": 940,
+		"magBasic": 940
+	},
+	{
+		"id": "100004_44",
+		"roleId": 100004,
+		"level": 44,
+		"showName": "希可",
+		"hpBasic": 960,
+		"defBasic": 960,
+		"atkBasic": 960,
+		"magBasic": 960
+	},
+	{
+		"id": "100004_45",
+		"roleId": 100004,
+		"level": 45,
+		"showName": "希可",
+		"hpBasic": 980,
+		"defBasic": 980,
+		"atkBasic": 980,
+		"magBasic": 980
+	},
+	{
+		"id": "100004_46",
+		"roleId": 100004,
+		"level": 46,
+		"showName": "希可",
+		"hpBasic": 1000,
+		"defBasic": 1000,
+		"atkBasic": 1000,
+		"magBasic": 1000
+	},
+	{
+		"id": "100004_47",
+		"roleId": 100004,
+		"level": 47,
+		"showName": "希可",
+		"hpBasic": 1020,
+		"defBasic": 1020,
+		"atkBasic": 1020,
+		"magBasic": 1020
+	},
+	{
+		"id": "100004_48",
+		"roleId": 100004,
+		"level": 48,
+		"showName": "希可",
+		"hpBasic": 1040,
+		"defBasic": 1040,
+		"atkBasic": 1040,
+		"magBasic": 1040
+	},
+	{
+		"id": "100004_49",
+		"roleId": 100004,
+		"level": 49,
+		"showName": "希可",
+		"hpBasic": 1060,
+		"defBasic": 1060,
+		"atkBasic": 1060,
+		"magBasic": 1060
+	},
+	{
+		"id": "100004_50",
+		"roleId": 100004,
+		"level": 50,
+		"showName": "希可",
+		"hpBasic": 1080,
+		"defBasic": 1080,
+		"atkBasic": 1080,
+		"magBasic": 1080
+	},
+	{
+		"id": "100004_51",
+		"roleId": 100004,
+		"level": 51,
+		"showName": "希可",
+		"hpBasic": 1100,
+		"defBasic": 1100,
+		"atkBasic": 1100,
+		"magBasic": 1100
+	},
+	{
+		"id": "100004_52",
+		"roleId": 100004,
+		"level": 52,
+		"showName": "希可",
+		"hpBasic": 1120,
+		"defBasic": 1120,
+		"atkBasic": 1120,
+		"magBasic": 1120
+	},
+	{
+		"id": "100004_53",
+		"roleId": 100004,
+		"level": 53,
+		"showName": "希可",
+		"hpBasic": 1140,
+		"defBasic": 1140,
+		"atkBasic": 1140,
+		"magBasic": 1140
+	},
+	{
+		"id": "100004_54",
+		"roleId": 100004,
+		"level": 54,
+		"showName": "希可",
+		"hpBasic": 1160,
+		"defBasic": 1160,
+		"atkBasic": 1160,
+		"magBasic": 1160
+	},
+	{
+		"id": "100004_55",
+		"roleId": 100004,
+		"level": 55,
+		"showName": "希可",
+		"hpBasic": 1180,
+		"defBasic": 1180,
+		"atkBasic": 1180,
+		"magBasic": 1180
+	},
+	{
+		"id": "100004_56",
+		"roleId": 100004,
+		"level": 56,
+		"showName": "希可",
+		"hpBasic": 1200,
+		"defBasic": 1200,
+		"atkBasic": 1200,
+		"magBasic": 1200
+	},
+	{
+		"id": "100004_57",
+		"roleId": 100004,
+		"level": 57,
+		"showName": "希可",
+		"hpBasic": 1220,
+		"defBasic": 1220,
+		"atkBasic": 1220,
+		"magBasic": 1220
+	},
+	{
+		"id": "100004_58",
+		"roleId": 100004,
+		"level": 58,
+		"showName": "希可",
+		"hpBasic": 1240,
+		"defBasic": 1240,
+		"atkBasic": 1240,
+		"magBasic": 1240
+	},
+	{
+		"id": "100004_59",
+		"roleId": 100004,
+		"level": 59,
+		"showName": "希可",
+		"hpBasic": 1260,
+		"defBasic": 1260,
+		"atkBasic": 1260,
+		"magBasic": 1260
+	},
+	{
+		"id": "100004_60",
+		"roleId": 100004,
+		"level": 60,
+		"showName": "希可",
+		"hpBasic": 1280,
+		"defBasic": 1280,
+		"atkBasic": 1280,
+		"magBasic": 1280
+	},
+	{
+		"id": "100004_61",
+		"roleId": 100004,
+		"level": 61,
+		"showName": "希可",
+		"hpBasic": 1300,
+		"defBasic": 1300,
+		"atkBasic": 1300,
+		"magBasic": 1300
+	},
+	{
+		"id": "100004_62",
+		"roleId": 100004,
+		"level": 62,
+		"showName": "希可",
+		"hpBasic": 1320,
+		"defBasic": 1320,
+		"atkBasic": 1320,
+		"magBasic": 1320
+	},
+	{
+		"id": "100004_63",
+		"roleId": 100004,
+		"level": 63,
+		"showName": "希可",
+		"hpBasic": 1340,
+		"defBasic": 1340,
+		"atkBasic": 1340,
+		"magBasic": 1340
+	},
+	{
+		"id": "100004_64",
+		"roleId": 100004,
+		"level": 64,
+		"showName": "希可",
+		"hpBasic": 1360,
+		"defBasic": 1360,
+		"atkBasic": 1360,
+		"magBasic": 1360
+	},
+	{
+		"id": "100004_65",
+		"roleId": 100004,
+		"level": 65,
+		"showName": "希可",
+		"hpBasic": 1380,
+		"defBasic": 1380,
+		"atkBasic": 1380,
+		"magBasic": 1380
+	},
+	{
+		"id": "100004_66",
+		"roleId": 100004,
+		"level": 66,
+		"showName": "希可",
+		"hpBasic": 1400,
+		"defBasic": 1400,
+		"atkBasic": 1400,
+		"magBasic": 1400
+	},
+	{
+		"id": "100004_67",
+		"roleId": 100004,
+		"level": 67,
+		"showName": "希可",
+		"hpBasic": 1420,
+		"defBasic": 1420,
+		"atkBasic": 1420,
+		"magBasic": 1420
+	},
+	{
+		"id": "100004_68",
+		"roleId": 100004,
+		"level": 68,
+		"showName": "希可",
+		"hpBasic": 1440,
+		"defBasic": 1440,
+		"atkBasic": 1440,
+		"magBasic": 1440
+	},
+	{
+		"id": "100004_69",
+		"roleId": 100004,
+		"level": 69,
+		"showName": "希可",
+		"hpBasic": 1460,
+		"defBasic": 1460,
+		"atkBasic": 1460,
+		"magBasic": 1460
+	},
+	{
+		"id": "100004_70",
+		"roleId": 100004,
+		"level": 70,
+		"showName": "希可",
+		"hpBasic": 1480,
+		"defBasic": 1480,
+		"atkBasic": 1480,
+		"magBasic": 1480
+	},
+	{
+		"id": "100004_71",
+		"roleId": 100004,
+		"level": 71,
+		"showName": "希可",
+		"hpBasic": 1500,
+		"defBasic": 1500,
+		"atkBasic": 1500,
+		"magBasic": 1500
+	},
+	{
+		"id": "100004_72",
+		"roleId": 100004,
+		"level": 72,
+		"showName": "希可",
+		"hpBasic": 1520,
+		"defBasic": 1520,
+		"atkBasic": 1520,
+		"magBasic": 1520
+	},
+	{
+		"id": "100004_73",
+		"roleId": 100004,
+		"level": 73,
+		"showName": "希可",
+		"hpBasic": 1540,
+		"defBasic": 1540,
+		"atkBasic": 1540,
+		"magBasic": 1540
+	},
+	{
+		"id": "100004_74",
+		"roleId": 100004,
+		"level": 74,
+		"showName": "希可",
+		"hpBasic": 1560,
+		"defBasic": 1560,
+		"atkBasic": 1560,
+		"magBasic": 1560
+	},
+	{
+		"id": "100004_75",
+		"roleId": 100004,
+		"level": 75,
+		"showName": "希可",
+		"hpBasic": 1580,
+		"defBasic": 1580,
+		"atkBasic": 1580,
+		"magBasic": 1580
+	},
+	{
+		"id": "100006_1",
+		"roleId": 100006,
+		"level": 1,
+		"showName": "摇凝",
+		"hpBasic": 100,
+		"defBasic": 100,
+		"atkBasic": 100,
+		"magBasic": 100
+	},
+	{
+		"id": "100006_2",
+		"roleId": 100006,
+		"level": 2,
+		"showName": "摇凝",
+		"hpBasic": 120,
+		"defBasic": 120,
+		"atkBasic": 120,
+		"magBasic": 120
+	},
+	{
+		"id": "100006_3",
+		"roleId": 100006,
+		"level": 3,
+		"showName": "摇凝",
+		"hpBasic": 140,
+		"defBasic": 140,
+		"atkBasic": 140,
+		"magBasic": 140
+	},
+	{
+		"id": "100006_4",
+		"roleId": 100006,
+		"level": 4,
+		"showName": "摇凝",
+		"hpBasic": 160,
+		"defBasic": 160,
+		"atkBasic": 160,
+		"magBasic": 160
+	},
+	{
+		"id": "100006_5",
+		"roleId": 100006,
+		"level": 5,
+		"showName": "摇凝",
+		"hpBasic": 180,
+		"defBasic": 180,
+		"atkBasic": 180,
+		"magBasic": 180
+	},
+	{
+		"id": "100006_6",
+		"roleId": 100006,
+		"level": 6,
+		"showName": "摇凝",
+		"hpBasic": 200,
+		"defBasic": 200,
+		"atkBasic": 200,
+		"magBasic": 200
+	},
+	{
+		"id": "100006_7",
+		"roleId": 100006,
+		"level": 7,
+		"showName": "摇凝",
+		"hpBasic": 220,
+		"defBasic": 220,
+		"atkBasic": 220,
+		"magBasic": 220
+	},
+	{
+		"id": "100006_8",
+		"roleId": 100006,
+		"level": 8,
+		"showName": "摇凝",
+		"hpBasic": 240,
+		"defBasic": 240,
+		"atkBasic": 240,
+		"magBasic": 240
+	},
+	{
+		"id": "100006_9",
+		"roleId": 100006,
+		"level": 9,
+		"showName": "摇凝",
+		"hpBasic": 260,
+		"defBasic": 260,
+		"atkBasic": 260,
+		"magBasic": 260
+	},
+	{
+		"id": "100006_10",
+		"roleId": 100006,
+		"level": 10,
+		"showName": "摇凝",
+		"hpBasic": 280,
+		"defBasic": 280,
+		"atkBasic": 280,
+		"magBasic": 280
+	},
+	{
+		"id": "100006_11",
+		"roleId": 100006,
+		"level": 11,
+		"showName": "摇凝",
+		"hpBasic": 300,
+		"defBasic": 300,
+		"atkBasic": 300,
+		"magBasic": 300
+	},
+	{
+		"id": "100006_12",
+		"roleId": 100006,
+		"level": 12,
+		"showName": "摇凝",
+		"hpBasic": 320,
+		"defBasic": 320,
+		"atkBasic": 320,
+		"magBasic": 320
+	},
+	{
+		"id": "100006_13",
+		"roleId": 100006,
+		"level": 13,
+		"showName": "摇凝",
+		"hpBasic": 340,
+		"defBasic": 340,
+		"atkBasic": 340,
+		"magBasic": 340
+	},
+	{
+		"id": "100006_14",
+		"roleId": 100006,
+		"level": 14,
+		"showName": "摇凝",
+		"hpBasic": 360,
+		"defBasic": 360,
+		"atkBasic": 360,
+		"magBasic": 360
+	},
+	{
+		"id": "100006_15",
+		"roleId": 100006,
+		"level": 15,
+		"showName": "摇凝",
+		"hpBasic": 380,
+		"defBasic": 380,
+		"atkBasic": 380,
+		"magBasic": 380
+	},
+	{
+		"id": "100006_16",
+		"roleId": 100006,
+		"level": 16,
+		"showName": "摇凝",
+		"hpBasic": 400,
+		"defBasic": 400,
+		"atkBasic": 400,
+		"magBasic": 400
+	},
+	{
+		"id": "100006_17",
+		"roleId": 100006,
+		"level": 17,
+		"showName": "摇凝",
+		"hpBasic": 420,
+		"defBasic": 420,
+		"atkBasic": 420,
+		"magBasic": 420
+	},
+	{
+		"id": "100006_18",
+		"roleId": 100006,
+		"level": 18,
+		"showName": "摇凝",
+		"hpBasic": 440,
+		"defBasic": 440,
+		"atkBasic": 440,
+		"magBasic": 440
+	},
+	{
+		"id": "100006_19",
+		"roleId": 100006,
+		"level": 19,
+		"showName": "摇凝",
+		"hpBasic": 460,
+		"defBasic": 460,
+		"atkBasic": 460,
+		"magBasic": 460
+	},
+	{
+		"id": "100006_20",
+		"roleId": 100006,
+		"level": 20,
+		"showName": "摇凝",
+		"hpBasic": 480,
+		"defBasic": 480,
+		"atkBasic": 480,
+		"magBasic": 480
+	},
+	{
+		"id": "100006_21",
+		"roleId": 100006,
+		"level": 21,
+		"showName": "摇凝",
+		"hpBasic": 500,
+		"defBasic": 500,
+		"atkBasic": 500,
+		"magBasic": 500
+	},
+	{
+		"id": "100006_22",
+		"roleId": 100006,
+		"level": 22,
+		"showName": "摇凝",
+		"hpBasic": 520,
+		"defBasic": 520,
+		"atkBasic": 520,
+		"magBasic": 520
+	},
+	{
+		"id": "100006_23",
+		"roleId": 100006,
+		"level": 23,
+		"showName": "摇凝",
+		"hpBasic": 540,
+		"defBasic": 540,
+		"atkBasic": 540,
+		"magBasic": 540
+	},
+	{
+		"id": "100006_24",
+		"roleId": 100006,
+		"level": 24,
+		"showName": "摇凝",
+		"hpBasic": 560,
+		"defBasic": 560,
+		"atkBasic": 560,
+		"magBasic": 560
+	},
+	{
+		"id": "100006_25",
+		"roleId": 100006,
+		"level": 25,
+		"showName": "摇凝",
+		"hpBasic": 580,
+		"defBasic": 580,
+		"atkBasic": 580,
+		"magBasic": 580
+	},
+	{
+		"id": "100006_26",
+		"roleId": 100006,
+		"level": 26,
+		"showName": "摇凝",
+		"hpBasic": 600,
+		"defBasic": 600,
+		"atkBasic": 600,
+		"magBasic": 600
+	},
+	{
+		"id": "100006_27",
+		"roleId": 100006,
+		"level": 27,
+		"showName": "摇凝",
+		"hpBasic": 620,
+		"defBasic": 620,
+		"atkBasic": 620,
+		"magBasic": 620
+	},
+	{
+		"id": "100006_28",
+		"roleId": 100006,
+		"level": 28,
+		"showName": "摇凝",
+		"hpBasic": 640,
+		"defBasic": 640,
+		"atkBasic": 640,
+		"magBasic": 640
+	},
+	{
+		"id": "100006_29",
+		"roleId": 100006,
+		"level": 29,
+		"showName": "摇凝",
+		"hpBasic": 660,
+		"defBasic": 660,
+		"atkBasic": 660,
+		"magBasic": 660
+	},
+	{
+		"id": "100006_30",
+		"roleId": 100006,
+		"level": 30,
+		"showName": "摇凝",
+		"hpBasic": 680,
+		"defBasic": 680,
+		"atkBasic": 680,
+		"magBasic": 680
+	},
+	{
+		"id": "100006_31",
+		"roleId": 100006,
+		"level": 31,
+		"showName": "摇凝",
+		"hpBasic": 700,
+		"defBasic": 700,
+		"atkBasic": 700,
+		"magBasic": 700
+	},
+	{
+		"id": "100006_32",
+		"roleId": 100006,
+		"level": 32,
+		"showName": "摇凝",
+		"hpBasic": 720,
+		"defBasic": 720,
+		"atkBasic": 720,
+		"magBasic": 720
+	},
+	{
+		"id": "100006_33",
+		"roleId": 100006,
+		"level": 33,
+		"showName": "摇凝",
+		"hpBasic": 740,
+		"defBasic": 740,
+		"atkBasic": 740,
+		"magBasic": 740
+	},
+	{
+		"id": "100006_34",
+		"roleId": 100006,
+		"level": 34,
+		"showName": "摇凝",
+		"hpBasic": 760,
+		"defBasic": 760,
+		"atkBasic": 760,
+		"magBasic": 760
+	},
+	{
+		"id": "100006_35",
+		"roleId": 100006,
+		"level": 35,
+		"showName": "摇凝",
+		"hpBasic": 780,
+		"defBasic": 780,
+		"atkBasic": 780,
+		"magBasic": 780
+	},
+	{
+		"id": "100006_36",
+		"roleId": 100006,
+		"level": 36,
+		"showName": "摇凝",
+		"hpBasic": 800,
+		"defBasic": 800,
+		"atkBasic": 800,
+		"magBasic": 800
+	},
+	{
+		"id": "100006_37",
+		"roleId": 100006,
+		"level": 37,
+		"showName": "摇凝",
+		"hpBasic": 820,
+		"defBasic": 820,
+		"atkBasic": 820,
+		"magBasic": 820
+	},
+	{
+		"id": "100006_38",
+		"roleId": 100006,
+		"level": 38,
+		"showName": "摇凝",
+		"hpBasic": 840,
+		"defBasic": 840,
+		"atkBasic": 840,
+		"magBasic": 840
+	},
+	{
+		"id": "100006_39",
+		"roleId": 100006,
+		"level": 39,
+		"showName": "摇凝",
+		"hpBasic": 860,
+		"defBasic": 860,
+		"atkBasic": 860,
+		"magBasic": 860
+	},
+	{
+		"id": "100006_40",
+		"roleId": 100006,
+		"level": 40,
+		"showName": "摇凝",
+		"hpBasic": 880,
+		"defBasic": 880,
+		"atkBasic": 880,
+		"magBasic": 880
+	},
+	{
+		"id": "100006_41",
+		"roleId": 100006,
+		"level": 41,
+		"showName": "摇凝",
+		"hpBasic": 900,
+		"defBasic": 900,
+		"atkBasic": 900,
+		"magBasic": 900
+	},
+	{
+		"id": "100006_42",
+		"roleId": 100006,
+		"level": 42,
+		"showName": "摇凝",
+		"hpBasic": 920,
+		"defBasic": 920,
+		"atkBasic": 920,
+		"magBasic": 920
+	},
+	{
+		"id": "100006_43",
+		"roleId": 100006,
+		"level": 43,
+		"showName": "摇凝",
+		"hpBasic": 940,
+		"defBasic": 940,
+		"atkBasic": 940,
+		"magBasic": 940
+	},
+	{
+		"id": "100006_44",
+		"roleId": 100006,
+		"level": 44,
+		"showName": "摇凝",
+		"hpBasic": 960,
+		"defBasic": 960,
+		"atkBasic": 960,
+		"magBasic": 960
+	},
+	{
+		"id": "100006_45",
+		"roleId": 100006,
+		"level": 45,
+		"showName": "摇凝",
+		"hpBasic": 980,
+		"defBasic": 980,
+		"atkBasic": 980,
+		"magBasic": 980
+	},
+	{
+		"id": "100006_46",
+		"roleId": 100006,
+		"level": 46,
+		"showName": "摇凝",
+		"hpBasic": 1000,
+		"defBasic": 1000,
+		"atkBasic": 1000,
+		"magBasic": 1000
+	},
+	{
+		"id": "100006_47",
+		"roleId": 100006,
+		"level": 47,
+		"showName": "摇凝",
+		"hpBasic": 1020,
+		"defBasic": 1020,
+		"atkBasic": 1020,
+		"magBasic": 1020
+	},
+	{
+		"id": "100006_48",
+		"roleId": 100006,
+		"level": 48,
+		"showName": "摇凝",
+		"hpBasic": 1040,
+		"defBasic": 1040,
+		"atkBasic": 1040,
+		"magBasic": 1040
+	},
+	{
+		"id": "100006_49",
+		"roleId": 100006,
+		"level": 49,
+		"showName": "摇凝",
+		"hpBasic": 1060,
+		"defBasic": 1060,
+		"atkBasic": 1060,
+		"magBasic": 1060
+	},
+	{
+		"id": "100006_50",
+		"roleId": 100006,
+		"level": 50,
+		"showName": "摇凝",
+		"hpBasic": 1080,
+		"defBasic": 1080,
+		"atkBasic": 1080,
+		"magBasic": 1080
+	},
+	{
+		"id": "100006_51",
+		"roleId": 100006,
+		"level": 51,
+		"showName": "摇凝",
+		"hpBasic": 1100,
+		"defBasic": 1100,
+		"atkBasic": 1100,
+		"magBasic": 1100
+	},
+	{
+		"id": "100006_52",
+		"roleId": 100006,
+		"level": 52,
+		"showName": "摇凝",
+		"hpBasic": 1120,
+		"defBasic": 1120,
+		"atkBasic": 1120,
+		"magBasic": 1120
+	},
+	{
+		"id": "100006_53",
+		"roleId": 100006,
+		"level": 53,
+		"showName": "摇凝",
+		"hpBasic": 1140,
+		"defBasic": 1140,
+		"atkBasic": 1140,
+		"magBasic": 1140
+	},
+	{
+		"id": "100006_54",
+		"roleId": 100006,
+		"level": 54,
+		"showName": "摇凝",
+		"hpBasic": 1160,
+		"defBasic": 1160,
+		"atkBasic": 1160,
+		"magBasic": 1160
+	},
+	{
+		"id": "100006_55",
+		"roleId": 100006,
+		"level": 55,
+		"showName": "摇凝",
+		"hpBasic": 1180,
+		"defBasic": 1180,
+		"atkBasic": 1180,
+		"magBasic": 1180
+	},
+	{
+		"id": "100006_56",
+		"roleId": 100006,
+		"level": 56,
+		"showName": "摇凝",
+		"hpBasic": 1200,
+		"defBasic": 1200,
+		"atkBasic": 1200,
+		"magBasic": 1200
+	},
+	{
+		"id": "100006_57",
+		"roleId": 100006,
+		"level": 57,
+		"showName": "摇凝",
+		"hpBasic": 1220,
+		"defBasic": 1220,
+		"atkBasic": 1220,
+		"magBasic": 1220
+	},
+	{
+		"id": "100006_58",
+		"roleId": 100006,
+		"level": 58,
+		"showName": "摇凝",
+		"hpBasic": 1240,
+		"defBasic": 1240,
+		"atkBasic": 1240,
+		"magBasic": 1240
+	},
+	{
+		"id": "100006_59",
+		"roleId": 100006,
+		"level": 59,
+		"showName": "摇凝",
+		"hpBasic": 1260,
+		"defBasic": 1260,
+		"atkBasic": 1260,
+		"magBasic": 1260
+	},
+	{
+		"id": "100006_60",
+		"roleId": 100006,
+		"level": 60,
+		"showName": "摇凝",
+		"hpBasic": 1280,
+		"defBasic": 1280,
+		"atkBasic": 1280,
+		"magBasic": 1280
+	},
+	{
+		"id": "100006_61",
+		"roleId": 100006,
+		"level": 61,
+		"showName": "摇凝",
+		"hpBasic": 1300,
+		"defBasic": 1300,
+		"atkBasic": 1300,
+		"magBasic": 1300
+	},
+	{
+		"id": "100006_62",
+		"roleId": 100006,
+		"level": 62,
+		"showName": "摇凝",
+		"hpBasic": 1320,
+		"defBasic": 1320,
+		"atkBasic": 1320,
+		"magBasic": 1320
+	},
+	{
+		"id": "100006_63",
+		"roleId": 100006,
+		"level": 63,
+		"showName": "摇凝",
+		"hpBasic": 1340,
+		"defBasic": 1340,
+		"atkBasic": 1340,
+		"magBasic": 1340
+	},
+	{
+		"id": "100006_64",
+		"roleId": 100006,
+		"level": 64,
+		"showName": "摇凝",
+		"hpBasic": 1360,
+		"defBasic": 1360,
+		"atkBasic": 1360,
+		"magBasic": 1360
+	},
+	{
+		"id": "100006_65",
+		"roleId": 100006,
+		"level": 65,
+		"showName": "摇凝",
+		"hpBasic": 1380,
+		"defBasic": 1380,
+		"atkBasic": 1380,
+		"magBasic": 1380
+	},
+	{
+		"id": "100006_66",
+		"roleId": 100006,
+		"level": 66,
+		"showName": "摇凝",
+		"hpBasic": 1400,
+		"defBasic": 1400,
+		"atkBasic": 1400,
+		"magBasic": 1400
+	},
+	{
+		"id": "100006_67",
+		"roleId": 100006,
+		"level": 67,
+		"showName": "摇凝",
+		"hpBasic": 1420,
+		"defBasic": 1420,
+		"atkBasic": 1420,
+		"magBasic": 1420
+	},
+	{
+		"id": "100006_68",
+		"roleId": 100006,
+		"level": 68,
+		"showName": "摇凝",
+		"hpBasic": 1440,
+		"defBasic": 1440,
+		"atkBasic": 1440,
+		"magBasic": 1440
+	},
+	{
+		"id": "100006_69",
+		"roleId": 100006,
+		"level": 69,
+		"showName": "摇凝",
+		"hpBasic": 1460,
+		"defBasic": 1460,
+		"atkBasic": 1460,
+		"magBasic": 1460
+	},
+	{
+		"id": "100006_70",
+		"roleId": 100006,
+		"level": 70,
+		"showName": "摇凝",
+		"hpBasic": 1480,
+		"defBasic": 1480,
+		"atkBasic": 1480,
+		"magBasic": 1480
+	},
+	{
+		"id": "100006_71",
+		"roleId": 100006,
+		"level": 71,
+		"showName": "摇凝",
+		"hpBasic": 1500,
+		"defBasic": 1500,
+		"atkBasic": 1500,
+		"magBasic": 1500
+	},
+	{
+		"id": "100006_72",
+		"roleId": 100006,
+		"level": 72,
+		"showName": "摇凝",
+		"hpBasic": 1520,
+		"defBasic": 1520,
+		"atkBasic": 1520,
+		"magBasic": 1520
+	},
+	{
+		"id": "100006_73",
+		"roleId": 100006,
+		"level": 73,
+		"showName": "摇凝",
+		"hpBasic": 1540,
+		"defBasic": 1540,
+		"atkBasic": 1540,
+		"magBasic": 1540
+	},
+	{
+		"id": "100006_74",
+		"roleId": 100006,
+		"level": 74,
+		"showName": "摇凝",
+		"hpBasic": 1560,
+		"defBasic": 1560,
+		"atkBasic": 1560,
+		"magBasic": 1560
+	},
+	{
+		"id": "100006_75",
+		"roleId": 100006,
+		"level": 75,
+		"showName": "摇凝",
+		"hpBasic": 1580,
+		"defBasic": 1580,
+		"atkBasic": 1580,
+		"magBasic": 1580
+	}
+]

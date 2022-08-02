@@ -1,0 +1,333 @@
+[
+	{
+		"itemId": 1,
+		"type": 1,
+		"showName": "钻石",
+		"rare": 4
+	},
+	{
+		"itemId": 5,
+		"type": 2,
+		"showName": "体力",
+		"rare": 4
+	},
+	{
+		"itemId": 10,
+		"type": 3,
+		"showName": "金币",
+		"rare": 4
+	},
+	{
+		"itemId": 11,
+		"type": 4,
+		"showName": "冒险经验",
+		"rare": 4
+	},
+	{
+		"itemId": 12,
+		"type": 5,
+		"showName": "学员经验",
+		"rare": 4
+	},
+	{
+		"itemId": 13,
+		"type": 6,
+		"showName": "武器经验",
+		"rare": 4
+	},
+	{
+		"itemId": 15,
+		"type": 7,
+		"showName": "魔法石（7字）",
+		"rare": 2,
+		"desc": "前20字2行",
+		"desc2": "后20字2行"
+	},
+	{
+		"itemId": 200021,
+		"type": 8,
+		"showName": "经验书（特大）",
+		"rare": 2,
+		"desc": "用于学员升级，提供3200点经验",
+		"desc2": "拥有可以让人们增长些许知识的历史书",
+		"icon": "ui://#SkillIcon/10000401",
+		"usedCondition": "10,320",
+		"heroExp": 3200
+	},
+	{
+		"itemId": 200022,
+		"type": 8,
+		"showName": "经验书（大）",
+		"rare": 3,
+		"desc": "用于学员升级，提供800点经验",
+		"desc2": "拥有可以让人们增长些许知识的历史书",
+		"icon": "ui://#SkillIcon/10000402",
+		"usedCondition": "10,80",
+		"heroExp": 800
+	},
+	{
+		"itemId": 200023,
+		"type": 8,
+		"showName": "经验书（中）",
+		"rare": 4,
+		"desc": "用于学员升级，提供200点经验",
+		"desc2": "拥有可以让人们增长些许知识的历史书",
+		"icon": "ui://#SkillIcon/10000403",
+		"usedCondition": "10,20",
+		"heroExp": 200
+	},
+	{
+		"itemId": 200024,
+		"type": 8,
+		"showName": "经验书（小）",
+		"rare": 5,
+		"desc": "用于学员升级，提供50点经验",
+		"desc2": "拥有可以让人们增长些许知识的历史书",
+		"icon": "ui://#SkillIcon/10000461",
+		"usedCondition": "10,5",
+		"heroExp": 50
+	},
+	{
+		"itemId": 200051,
+		"type": 9,
+		"showName": "进阶徽章",
+		"rare": 2,
+		"desc": "用于学员进阶",
+		"desc2": "职业进阶必须的徽章，在各城邦通用",
+		"icon": "ui://#SkillIcon/10000401"
+	},
+	{
+		"itemId": 200052,
+		"type": 9,
+		"showName": "进阶徽章",
+		"rare": 3,
+		"desc": "用于学员进阶",
+		"desc2": "职业进阶必须的徽章，在各城邦通用",
+		"icon": "ui://#SkillIcon/10000402"
+	},
+	{
+		"itemId": 200053,
+		"type": 9,
+		"showName": "进阶徽章",
+		"rare": 4,
+		"desc": "用于学员进阶",
+		"desc2": "职业进阶必须的徽章，在各城邦通用",
+		"icon": "ui://#SkillIcon/10000403"
+	},
+	{
+		"itemId": 200056,
+		"type": 9,
+		"showName": "埃克高阶徽章",
+		"rare": 2,
+		"desc": "用于学员进阶",
+		"desc2": "职业进阶必须的阵营徽章",
+		"icon": "ui://#SkillIcon/10000461"
+	},
+	{
+		"itemId": 200057,
+		"type": 9,
+		"showName": "埃克中阶徽章",
+		"rare": 3,
+		"desc": "用于学员进阶",
+		"desc2": "职业进阶必须的阵营徽章",
+		"icon": "ui://#SkillIcon/10000401"
+	},
+	{
+		"itemId": 200058,
+		"type": 9,
+		"showName": "埃克低阶徽章",
+		"rare": 4,
+		"desc": "用于学员进阶",
+		"desc2": "职业进阶必须的阵营徽章",
+		"icon": "ui://#SkillIcon/10000402"
+	},
+	{
+		"itemId": 200061,
+		"type": 9,
+		"showName": "希尔高阶徽章",
+		"rare": 2,
+		"desc": "用于学员进阶",
+		"desc2": "职业进阶必须的阵营徽章",
+		"icon": "ui://#SkillIcon/10000403"
+	},
+	{
+		"itemId": 200062,
+		"type": 9,
+		"showName": "希尔中阶徽章",
+		"rare": 3,
+		"desc": "用于学员进阶",
+		"desc2": "职业进阶必须的阵营徽章",
+		"icon": "ui://#SkillIcon/10000461"
+	},
+	{
+		"itemId": 200063,
+		"type": 9,
+		"showName": "希尔低阶徽章",
+		"rare": 4,
+		"desc": "用于学员进阶",
+		"desc2": "职业进阶必须的阵营徽章",
+		"icon": "ui://#SkillIcon/10000401"
+	},
+	{
+		"itemId": 200066,
+		"type": 9,
+		"showName": "高阶单手证明",
+		"rare": 2,
+		"desc": "用于学员进阶",
+		"desc2": "职业进阶的武器证明",
+		"icon": "ui://#SkillIcon/10000402"
+	},
+	{
+		"itemId": 200067,
+		"type": 9,
+		"showName": "中阶单手证明",
+		"rare": 3,
+		"desc": "用于学员进阶",
+		"desc2": "职业进阶的武器证明",
+		"icon": "ui://#SkillIcon/10000403"
+	},
+	{
+		"itemId": 200068,
+		"type": 9,
+		"showName": "低阶单手证明",
+		"rare": 4,
+		"desc": "用于学员进阶",
+		"desc2": "职业进阶的武器证明",
+		"icon": "ui://#SkillIcon/10000461"
+	},
+	{
+		"itemId": 200071,
+		"type": 9,
+		"showName": "高阶长柄证明",
+		"rare": 2,
+		"desc": "用于学员进阶",
+		"desc2": "职业进阶的武器证明",
+		"icon": "ui://#SkillIcon/10000401"
+	},
+	{
+		"itemId": 200072,
+		"type": 9,
+		"showName": "中阶长柄证明",
+		"rare": 3,
+		"desc": "用于学员进阶",
+		"desc2": "职业进阶的武器证明",
+		"icon": "ui://#SkillIcon/10000402"
+	},
+	{
+		"itemId": 200073,
+		"type": 9,
+		"showName": "低阶长柄证明",
+		"rare": 4,
+		"desc": "用于学员进阶",
+		"desc2": "职业进阶的武器证明",
+		"icon": "ui://#SkillIcon/10000403"
+	},
+	{
+		"itemId": 200076,
+		"type": 9,
+		"showName": "高阶双手证明",
+		"rare": 2,
+		"desc": "用于学员进阶",
+		"desc2": "职业进阶的武器证明",
+		"icon": "ui://#SkillIcon/10000461"
+	},
+	{
+		"itemId": 200077,
+		"type": 9,
+		"showName": "中阶双手证明",
+		"rare": 3,
+		"desc": "用于学员进阶",
+		"desc2": "职业进阶的武器证明",
+		"icon": "ui://#SkillIcon/10000401"
+	},
+	{
+		"itemId": 200078,
+		"type": 9,
+		"showName": "低阶双手证明",
+		"rare": 4,
+		"desc": "用于学员进阶",
+		"desc2": "职业进阶的武器证明",
+		"icon": "ui://#SkillIcon/10000402"
+	},
+	{
+		"itemId": 200081,
+		"type": 9,
+		"showName": "高阶拳套证明",
+		"rare": 2,
+		"desc": "用于学员进阶",
+		"desc2": "职业进阶的武器证明",
+		"icon": "ui://#SkillIcon/10000403"
+	},
+	{
+		"itemId": 200082,
+		"type": 9,
+		"showName": "中阶拳套证明",
+		"rare": 3,
+		"desc": "用于学员进阶",
+		"desc2": "职业进阶的武器证明",
+		"icon": "ui://#SkillIcon/10000461"
+	},
+	{
+		"itemId": 200083,
+		"type": 9,
+		"showName": "低阶拳套证明",
+		"rare": 4,
+		"desc": "用于学员进阶",
+		"desc2": "职业进阶的武器证明",
+		"icon": "ui://#SkillIcon/10000401"
+	},
+	{
+		"itemId": 200086,
+		"type": 9,
+		"showName": "高阶远程证明",
+		"rare": 2,
+		"desc": "用于学员进阶",
+		"desc2": "职业进阶的武器证明",
+		"icon": "ui://#SkillIcon/10000402"
+	},
+	{
+		"itemId": 200087,
+		"type": 9,
+		"showName": "中阶远程证明",
+		"rare": 3,
+		"desc": "用于学员进阶",
+		"desc2": "职业进阶的武器证明",
+		"icon": "ui://#SkillIcon/10000403"
+	},
+	{
+		"itemId": 200088,
+		"type": 9,
+		"showName": "低阶远程证明",
+		"rare": 4,
+		"desc": "用于学员进阶",
+		"desc2": "职业进阶的武器证明",
+		"icon": "ui://#SkillIcon/10000461"
+	},
+	{
+		"itemId": 200091,
+		"type": 9,
+		"showName": "高阶法术证明",
+		"rare": 2,
+		"desc": "用于学员进阶",
+		"desc2": "职业进阶的武器证明",
+		"icon": "ui://#SkillIcon/10000401"
+	},
+	{
+		"itemId": 200092,
+		"type": 9,
+		"showName": "中阶法术证明",
+		"rare": 3,
+		"desc": "用于学员进阶",
+		"desc2": "职业进阶的武器证明",
+		"icon": "ui://#SkillIcon/10000402"
+	},
+	{
+		"itemId": 200093,
+		"type": 9,
+		"showName": "低阶法术证明",
+		"rare": 4,
+		"desc": "用于学员进阶",
+		"desc2": "职业进阶的武器证明",
+		"icon": "ui://#SkillIcon/10000403"
+	}
+]

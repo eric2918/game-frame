@@ -1,0 +1,362 @@
+[
+	{
+		"roleId": 100001,
+		"skillIds": [
+			10000101,
+			10000102,
+			10000103,
+			10000150,
+			10000160
+		],
+		"rare": 0,
+		"element": 0,
+		"weapon": 0,
+		"race": 0,
+		"hp": 200,
+		"attack": 100,
+		"isForbidden": true
+	},
+	{
+		"roleId": 100002,
+		"showName": "优莉欧勒",
+		"skillIds": [
+			10000201,
+			10000202,
+			10000203,
+			10000261
+		],
+		"rare": 4,
+		"element": 4,
+		"weapon": 1,
+		"race": 1,
+		"hp": 2000,
+		"attack": 100,
+		"stoneCtDropRate": 1,
+		"stoneSpDropRate": 0,
+		"stoneCtCollectWeight": 5,
+		"stoneSpCollectWeight": 0,
+		"careerIds": [
+			1000021,
+			1000022,
+			1000023,
+			1000024,
+			1000025,
+			1000026,
+			1000027,
+			1000028
+		]
+	},
+	{
+		"roleId": 100003,
+		"showName": "萝特",
+		"skillIds": [
+			10000301,
+			10000302,
+			10000303,
+			10000361
+		],
+		"rare": 3,
+		"element": 6,
+		"weapon": 2,
+		"race": 2,
+		"hp": 2000,
+		"attack": 100,
+		"stoneCtDropRate": 1,
+		"stoneSpDropRate": 1,
+		"stoneCtCollectWeight": 10,
+		"stoneSpCollectWeight": 5,
+		"careerIds": [
+			1000031,
+			1000032,
+			1000033,
+			1000034,
+			1000035,
+			1000036,
+			1000037,
+			1000038
+		]
+	},
+	{
+		"roleId": 100004,
+		"showName": "希可",
+		"skillIds": [
+			10000401,
+			10000402,
+			10000403,
+			10000461
+		],
+		"rare": 2,
+		"element": 0,
+		"weapon": 3,
+		"race": 3,
+		"hp": 2000,
+		"attack": 100,
+		"stoneCtDropRate": 0,
+		"stoneSpDropRate": 1,
+		"stoneCtCollectWeight": 5,
+		"stoneSpCollectWeight": 10,
+		"careerIds": [
+			1000041,
+			1000042,
+			1000043,
+			null,
+			1000046,
+			1000047,
+			1000048
+		]
+	},
+	{
+		"roleId": 100005,
+		"showName": "希可",
+		"skillIds": [
+			10000501,
+			10000502,
+			10000503,
+			10000561
+		],
+		"rare": 2,
+		"element": 0,
+		"weapon": 4,
+		"race": 4,
+		"hp": 2000,
+		"attack": 100,
+		"stoneCtDropRate": 0,
+		"stoneSpDropRate": 1,
+		"stoneCtCollectWeight": 5,
+		"stoneSpCollectWeight": 10
+	},
+	{
+		"roleId": 200001,
+		"showName": "双足木桩",
+		"skillIds": [
+			20000101
+		],
+		"rare": 2,
+		"element": 0,
+		"weapon": 5,
+		"race": 5,
+		"hp": 3000,
+		"attack": 100,
+		"stoneCtDropRate": 1,
+		"stoneSpDropRate": 1,
+		"stoneCtCollectWeight": 1,
+		"stoneSpCollectWeight": 1
+	},
+	{
+		"roleId": 900001,
+		"showName": "测试主角1号",
+		"rare": 2,
+		"element": 0,
+		"weapon": 6,
+		"race": 1
+	},
+	{
+		"roleId": 100006,
+		"showName": "摇凝",
+		"skillIds": [
+			10000601,
+			10000602,
+			10000603,
+			10000661
+		],
+		"rare": 2,
+		"element": 1,
+		"weapon": 3,
+		"race": 2,
+		"hp": 2000,
+		"attack": 100,
+		"stoneCtDropRate": 1,
+		"stoneSpDropRate": 1,
+		"stoneCtCollectWeight": 10,
+		"stoneSpCollectWeight": 5,
+		"careerIds": [
+			1000061,
+			1000062,
+			1000063,
+			1000064,
+			1000065,
+			1000066,
+			1000067,
+			1000068
+		]
+	},
+	{
+		"roleId": 100007,
+		"showName": "甘莱特",
+		"skillIds": [
+			10000701,
+			10000702,
+			10000703,
+			10000761
+		],
+		"rare": 2,
+		"element": 5,
+		"weapon": 3,
+		"race": 3,
+		"hp": 2000,
+		"attack": 100,
+		"stoneCtDropRate": 1,
+		"stoneSpDropRate": 1,
+		"stoneCtCollectWeight": 10,
+		"stoneSpCollectWeight": 5
+	},
+	{
+		"roleId": 100052,
+		"showName": "编队测试1",
+		"skillIds": [
+			10000201,
+			10000202,
+			10000203,
+			10000261
+		],
+		"rare": 4,
+		"element": 1,
+		"weapon": 1,
+		"race": 4,
+		"hp": 2000,
+		"attack": 100,
+		"stoneCtDropRate": 1,
+		"stoneSpDropRate": 0,
+		"stoneCtCollectWeight": 5,
+		"stoneSpCollectWeight": 0,
+		"careerIds": [
+			1000021,
+			1000022,
+			1000023,
+			1000024,
+			1000025,
+			1000026,
+			1000027,
+			1000028
+		]
+	},
+	{
+		"roleId": 100053,
+		"showName": "编队测试2",
+		"skillIds": [
+			10000301,
+			10000302,
+			10000303,
+			10000361
+		],
+		"rare": 4,
+		"element": 2,
+		"weapon": 2,
+		"race": 5,
+		"hp": 2000,
+		"attack": 100,
+		"stoneCtDropRate": 1,
+		"stoneSpDropRate": 1,
+		"stoneCtCollectWeight": 10,
+		"stoneSpCollectWeight": 5,
+		"careerIds": [
+			1000031,
+			1000032,
+			1000033,
+			1000034,
+			1000035,
+			1000036,
+			1000037,
+			1000038
+		]
+	},
+	{
+		"roleId": 100054,
+		"showName": "编队测试3",
+		"skillIds": [
+			10000401,
+			10000402,
+			10000403,
+			10000461
+		],
+		"rare": 4,
+		"element": 3,
+		"weapon": 3,
+		"race": 5,
+		"hp": 2000,
+		"attack": 100,
+		"stoneCtDropRate": 0,
+		"stoneSpDropRate": 1,
+		"stoneCtCollectWeight": 5,
+		"stoneSpCollectWeight": 10,
+		"careerIds": [
+			1000041,
+			1000042,
+			1000043,
+			null,
+			1000046,
+			1000047,
+			1000048
+		]
+	},
+	{
+		"roleId": 100055,
+		"showName": "编队测试4",
+		"skillIds": [
+			10000501,
+			10000502,
+			10000503,
+			10000561
+		],
+		"rare": 3,
+		"element": 4,
+		"weapon": 4,
+		"race": 1,
+		"hp": 2000,
+		"attack": 100,
+		"stoneCtDropRate": 0,
+		"stoneSpDropRate": 1,
+		"stoneCtCollectWeight": 5,
+		"stoneSpCollectWeight": 10
+	},
+	{
+		"roleId": 100056,
+		"showName": "编队测试5",
+		"skillIds": [
+			10000601,
+			10000602,
+			10000603,
+			10000661
+		],
+		"rare": 3,
+		"element": 5,
+		"weapon": 5,
+		"race": 2,
+		"hp": 2000,
+		"attack": 100,
+		"stoneCtDropRate": 1,
+		"stoneSpDropRate": 1,
+		"stoneCtCollectWeight": 10,
+		"stoneSpCollectWeight": 5,
+		"careerIds": [
+			1000061,
+			1000062,
+			1000063,
+			1000064,
+			1000065,
+			1000066,
+			1000067,
+			1000068
+		]
+	},
+	{
+		"roleId": 100057,
+		"showName": "编队测试6",
+		"skillIds": [
+			10000701,
+			10000702,
+			10000703,
+			10000761
+		],
+		"rare": 3,
+		"element": 6,
+		"weapon": 6,
+		"race": 3,
+		"hp": 2000,
+		"attack": 100,
+		"stoneCtDropRate": 1,
+		"stoneSpDropRate": 1,
+		"stoneCtCollectWeight": 10,
+		"stoneSpCollectWeight": 5
+	}
+]

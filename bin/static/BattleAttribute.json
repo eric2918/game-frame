@@ -1,0 +1,125 @@
+[
+	{
+		"attrType": 1
+	},
+	{
+		"attrType": 2,
+		"baseAttrName": "hp"
+	},
+	{
+		"attrType": 3,
+		"baseAttrName": "attack"
+	},
+	{
+		"attrType": 4
+	},
+	{
+		"attrType": 5
+	},
+	{
+		"attrType": 6
+	},
+	{
+		"attrType": 7
+	},
+	{
+		"attrType": 8
+	},
+	{
+		"attrType": 9
+	},
+	{
+		"attrType": 10
+	},
+	{
+		"attrType": 11
+	},
+	{
+		"attrType": 12
+	},
+	{
+		"attrType": 13
+	},
+	{
+		"attrType": 14
+	},
+	{
+		"attrType": 15
+	},
+	{
+		"attrType": 16
+	},
+	{
+		"attrType": 17
+	},
+	{
+		"attrType": 18
+	},
+	{
+		"attrType": 19
+	},
+	{
+		"attrType": 20
+	},
+	{
+		"attrType": 21
+	},
+	{
+		"attrType": 22
+	},
+	{
+		"attrType": 23
+	},
+	{
+		"attrType": 24
+	},
+	{
+		"attrType": 25
+	},
+	{
+		"attrType": 26
+	},
+	{
+		"attrType": 27
+	},
+	{
+		"attrType": 28
+	},
+	{
+		"attrType": 29
+	},
+	{
+		"attrType": 30
+	},
+	{
+		"attrType": 31
+	},
+	{
+		"attrType": 32
+	},
+	{
+		"attrType": 33
+	},
+	{
+		"attrType": 34
+	},
+	{
+		"attrType": 35
+	},
+	{
+		"attrType": 36,
+		"baseAttrName": "stoneCtDropRate"
+	},
+	{
+		"attrType": 37,
+		"baseAttrName": "stoneSpDropRate"
+	},
+	{
+		"attrType": 38,
+		"baseAttrName": "stoneCtCollectWeight"
+	},
+	{
+		"attrType": 39,
+		"baseAttrName": "stoneSpCollectWeight"
+	}
+]

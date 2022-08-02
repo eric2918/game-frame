@@ -1,0 +1,138 @@
+[
+	{
+		"skillId": 10000101,
+		"showName": "测试普通技a"
+	},
+	{
+		"skillId": 10000102,
+		"showName": "测试普通技b"
+	},
+	{
+		"skillId": 10000103,
+		"showName": "测试普通技c"
+	},
+	{
+		"skillId": 10000150,
+		"showName": "测试被动技a"
+	},
+	{
+		"skillId": 10000160,
+		"showName": "测试大招a"
+	},
+	{
+		"skillId": 10000201,
+		"showName": "202普通技"
+	},
+	{
+		"skillId": 10000202,
+		"showName": "203普通技"
+	},
+	{
+		"skillId": 10000203,
+		"showName": "204普通技"
+	},
+	{
+		"skillId": 10000261,
+		"showName": "262决定技"
+	},
+	{
+		"skillId": 20000101,
+		"showName": "龙普通技"
+	},
+	{
+		"skillId": 10000301,
+		"showName": "萝特普通技2"
+	},
+	{
+		"skillId": 10000302,
+		"showName": "萝特普通技3"
+	},
+	{
+		"skillId": 10000303,
+		"showName": "萝特普通技4"
+	},
+	{
+		"skillId": 10000361,
+		"showName": "萝特决定技"
+	},
+	{
+		"skillId": 10000401,
+		"showName": "希可普通技2"
+	},
+	{
+		"skillId": 10000402,
+		"showName": "希可普通技3"
+	},
+	{
+		"skillId": 10000403,
+		"showName": "希可普通技4"
+	},
+	{
+		"skillId": 10000461,
+		"showName": "希可决定技"
+	},
+	{
+		"skillId": 10000501,
+		"showName": "希可普通技2"
+	},
+	{
+		"skillId": 10000502,
+		"showName": "希可普通技3"
+	},
+	{
+		"skillId": 10000503,
+		"showName": "希可普通技4"
+	},
+	{
+		"skillId": 10000561,
+		"showName": "希可决定技"
+	},
+	{
+		"skillId": 10000601,
+		"showName": "摇凝普通技1"
+	},
+	{
+		"skillId": 10000602,
+		"showName": "摇凝普通技2"
+	},
+	{
+		"skillId": 10000603,
+		"showName": "摇凝普通技3"
+	},
+	{
+		"skillId": 10000661,
+		"showName": "摇凝决定技"
+	},
+	{
+		"skillId": 10000701,
+		"showName": "甘莱特普通技1"
+	},
+	{
+		"skillId": 10000702,
+		"showName": "甘莱特普通技2"
+	},
+	{
+		"skillId": 10000703,
+		"showName": "甘莱特普通技3"
+	},
+	{
+		"skillId": 10000761,
+		"showName": "甘莱特决定技"
+	},
+	{
+		"skillId": 40000001,
+		"showName": "测试道具技a"
+	},
+	{
+		"skillId": 90000171,
+		"showName": "测试主角伤害技"
+	},
+	{
+		"skillId": 90000172,
+		"showName": "测试主角治疗技"
+	},
+	{
+		"skillId": 90000173,
+		"showName": "测试主角换人"
+	}
+]
